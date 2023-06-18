@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data id="level_05">
+	
+	
+	<tileColumns>50</tileColumns>
+	
+	<exitDoor>
+		<pos x="7" y="12" />
+	</exitDoor>
+
+	<playerStartPos x="8" y="32" />
+	
+	
+	<tiledFile>assets/levels/tiled/Level_05.tmx</tiledFile>
+	
+	
+	
+	
+	<!--
+		all_items_collected
+		allow_exit
+		toggled_gravity
+		boss_killed
+		level_enemies_cleared
+		level_just_started
+		fuel_collected
+		
+		readMission
+	-->
+	
+	<levelTasks>
+		<tasks>all_items_collected</tasks>
+	</levelTasks>
+	
+	
+	<elevators>
+		<elevator id="">
+			<start x="20" y="36"/>
+			<end x="20" y="26"/>
+			<listensTo>elv_sw</listensTo>
+			<operating>0</operating>
+		</elevator>
+	</elevators>
+	
+	<controlObjects>
+		
+		<wallSwitch id="" variation="4" >
+			<pos x="14" y="13"/>
+			<firesEvent>elv_sw</firesEvent>
+		</wallSwitch>
+		
+		<lever id="" variation="0">
+			<pos x="11" y="17"/>
+			<firesEvent>yellow</firesEvent>
+		</lever>
+		<trapDoor id="" variation="0" state="0">
+			<pos x="41" y="19" />
+			<listensTo>yellow</listensTo>
+		</trapDoor>
+		
+		<lever id="" variation="1">
+			<pos x="38" y="27"/>
+			<firesEvent>blue</firesEvent>
+		</lever>
+		<trapDoor id="" variation="1" state="0">
+			<pos x="41" y="26" />
+			<listensTo>blue</listensTo>
+		</trapDoor>
+		
+		
+		
+		<gravSwitch id="">
+			<pos x="17" y="32"/>	
+		</gravSwitch>
+		<gravSwitch id="">
+			<pos x="43" y="30"/>	
+		</gravSwitch>
+		<gravSwitch id="">
+			<pos x="43" y="21"/>	
+		</gravSwitch>
+		<gravSwitch id="">
+			<pos x="43" y="11"/>	
+		</gravSwitch>
+		<gravSwitch id="">
+			<pos x="40" y="4"/>	
+		</gravSwitch>
+		<gravSwitch id="">
+			<pos x="14" y="21"/>	
+		</gravSwitch>
+		<gravSwitch id="">
+			<pos x="12" y="11"/>	
+		</gravSwitch>
+		
+		<!--
+		
+		0: GOLD
+		1: BLUE
+		2: GREEN
+		3: RED
+		4: WHITE
+		
+		<wallSwitch id="" variation="1" >
+			<pos x="" y=""/>
+			<firesEvent></firesEvent>
+		</wallSwitch>
+		
+		<computer id="" >
+			<pos x="" y=""/>
+			<firesEvent></firesEvent>
+		</computer>
+		
+		<gravSwitch id="">
+			<pos x="" y=""/>	
+		</gravSwitch>
+		
+		
+		<lever id="" variation="">
+			<pos x="" y=""/>
+			<firesEvent></firesEvent>
+		</lever>
+			
+		<door id="" variation="" state="">
+			<pos x="" y="" />
+			<listensTo></listensTo>
+		</door>
+		
+		<trapDoor id="" variation="" state="">
+			<pos x="" y="" />
+			<listensTo></listensTo>
+		</trapDoor>
+		-->
+		
+	</controlObjects>
+	
+	<movableObjects>
+		<!--<barrel id="" x="" y="" />-->
+	</movableObjects>
+	
+	<enemies>
+		
+		
+		<droid id="droid" x="15" y="30" />
+		<droid id="droid" x="39" y="11" />
+		<corsairDude id="corsair" x="33" y="11" />
+		<goatDude id="goat" x="31" y="7" />
+		
+		<corsairDude id="corsair" x="11" y="13" />
+		<corsairDude id="corsair" x="16" y="23" />
+		<droid id="droid" x="9" y="17" />
+		<droid2 id="droid" x="11" y="23" />
+		
+		<droid id="droid" x="34" y="17" />
+		<droid2 id="droid" x="37" y="27" />
+		<droid2 id="droid" x="37" y="21" />
+		<droid2 id="droid" x="41" y="8" />
+		<!-- 
+		<goatDude id="goat" x="" y="" />
+		<octa id="octa" x="" y="" />
+		<corsairDude id="corsair" x="" y="" />
+		<droid id="droid" x="" y="" />
+		<droid2 id="droid" x="" y="" />
+		<alien id="" x="9" y="25" />
+		
+		
+		-->
+		
+		<!-- 
+		<roboGoat id="goat" x="" y=""  mode=""/> 
+		use the bottom tile (not the top one) for y
+		0:flying
+		1:running
+		2:jumping
+		3:shooting
+		-->
+		
+		
+		
+	</enemies> 
+	
+	<hazzards>
+		
+		<wallFan id="" x="10" y="26" />
+		<wallFan id="" x="11" y="26" />
+		<wallFan id="" x="12" y="26" />
+		<wallFan id="" x="13" y="26" />
+		<wallFan id="" x="14" y="26" />
+		<wallFan id="" x="15" y="26" />
+		<wallFan id="" x="16" y="26" />
+		<wallFan id="" x="17" y="26" />
+		
+		
+		<!--
+		<acid id="" x="" y="" />
+		<acidskull id="" x="" y="" />
+		<wallFan id="" x="" y="" />
+		
+		<turretGreyHor id="" x="" y="" dir="L" />
+		<laserTurret id="" x="" y="" dir="R" />
+		<laserTurret id="" x="" y="" dir="D" />	
+		<laserTurret id="" x="" y="" dir="U" />
+
+		-->	
+		
+	</hazzards>
+	
+	
+	<collectibles>
+		
+		<!-- 15 Cells -->
+		
+		<!--<item id="ammo1" variation="4">
+			<pos x="15" y="30" />
+		</item>-->
+		<item id="ammo1" variation="4">
+			<pos x="30" y="28" />
+		</item>
+		<item id="ammo1" variation="4">
+			<pos x="32" y="16" />
+		</item>
+		
+		<item id="ammo1" variation="4">
+			<pos x="41" y="24" />
+		</item>
+		<item id="ammo1" variation="4">
+			<pos x="41" y="17" />
+		</item>
+		<item id="ammo1" variation="4">
+			<pos x="7" y="17" />
+		</item>
+		<item id="ammo1" variation="4">
+			<pos x="23" y="9" />
+		</item>
+		
+		
+		<item id="cell_1" variation="0"  bonus="0">
+			<pos x="8" y="28" />
+		</item>
+		<item id="cell_2" variation="2"  bonus="0">
+			<pos x="33" y="26" />
+		</item>
+		<item id="cell_3" variation="3"  bonus="0">
+			<pos x="41" y="28" />
+		</item>
+		<item id="cell_4" variation="3"  bonus="0">
+			<pos x="32" y="19" />
+		</item>
+		<item id="cell_5" variation="2"  bonus="0">
+			<pos x="36" y="16" />
+		</item>
+		<item id="cell-6" variation="0"  bonus="0">
+			<pos x="41" y="15" />
+		</item>
+		<item id="cell_7" variation="2"  bonus="0">
+			<pos x="42" y="11" />
+		</item>
+		<item id="cell_8" variation="1"  bonus="0">
+			<pos x="35" y="11" />
+		</item>		
+		<item id="cell_9" variation="2"  bonus="0">
+			<pos x="40" y="8" />
+		</item>
+		<item id="cell_10" variation="3"  bonus="0">
+			<pos x="30" y="7   " />
+		</item>
+		<item id="cell_11" variation="0"  bonus="0">
+			<pos x="17" y="23" />
+		</item>
+		<item id="cell_12" variation="2"  bonus="0">
+			<pos x="8" y="22" />
+		</item>
+		
+		<item id="cell_13" variation="3"  bonus="0">
+			<pos x="7" y="16" />
+		</item>
+		<item id="cell_14" variation="2"  bonus="0">
+			<pos x="13" y="11" />
+		</item>		
+		<item id="cell_15" variation="1"  bonus="0">
+			<pos x="16" y="13" />
+		</item>
+		
+		<!--
+		<item id="cell" variation="0"  bonus="0">
+			<pos x="8" y="28" />
+		</item>
+		<item id="cell" variation="2"  bonus="0">
+			<pos x="33" y="26" />
+		</item>
+		<item id="cell" variation="3"  bonus="0">
+			<pos x="41" y="28" />
+		</item>
+		<item id="cell" variation="2"  bonus="0">
+			<pos x="38" y="15" />
+		</item>
+		<item id="cell" variation="1"  bonus="0">
+			<pos x="30" y="15" />
+		</item>
+		<item id="cell" variation="3"  bonus="0">
+			<pos x="7" y="16" />
+		</item>
+		<item id="cell" variation="0"  bonus="0">
+			<pos x="8" y="16" />
+		</item>
+		<item id="cell" variation="2"  bonus="0">
+			<pos x="42" y="11" />
+		</item>
+		<item id="cell" variation="0"  bonus="0">
+			<pos x="30" y="7" />
+		</item>
+		<item id="cell" variation="1"  bonus="0">
+			<pos x="13" y="11" />
+		</item>
+			-->
+		
+		<item id="diamond1" variation="7"  bonus="1">
+			<pos x="42" y="4" />
+		</item>
+		
+		<!--
+		
+		0,1,2,3 : Energy Cells  (required)		
+		--Bonus ---
+		4: Ammo
+		5: Kourampies
+		6: Joystick
+		7: Diamond
+		
+		<item id="cell" variation="1"  bonus="0">
+			<pos x="1" y="1" />
+		</item>
+		<item id="diamond1" variation="7"  bonus="1">
+			<pos x="1" y="1" />
+		</item>
+		<item id="ammo1" variation="4">
+			<pos x="1" y="15" />
+		</item>
+		-->
+		
+	</collectibles>
+	
+	<checkpoints>
+		<checkpoint id="" x="19" y="11" />
+		<checkpoint id="" x="19" y="21" />
+		<checkpoint id="" x="19" y="30" />
+	</checkpoints>
+	
+	<dialogues>level05_1</dialogues>
+	
+</data>
+
+

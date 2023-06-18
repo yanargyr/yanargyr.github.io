@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data id="level_intro">
+	
+	
+	<tileColumns>128</tileColumns>
+	
+	<tiledFile>assets/levels/tiled/Level_INTRO.tmx</tiledFile>
+
+	<playerStartPos x="8" y="31" nograv="0" />
+	
+
+	<isMainLevel>0</isMainLevel>
+	<chapter>1</chapter>
+	
+	<!--
+	<isMainLevel>0</isMainLevel>
+	<chapter>2</chapter>
+	-->
+	<!--
+		all_items_collected
+		allow_exit
+		toggled_gravity
+		boss_killed
+		level_enemies_cleared
+		level_just_started
+		fuel_collected
+		
+		readMission
+		
+		level_end_alternative
+	-->
+	
+	<levelTasks altExit="1">
+		<!-- 
+		<tasks>all_items_collected,level_enemies_cleared,startEngines</tasks>
+		-->
+		<tasks>all_items_collected,level_enemies_cleared</tasks>
+		
+		<customTasks>
+			<task key="find_ryder" unlock="readyToGoNow" description="Go to your Ryder pick up point." expire="dialogOver" />
+			<task key="touch_stick" unlock="dialogOver"  description="Go to the cockpit and touch the flight stick." />
+
+		</customTasks>
+		
+	</levelTasks>
+	
+	<customEvents>
+		<event id="readyToGoNow">
+			<prequisites>all_items_collected,level_enemies_cleared</prequisites>
+		</event>
+		<!--<event id="stickWaiting">-->
+			<!--<prequisites>all_items_collected,level_enemies_cleared</prequisites>-->
+		<!--</event>-->
+	</customEvents>
+	
+	
+	<elevators>
+		<elevator id="">
+			<start x="56" y="32"/>
+			<end x="56" y="49"/>
+			<listensTo></listensTo>
+			<operating>1</operating>
+		</elevator>
+		
+		<elevator id="">
+			<start x="57" y="49"/>
+			<end x="57" y="32"/>
+			<listensTo></listensTo>
+			<operating>1</operating>
+		</elevator>
+		
+		<elevator id="">
+			<start x="30" y="49"/>
+			<end x="30" y="56"/>
+			<listensTo></listensTo>
+			<operating>1</operating>
+		</elevator>
+		
+		<elevator id="">
+			<start x="60" y="56"/>
+			<end x="60" y="62"/>
+			<listensTo></listensTo>
+			<operating>1</operating>
+		</elevator>
+		
+		<elevator id="">
+			<start x="32" y="62"/>
+			<end x="32" y="95"/>
+			<listensTo>elev_1</listensTo>
+			<operating>0</operating>
+		</elevator>
+		
+		<elevator id="">
+			<start x="57" y="95"/>
+			<end x="57" y="104"/>
+			<listensTo></listensTo>
+			<operating>1</operating>
+		</elevator>
+		
+		<elevator id="">
+			<start x="36" y="99"/>
+			<end x="52" y="99"/>
+			<listensTo></listensTo>
+			<operating>1</operating>
+		</elevator>
+		<elevator id="">
+			<start x="35" y="99"/>
+			<end x="35" y="103"/>
+			<listensTo></listensTo>
+			<operating>1</operating>
+		</elevator>
+		
+		<elevator id="">
+			<start x="89" y="108"/>
+			<end x="89" y="121"/>
+			<listensTo></listensTo>
+			<operating>1</operating>
+		</elevator>
+		
+		<elevator id="">
+			<start x="90" y="121"/>
+			<end x="90" y="108"/>
+			<listensTo></listensTo>
+			<operating>1</operating>
+		</elevator>
+		
+		<elevator id="">
+			<start x="80" y="108"/>
+			<end x="80" y="93"/>
+			<listensTo>elev_2</listensTo>
+			<operating>0</operating>
+		</elevator>
+		
+		<elevator id="">
+			<start x="77" y="91"/>
+			<end x="77" y="67"/>
+			<listensTo>elev_3</listensTo>
+			<operating>0</operating>
+		</elevator>
+		
+		
+		<elevator id="">
+			<start x="120" y="108"/>
+			<end x="120" y="89"/>
+			<listensTo>elev_4</listensTo>
+			<operating>0</operating>
+		</elevator>
+	</elevators>
+	
+	<controlObjects>
+		
+		
+		<wallSwitch id="" variation="5" >
+			<pos x="89" y="13" />
+			<!-- <unlock>readyToGoNow</unlock>
+			<lockedMsg>notReadyToLeave</lockedMsg> -->
+			<firesEvent>level_end_alternative</firesEvent>
+		</wallSwitch>
+		
+		
+		<door id="" variation="2" state="0">
+			<pos x="57" y="122" />
+			<listensTo>intro_0_d</listensTo>
+		</door>
+		
+		
+		<gravSwitch id="">
+			<pos x="60" y="123"/>	
+		</gravSwitch>
+		
+		<gravSwitch id="">
+			<pos x="80" y="126"/>	
+		</gravSwitch>
+		
+		<gravSwitch id="">
+			<pos x="82" y="64"/>	
+		</gravSwitch>
+		
+		<gravSwitch id="">
+			<pos x="103" y="8"/>	
+		</gravSwitch>
+		
+		
+		<door id="" variation="1" state="0">
+			<pos x="58" y="35" />
+			<listensTo></listensTo>
+		</door>
+		<door id="" variation="1" state="0">
+			<pos x="58" y="39" />
+			<listensTo></listensTo>
+		</door>
+		<door id="" variation="1" state="0">
+			<pos x="58" y="42" />
+			<listensTo></listensTo>
+		</door>
+		<door id="" variation="1" state="0">
+			<pos x="58" y="47" />
+			<listensTo></listensTo>
+		</door>
+		
+		
+		<door id="" variation="3" state="1">
+			<pos x="119" y="87" />
+			<listensTo></listensTo>
+		</door>
+		<door id="" variation="3" state="0">
+			<pos x="119" y="91" />
+			<listensTo></listensTo>
+		</door>
+		<door id="" variation="3" state="0">
+			<pos x="119" y="95" />
+			<listensTo></listensTo>
+		</door>
+		<door id="" variation="3" state="0">
+			<pos x="119" y="99" />
+			<listensTo></listensTo>
+		</door>
+		<door id="" variation="3" state="0">
+			<pos x="119" y="103" />
+			<listensTo></listensTo>
+		</door>
+		
+		<wallSwitch id="" variation="4" >
+			<pos x="32" y="61"/>
+			<firesEvent>elev_1</firesEvent>
+		</wallSwitch>
+		
+		<wallSwitch id="" variation="4" >
+			<pos x="80" y="107"/>
+			<firesEvent>elev_2</firesEvent>
+		</wallSwitch>
+		
+		<wallSwitch id="" variation="4" >
+			<pos x="77" y="90"/>
+			<firesEvent>elev_3</firesEvent>
+		</wallSwitch>
+		
+		<wallSwitch id="" variation="4" >
+			<pos x="120" y="107"/>
+			<firesEvent>elev_4</firesEvent>
+		</wallSwitch>
+		
+		
+		<wallSwitch id="ship1" variation="0" >
+			<pos x="92" y="16"/>
+			<unlock>dialogOver</unlock>
+			<firesEvent>airlock</firesEvent>
+		</wallSwitch>
+		<wallSwitch id="ship2" variation="0" >
+			<pos x="89" y="16"/>
+			<unlock>dialogOver</unlock>
+			<firesEvent>airlock</firesEvent>
+		</wallSwitch>
+		
+		
+		<door id="" variation="0" state="1">
+			<pos x="93" y="15" />
+			<listensTo>airlockHacked</listensTo>
+		</door>
+		<door id="" variation="0" state="0">
+			<pos x="90" y="15" />
+			<listensTo>airlockHacked</listensTo>
+		</door>
+		
+		
+		<!--
+		
+		0: GOLD
+		1: BLUE
+		2: GREEN
+		3: RED
+		4: WHITE
+		-->
+		<!--
+		<wallSwitch id="" variation="1" >
+			<pos x="" y=""/>
+			<firesEvent></firesEvent>
+		</wallSwitch>
+		
+		<computer id="" >
+			<pos x="" y=""/>
+			<firesEvent></firesEvent>
+		</computer>
+		
+		<gravSwitch id="">
+			<pos x="" y=""/>	
+		</gravSwitch>
+		
+		
+		<lever id="" variation="">
+			<pos x="" y=""/>
+			<firesEvent></firesEvent>
+		</lever>
+			
+		<door id="" variation="" state="">
+			<pos x="" y="" />
+			<listensTo></listensTo>
+		</door>
+		
+		<trapDoor id="" variation="" state="">
+			<pos x="" y="" />
+			<listensTo></listensTo>
+		</trapDoor>
+		
+		<unlock></unlock>
+		<lockedMsg></lockedMsg>
+		
+		<wallSwitch id="ch3_SwShipEngines" variation="4" >
+			<pos x="15" y="32" />
+			<unlock>bombMiningStation</unlock> --id of the event that unlocks the switch
+			<lockedMsg>needToDestroyStation</lockedMsg> id that triggers a 'locked' dialog (not dialog id)
+			<firesEvent>end_chapter3</firesEvent>  the event it fires once unlocked 
+		</wallSwitch>
+		-->
+	</controlObjects>
+
+
+	<enemies>		
+		<droid id="droid" x="50" y="61" />
+		<droid id="droid" x="34" y="61" />		
+		
+		<goatDude id="goat" x="36" y="93" variation="9"/>
+		
+		<goatDude id="goat" x="39" y="94" />
+		<goatDude id="goat" x="46" y="94" />
+		<goatDude id="goat" x="49" y="104" />
+		<goatDude id="goat" x="40" y="108" />
+		<goatDude id="goat" x="48" y="112" />
+		<goatDude id="goat" x="50" y="116" />
+		<goatDude id="goat" x="41" y="119" />
+		<goatDude id="goat" x="39" y="123" />
+		
+		
+	</enemies> 
+	
+	<hazzards>
+		<wallFan id="" x="39" y="63" />
+		<wallFan id="" x="40" y="63" />
+		<wallFan id="" x="43" y="63" />
+		<wallFan id="" x="46" y="63" />
+		<wallFan id="" x="47" y="63" />
+		<wallFan id="" x="49" y="63" />
+		<wallFan id="" x="50" y="63" />
+		<wallFan id="" x="52" y="63" />
+		<wallFan id="" x="53" y="63" />
+		<wallFan id="" x="55" y="63" />
+		<wallFan id="" x="56" y="63" />
+		
+		<wallFan id="" x="39" y="64" />
+		<wallFan id="" x="40" y="64" />
+		<wallFan id="" x="43" y="64" />
+		<wallFan id="" x="46" y="64" />
+		<wallFan id="" x="47" y="64" />
+		<wallFan id="" x="49" y="64" />
+		<wallFan id="" x="50" y="64" />
+		<wallFan id="" x="52" y="64" />
+		<wallFan id="" x="53" y="64" />
+		<wallFan id="" x="55" y="64" />
+		<wallFan id="" x="56" y="64" />
+		
+		<acid id="" x="35" y="125" top="1" />
+		<acid id="" x="36" y="125" top="1" />
+		<acid id="" x="37" y="125" top="1" />
+		<acid id="" x="38" y="125" top="1" />
+		<acid id="" x="39" y="125" top="1" />
+		<acid id="" x="40" y="125" top="1" />
+		<acid id="" x="41" y="125" top="1" />
+		<acid id="" x="42" y="125" top="1" />
+		<acid id="" x="43" y="125" top="1" />
+		<acid id="" x="44" y="125" top="1" />
+		<acid id="" x="45" y="125" top="1" />
+		<acid id="" x="46" y="125" top="1" />
+		<acid id="" x="47" y="125" top="1" />
+		<acid id="" x="48" y="125" top="1" />
+		
+		<acid id="" x="36" y="126" />
+		<acid id="" x="37" y="126" />
+		<acid id="" x="38" y="126" />
+		<acid id="" x="39" y="126" />
+		<acid id="" x="40" y="126" />
+		<acid id="" x="41" y="126" />
+		<acid id="" x="42" y="126" />
+		<acid id="" x="43" y="126" />
+		<acid id="" x="44" y="126" />
+		<acid id="" x="45" y="126" />
+		<acid id="" x="46" y="126" />
+		<acid id="" x="47" y="126" />
+		
+		
+		
+		
+		
+		<acid id="" x="34" y="118" />
+		<acid id="" x="35" y="118" />
+		<acid id="" x="34" y="119" />
+		<acid id="" x="35" y="119" />		
+		
+	</hazzards>
+	
+	
+	<collectibles>
+		
+		<item id="ammo1" variation="4">
+			<pos x="59" y="61" />
+		</item>
+		
+		<item id="ammo1" variation="4">
+			<pos x="33" y="92" />
+		</item>
+		
+		<item id="ammo1" variation="4">
+			<pos x="32" y="107" />
+		</item>
+		
+		
+
+		<item id="" variation="5">
+			<pos x="43" y="100" />
+		</item>
+		<item id="" variation="5">
+			<pos x="44" y="100" />
+		</item>
+		<item id="" variation="5">
+			<pos x="36" y="104" />
+		</item>
+		<item id="" variation="5">
+			<pos x="32" y="112" />
+		</item>
+		<item id="" variation="5">
+			<pos x="47" y="112" />
+		</item>
+		<item id="" variation="5">
+			<pos x="51" y="112" />
+		</item>
+		
+		<item id="" variation="5">
+			<pos x="48" y="116" />
+		</item>
+		
+		<item id="" variation="5">
+			<pos x="40" y="119" />
+		</item>
+		<item id="" variation="5">
+			<pos x="43" y="119" />
+		</item>
+		
+		<item id="" variation="5">
+			<pos x="41" y="123" />
+		</item>
+		<item id="" variation="5">
+			<pos x="42" y="123" />
+		</item>
+		<item id="" variation="5">
+			<pos x="43" y="123" />
+		</item>
+		
+		<item id="" variation="5">
+			<pos x="50" y="121" />
+		</item>
+		<item id="" variation="5">
+			<pos x="51" y="121" />
+		</item>
+		<item id="" variation="5">
+			<pos x="56" y="110" />
+		</item>
+		<item id="" variation="5">
+			<pos x="56" y="112" />
+		</item>
+		<item id="" variation="5">
+			<pos x="56" y="120" />
+		</item>
+		<!--
+		
+		0,1,2,3 : Energy Cells  (required)		
+		--Bonus ---
+		4: Ammo
+		5: JuICE
+		6: TNT
+		7: BONUS DIAMOND
+		
+		<item id="cell" bonus="0" variation="1"  >
+			<pos x="" y="" />
+		</item>
+		<item id="diamond1" bonus="1" variation="7"  >
+			<pos x="" y="" />
+		</item>
+		<item id="ammo1" variation="4">
+			<pos x="" y="" />
+		</item>
+		-->
+		
+	</collectibles>
+	
+	
+	
+	<checkpoints>
+		<checkpoint id="checlpoint1" x="59" y="55" />
+		<checkpoint id="checlpoint2" x="33" y="61" />
+		<checkpoint id="checlpoint3" x="55" y="94" />
+		<checkpoint id="checlpoint4" x="61" y="123" />
+		<checkpoint id="checlpoint5" x="109" y="89" />		
+	</checkpoints>
+	
+	<debris dir="R" intervalSeconds="0.8" collection="100,100,101,101,101,102,103,103,103,103,104,105,106,107,108,109" />
+
+
+	<dialogues>intro_blah_50,intro_blah_51,intro_blah_52,intro_blah_39,intro_blah_34,intro_blah_35,intro_blah_38,intro_blah_41c,intro_blah_41b,intro_0_a,intro_0_b,intro_0_c,intro_0_d,intro_0_e,intro_0_f,intro_blah_0,intro_blah_1,intro_blah_3,intro_blah_5,intro_blah_6,intro_blah_7,intro_blah_8,intro_blah_9,intro_blah_10,intro_blah_12,intro_blah_13,intro_blah_14,intro_blah_15,intro_blah_16,intro_blah_17,intro_blah_18,intro_blah_20,intro_blah_21,intro_blah_22,intro_blah_23,intro_blah_24,intro_blah_25,intro_blah_25b,intro_blah_26,intro_blah_27,intro_blah_28,intro_blah_29,intro_blah_30,intro_blah_31,intro_blah_32,intro_blah_33,intro_blah_37,intro_blah_40,intro_blah_41,intro_blah_42,intro_blah_43,intro_blah_46</dialogues>
+	
+</data>

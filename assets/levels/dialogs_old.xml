@@ -1,0 +1,1276 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data >
+	
+	
+	
+	<!-- Level HINT Dialogs -->
+	<!--
+	I swear to god, this must be the dumpest guy in the universe
+	He was supposed to leave a hint for the trap room. And he wrote "pull the 2nd lever"
+	So.. mr smart pants.. IS IT THE 2nd FROM THE LEFT ? OR FROM THE RIGHT ??
+	I will have to try my luck on this one. Let's try the left one..
+	-->
+	
+	
+	
+	<dialogue id="leve07_1" repeat="1">
+		<text>I swear to god, this must be the dumpest guy in the universe</text>
+		<triggers>leve07_1end</triggers>
+		<triggered>level07_hint</triggered>		
+	</dialogue>
+	<dialogue id="leve07_2" repeat="1">
+		<text>He was supposed to leave a hint for the trap room. And he wrote "pull the 2nd lever"</text>
+		<triggers>leve07_2end</triggers>
+		<triggered>leve07_1end</triggered>		
+	</dialogue>
+	<dialogue id="leve07_3" repeat="1">
+		<text>So.. mr smart pants.. IS IT THE 2nd FROM THE LEFT ? OR FROM THE RIGHT ??</text>
+		<triggers>leve07_3end</triggers>
+		<triggered>leve07_2end</triggered>		
+	</dialogue>
+	<dialogue id="leve07_4" repeat="1">
+		<text>I will have to try my luck on this one. Let's try the left one..</text>
+		<triggers></triggers>
+		<triggered>leve07_3end</triggered>		
+	</dialogue>
+	
+	
+	
+	<!-- New Intro (Loot Enemy Cargo Ship) -->
+	
+	<!--
+	
+	(preon)		Lets see.. Licence No : 5HY7ART, &#xD;Ship Model: Hamal Corps Light Cargo ship..
+	(preon)		Yep, that's the one. My 'client' wants me to loot their Diamonds. He also wants them all dead.
+	(captain)	He's in the ship ! Lock the cargo doors !!
+	(captain)	Wait.. you look familiar. Are you Preonidas ?
+	(preon)		It's CAPTAIN Preonidas.
+	(captain)	You're the ex-neoSpartan Veteran with the 'Deadly' pilot rating, and the 500K bounty !!
+	(preon)		Eye ! Arghhh !
+	(captain)	Look, we want no trouble! No need to risk our lives. Besides, we're practically unarmed.
+	(preon)		Uh - um, that's very nice. Could you please gather in one place, so I can give an autograph to everyone ? 
+	(preon)		(Crap, I hoped they would have some spare ammo cause I'm running out, and I gotta kill the whole crew).
+	(captain)	Everybody, go and throw your weapons into space, and go hide somewhere. He doesn't have enough ammo to kill you all!
+	(preon)		WTF dude, how did you hear that ?
+	(preon)		Okay, I think I got it, but I'll have to watch my ammo. I'll have to make each shot count.
+		
+	(preon)		They're all dead. Let's get the diamonds and get the hell out of here
+	(preon)		I got all the Diamonds. But there's someone still alive in the ship. I must leave no witnesses.
+	(preon)		Diammonds.. check. Crew dead.. check. Yep, I'm done here, lets go back to my ship
+	-->
+	
+	<dialogue id="intro2_1" repeat="0" layout="preon">
+		<text>Lets see.. Licence No : 5HY7ART, &#xD;Ship Model: Hamal Corps Light Cargo ship..</text>
+		<triggers>intro2_1</triggers>
+		<triggered>level_just_started</triggered>		
+	</dialogue>
+	<dialogue id="intro2_2" repeat="0" layout="preon">
+		<text>Yep, that's the one. My 'client' wants me to loot their Diamonds. He also wants them all dead.</text>
+		<triggers></triggers>
+		<triggered>intro2_1</triggered>		
+	</dialogue>
+	
+	<dialogue id="intro2_3" repeat="0" layout="captain">
+		<text>He's in the ship ! Lock the cargo doors !!</text>
+		<triggers>intro2_3</triggers>
+		<triggered>walked_25_22</triggered>		
+	</dialogue>
+	<dialogue id="intro2_4" repeat="0" layout="captain">
+		<text>Wait.. you look familiar. Are you Preonidas ?</text>
+		<triggers>intro2_4</triggers>
+		<triggered>intro2_3</triggered>		
+	</dialogue>
+	<dialogue id="intro2_5" repeat="0" layout="preon">
+		<text>It's CAPTAIN Preonidas.</text>
+		<triggers>intro2_5</triggers>
+		<triggered>intro2_4</triggered>		
+	</dialogue>
+		<dialogue id="intro2_6" repeat="0" layout="captain">
+		<text>You're the ex-neoSpartan Veteran with the 'Deadly' pilot rating, and the 500K bounty !!</text>
+		<triggers>intro2_6</triggers>
+		<triggered>intro2_5</triggered>		
+	</dialogue>
+	<dialogue id="intro2_7" repeat="0" layout="preon">
+		<text>Eye ! Arghhh !</text>
+		<triggers>intro2_7</triggers>
+		<triggered>intro2_6</triggered>		
+	</dialogue>
+	<dialogue id="intro2_8" repeat="0" layout="captain">
+		<text>Look, we want no trouble! No need to risk our lives. Besides, we're practically unarmed.</text>
+		<triggers>intro2_8</triggers>
+		<triggered>intro2_7</triggered>		
+	</dialogue>
+	<dialogue id="intro2_9" repeat="0" layout="preon">
+		<text>Uh - um, that's very nice. Could you please gather in one place, so I can give an autograph to everyone ? </text>
+		<triggers>intro2_9</triggers>
+		<triggered>intro2_8</triggered>		
+	</dialogue>
+	
+	
+	<dialogue id="intro2_10" repeat="0" layout="preon">
+		<text>(Crap, I hoped they would have some spare ammo cause I'm running out, and I gotta kill the whole crew).</text>
+		<triggers>intro2_10</triggers>
+		<triggered>intro2_9</triggered>		
+	</dialogue>
+	<dialogue id="intro2_11" repeat="0" layout="captain">
+		<text>Everybody, go and throw your weapons into space, and go hide somewhere. He doesn't have enough ammo to kill you all!</text>
+		<triggers>intro2_11</triggers>
+		<triggered>intro2_10</triggered>		
+	</dialogue>
+	<dialogue id="intro2_12" repeat="0" layout="preon">
+		<text>WTF dude, how did you hear that ?</text>
+		<triggers>intro2_12</triggers>
+		<triggered>intro2_11</triggered>		
+	</dialogue>
+	<dialogue id="intro2_13" repeat="0" layout="preon">
+		<text>Okay, I think I got it, but I'll have to watch my ammo. I'll have to make each shot count.</text>
+		<triggers></triggers>
+		<triggered>intro2_12</triggered>		
+	</dialogue>
+
+	
+	
+	<dialogue id="intro2_16" repeat="1" layout="preon" >
+		<text>They're all dead. Let's get the diamonds and get the hell out of here</text>
+		<triggers></triggers>
+		<triggered>level_enemies_cleared</triggered>
+		<canceled>all_items_collected</canceled>
+	</dialogue>
+	
+	<dialogue id="intro2_17" repeat="1" layout="preon" >
+		<text>I got all the Diamonds. But there's someone still alive in the ship. I must leave no witnesses.</text>
+		<triggers></triggers>
+		<triggered>all_items_collected</triggered>
+		<canceled>level_enemies_cleared</canceled>
+	</dialogue>
+	
+	<dialogue id="intro2_18" repeat="1" layout="preon" >
+		<text>Diammonds.. check. Crew dead.. check. Yep, I'm done here, lets go back to my ship</text>
+		<triggers></triggers>
+		<triggered>allow_exit</triggered>
+	</dialogue>
+	
+	
+	<!-- tutorial 4
+	
+	Welcome to our Routine Commander Ability Test. Use key[interact] to close dialogues like this one.
+	Use keys key[move_left], key[move_right], key[move_up] and key[move_down] to move around.
+	
+	Let's start with the acrobatics test. Use key key[jump] to jump.
+	Next test is Shooting Skill. Hit key[shoot] to shoot. We left some ammo for you, it should be enough.
+	Hit key[interact] to interact with controls like Switches and Levers. Make sure to stand in front of them.
+	Looks like you got stuck! Press ESCAPE to quit game or restart level
+	This is the final test: Zero Gravity movement. Use the gravity switches to disable and re-enable gravity.
+	
+	This teleporter exits the level, but you have to activate it. Press key[tasks] to see how to enable it.
+	Thank you for taking our test captain Preonidas. You are qualified for your assignment.
+	Downloading mission info..
+	The Mission data is transfered to your ship's computer. Thank you for working with us.
+	-->
+	
+	<!--walked_17_15-->
+	<dialogue id="tut4_1" repeat="0">
+		<text>Welcome to our Routine Commander Ability Test. Use key[interact] to close dialogues like this one.</text>
+		<triggers>tut4_1</triggers>
+		<triggered>level_just_started</triggered>		
+	</dialogue>
+	<dialogue id="tut4_2" repeat="0">
+		<text>Use keys key[move_left], key[move_right], key[move_up] and key[move_down] to move around.</text>
+		<triggers></triggers>
+		<triggered>tut4_1</triggered>		
+	</dialogue>
+	<dialogue id="tut4_3" repeat="0">
+		<text>Let's start with the acrobatics test. Use key key[jump] to jump.</text>
+		<triggers></triggers>
+		<triggered>walked_25_15</triggered>		
+	</dialogue>
+	<dialogue id="tut4_4" repeat="0">
+		<text>Next test is Shooting Skill. Hit key[shoot] to shoot. We left some ammo for you, it should be enough.</text>
+		<triggers></triggers>
+		<triggered>walked_45_7</triggered>		
+	</dialogue>
+	<dialogue id="tut4_5" repeat="0">
+		<text>Hit key[interact] to interact with controls like Switches and Levers. Make sure to stand in front of them.</text>
+		<triggers></triggers>
+		<triggered>walked_63_6</triggered>		
+	</dialogue>
+	<dialogue id="tut4_6" repeat="0">
+		<text>Looks like you got stuck! Press ESCAPE to quit game or restart level</text>
+		<triggers></triggers>
+		<triggered>greenTrap</triggered>		
+	</dialogue>
+	<dialogue id="tut4_7" repeat="0">
+		<text>This is the final test: Zero Gravity movement. Use the gravity switches to disable and re-enable gravity.</text>
+		<triggers>tut4_</triggers>
+		<triggered>walked_80_16</triggered>		
+	</dialogue>
+	<dialogue id="tut4_8" repeat="0">
+		<text>This teleporter exits the level, but you have to activate it. Press key[tasks] to see how to enable it.</text>
+		<triggers></triggers>
+		<triggered>walked_87_25</triggered>		
+	</dialogue>
+	<dialogue id="tut4_9" repeat="0">
+		<text>Thank you for taking our test captain Preonidas. You are qualified for your assignment.</text>
+		<triggers>tut4_9</triggers>
+		<triggered>readMission</triggered>		
+	</dialogue>
+	<dialogue id="tut4_10" repeat="0">
+		<text>Downloading mission info..</text>
+		<triggers>tut4_10</triggers>
+		<triggered>tut4_9</triggered>		
+	</dialogue>
+	<dialogue id="tut4_11" repeat="0">
+		<text>The Mission data is transfered to your ship's computer. Thank you for working with us.</text>
+		<triggers></triggers>
+		<triggered>tut4_10</triggered>		
+	</dialogue>
+	
+	
+	
+	
+	
+	
+	<!-- tutorial 3 -->
+	
+	<!--
+	Use key[interact] to close dialogues like this one.
+	Use keys key[move_left], key[move_right], key[move_up], key[move_down], key[jump] to move around and jump.
+	You can jump on elevators
+	You can interact with Controls like Switches, Buttons and Levers. Use key[interact] when standing in front of them.
+	Be carefull with levers, they can be activated only once
+	When you get stucked, press ESCAPE to quit game or restart level
+	Use key[shoot] to shoot. shoot this glass tile that's blocking your way
+	Most enemies will harm you when they touch you. Your armor can take 2 hits
+	This switch controls gravity.
+	This teleporter exits the level, but you have to activate it. Press key[tasks] to see how to enable it.
+
+	Thank you for taking our test captain Preonidas. You are qualified for your assignment
+	Downloading mission info..
+	The Mission data is transfered to your ship's computer. Thank you for working with us.
+	OK, let's get out of here. Where's that teleporter again ?
+	-->
+	
+	
+	
+	
+	<dialogue id="tut3_1" repeat="0">
+		<text>Use key[interact] to close dialogues like this one.</text>
+		<triggers>tut3_1</triggers>
+		<triggered>level_just_started</triggered>		
+	</dialogue>
+	<dialogue id="tut3_2" repeat="0">
+		<text>Use keys key[move_left], key[move_right], key[move_up], key[move_down], key[jump] to move around and jump.</text>
+		<triggers></triggers>
+		<triggered>tut3_1</triggered>		
+	</dialogue>
+	<dialogue id="tut3_3" repeat="0">
+		<text>You can use elevators</text>
+		<triggers></triggers>
+		<triggered>walked_3_31</triggered>		
+	</dialogue>
+	<dialogue id="tut3_4" repeat="0">
+		<text>You can interact with Controls like Switches, Buttons and Levers. Use key[interact] when standing in front of them.</text>
+		<triggers></triggers>
+		<triggered>walked_7_3</triggered>		
+	</dialogue>
+	<dialogue id="tut3_5" repeat="0">
+		<text>Be carefull with levers, they can be activated only once</text>
+		<triggers></triggers>
+		<triggered>walked_27_9</triggered>		
+	</dialogue>
+	<dialogue id="tut3_6" repeat="0">
+		<text>When you get stucked, press ESCAPE to quit game or restart level</text>
+		<triggers></triggers>
+		<triggered>trapped_lever</triggered>		
+	</dialogue>
+	
+	<dialogue id="tut3_7" repeat="0">
+		<text>Use key[shoot] to shoot. shoot this glass tile that's blocking your way</text>
+		<triggers></triggers>
+		<triggered>walked_26_12</triggered>		
+	</dialogue>
+	<dialogue id="tut3_8" repeat="0">
+		<text>Most enemies will harm you when they touch you. Your armor can take 2 hits</text>
+		<triggers></triggers>
+		<triggered>walked_13_11</triggered>		
+	</dialogue>
+	
+	<dialogue id="tut3_9" repeat="0">
+		<text>This switch controls gravity.</text>
+		<triggers>tut3_</triggers>
+		<triggered>walked_30_24</triggered>		
+	</dialogue>
+	
+	<dialogue id="tut3_10" repeat="0">
+		<text>This teleporter exits the level, but you have to enable it first. Press key[tasks] to see how to enable it.</text>
+		<triggers>tut3_</triggers>
+		<triggered>walked_31_32</triggered>		
+	</dialogue>
+	<dialogue id="tut3_11" repeat="0" >
+		<text>Thank you for taking our test captain Preonidas. You are qualified for your assignment</text>
+		<triggers>tut3_11</triggers>
+		<triggered>readMission</triggered>		
+	</dialogue>
+	<dialogue id="tut3_12" repeat="0">
+		<text>Downloading mission info..</text>
+		<triggers>tut3_12</triggers>
+		<triggered>tut3_11</triggered>		
+	</dialogue>
+	<dialogue id="tut3_13" repeat="0" >
+		<text>The Mission data is transfered to your ship's computer. Thank you for working with us.</text>
+		<triggers>tut3_13</triggers>
+		<triggered>tut3_12</triggered>		
+	</dialogue>
+	<dialogue id="tut3_14" repeat="0" layout="preon">
+		<text>OK, let's get out of here. Where's that teleporter again ?</text>
+		<triggers></triggers>
+		<triggered>tut3_13</triggered>		
+	</dialogue>
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- Intro -->
+	<!--<dialogue id="intro1" repeat="0" layout="preon">
+		<text>Whew! That was close!! Pisoshtenis and his boys will not follow me here. Now the big question is... &#xD; &#xD; Where am I??</text>
+		<triggers>d1End</triggers>
+		<triggered>playIntro</triggered>		
+	</dialogue>-->
+	
+	<dialogue id="intro2" repeat="0">
+		<text>(Ship's computer) We have warped to Glychie 7895 B captain. </text>
+		<triggers>d2End</triggers>
+		<triggered>d1End</triggered>		
+	</dialogue>
+	
+	<dialogue id="intro3" repeat="0" layout="preon">
+		<text>"Glychie 7895 B" ???&#xD;Ok, I'm doomed.. This place doesn't sound like a civilized place. Sounds more like an uncharted system. Let's check the ship's galactical database...</text>
+		<triggers>d3End</triggers>
+		<triggered>d2End</triggered>		
+	</dialogue>
+	
+	<dialogue id="intro4" repeat="0">
+		<text>(Ship's computer) Sorry Captain, this system is deserted. The only human evidence you can find here are shipwrecks</text>
+		<triggers>d4End</triggers>
+		<triggered>d3End</triggered>		
+	</dialogue>
+	
+	<dialogue id="intro5" repeat="0" layout="preon">
+		<text>Shipwrecks ? But how ? You said that it's deserted..</text>
+		<triggers>d5End</triggers>
+		<triggered>d4End</triggered>		
+	</dialogue>
+	
+	<dialogue id="intro6" repeat="0" >
+		<text>(Ship's computer) Deserted, not unexplored. During the Intergalactic War III, a battle took place here Captain.</text>
+		<triggers>d6End</triggers>
+		<triggered>d5End</triggered>		
+	</dialogue>
+	
+	<dialogue id="intro7" repeat="0" layout="preon">
+		<text>Wait a sec.. what type of fuel did these ships use?</text>
+		<triggers>d7End</triggers>
+		<triggered>d6End</triggered>		
+	</dialogue>
+	
+	<dialogue id="intro8" repeat="0">
+		<text>(Ship's computer) Good point Captain! Apparently, their fuel type was plasma energy cells. It is compatible with our hyperdrive engine.</text>
+		<triggers>d8End</triggers>
+		<triggered>d7End</triggered>		
+	</dialogue>
+	
+	<dialogue id="intro9" repeat="0" layout="preon">
+		<text>Then I might manage to find some fuel in the shipwrecks. Maybe the 6 Gods love me after all. Tell me, how much fuel do we need to jump to the nearest civilized System?</text>
+		<triggers>d9End</triggers>
+		<triggered>d8End</triggered>		
+	</dialogue>
+	
+	<dialogue id="intro10" repeat="0">
+		<text>(Ship's computer) 200 energy cell units Captain.</text>
+		<triggers>d10End</triggers>
+		<triggered>d9End</triggered>		
+	</dialogue>
+	
+	<dialogue id="intro11" repeat="0" layout="preon">
+		<text>Ok, lets get out, I'm ready for some serious looting.</text>
+		<triggers>d11End</triggers>
+		<triggered>d10End</triggered>		
+	</dialogue>
+	
+	
+	<!--Shipwrecks ? But how ? You said that it's deserted.. 
+	Deserted, not unexplored. During the Intergalactic War III, a battle took place here Captain.
+	Wait a sec.. what type of fuel did these ships use ?
+	Good point Captain, apparently, their fuel type was plasma cells energy cells. It is compatible with our hyperdrive engine.
+	Then I might manage to find some fuel in the shipwrecks. Maybe the 6 Gods love me after all. Tell me, how much fuel do we need to jump to the nearest civilized System?
+	200 energy cell units Captain.
+	Ok, lets get out, I'm ready for some serious looting.-->
+	
+	
+	<!--<dialogue id="intro3" repeat="0">
+		<text>Hey, turns out I was wrong.. Ok, it's currently unnocupied, but this place is full of shipwrecks from the IW3 !! Maybe the 6 Gods love me after all.</text>
+		<triggers>d3End</triggers>
+		<triggered>d2End</triggered>		
+	</dialogue>
+	
+	<dialogue id="intro4" repeat="0">
+		<text>I updated my ship's Log. I hope it's not my last one. Ok, lets get out, I'm ready for some serious looting.</text>
+		<triggers>d4End</triggers>
+		<triggered>d3End</triggered>		
+	</dialogue>
+	
+	<dialogue id="canReadLog" repeat="1">
+		<text>This is your ship's Computer, where the captain keeps his logs. If you ever get amnesia, you can activate this computer to remember </text>
+		<triggers></triggers>
+		<triggered>walked_17_7</triggered>		
+	</dialogue>-->
+	
+	<!-- Captain's Log --> 
+	
+
+	<!--<dialogue id="log1" repeat="1">
+		<text>That last job was going so smooth... I had the gems packed in my cargo room, and I was just one hyperjump away from Alpha Criaris. It was the perfect system to deliver the stuff.</text>
+		<triggers>log1End</triggers>
+		<triggered>readLog1</triggered>		
+	</dialogue>
+	
+
+	<dialogue id="log2" repeat="1">
+		<text>Not too many bounty hunters or pirates, or Police either. Just a system where you can do your business without troubles.</text>
+		<triggers>log2End</triggers>
+		<triggered>log1End</triggered>		
+	</dialogue>
+	
+	<dialogue id="log3" repeat="1">
+		<text>As soon as I jumped to Criaris, I ran into the Cryocolis Agents. They were waiting for me cloaked, armed with Deathweaver Class IX Fighters. I took 4 of them before my shields were empty.  There was no way to take them all down.</text>
+		<triggers>log3End</triggers>
+		<triggered>log2End</triggered>		
+	</dialogue>
+	
+	<dialogue id="log4" repeat="1">
+		<text>I had enough fuel for one last jump, but they would track me, and follow me anywhere I could go. "Mad Vlad" was my only chance to live.  I've flown all those years hoping i'd never have to do it.</text>
+		<triggers>log4End</triggers>
+		<triggered>log3End</triggered>		
+	</dialogue>
+	
+	<dialogue id="log5" repeat="1">
+		<text>It’s a blind hyper jump really. It involves selecting a System to jump to, doesn’t matter which one, starting the jump, and then shooting your hyperdrive’s  scanner module.</text>
+		<triggers>log5End</triggers>
+		<triggered>log4End</triggered>		
+	</dialogue>
+	
+	<dialogue id="log6" repeat="1">
+		<text>Practically, it sends you to a random System, so whoever follows you, will lose your track. This is the good part. </text>
+		<triggers>log6End</triggers>
+		<triggered>log5End</triggered>		
+	</dialogue>
+	
+	<dialogue id="log7" repeat="1">
+		<text>The bad thing is that you find yourself in an unknown system, with a broken hyperdrive. If you are lucky, you’ll land on a civilized, friendly system, where you can fly with your interplanetary engines to a station and fix your ship.</text>
+		<triggers>log7End</triggers>
+		<triggered>log6End</triggered>		
+	</dialogue>
+	
+	<dialogue id="log8" repeat="1">
+		<text>If any of the above doesn’t happen, you are in big trouble. So, each time someone does a “Mad Vlad”, the 6 gods flip a coin. I guess I was lucky enough to land on Glychie 7895 B. </text>
+		<triggers>log8End</triggers>
+		<triggered>log7End</triggered>		
+	</dialogue>
+	
+	<dialogue id="log9" repeat="1">
+		<text>Normally it would be a desert system, unknown to man. But 60 years ago, hundreds of pilots flew through it. Most of them met death. You see, during the 6th Intergalactic War, a great battle took place here.</text>
+		<triggers>log9End</triggers>
+		<triggered>log8End</triggered>		
+	</dialogue>
+	
+	<dialogue id="log10" repeat="1">
+		<text>Now the place is full of Tertrick and Ardanian ships. If I’m lucky, I might find some parts for my hyperdrive, fix it and get the hell out of here. Some fuel too. </text>
+		<triggers>log10End</triggers>
+		<triggered>log9End</triggered>		
+	</dialogue>
+	
+	<dialogue id="log11" repeat="1">
+		<text>Hey, maybe I'll do some looting too. These ships had Class XII weapons, that are now illegal and out of production.</text>
+		<triggers>log11End</triggers>
+		<triggered>log10End</triggered>		
+	</dialogue>-->
+	
+	
+	
+	
+	<!--
+	That last job was going so smooth... I had the gems packed in my cargo space, and I was just one hyperjump away from Aplha Criaris. It was the perfect system to deliver the stuff.
+	Not too many bounty hunters and pirates, or Police either. Just a piecefull system, where you can do your business without troubles.
+	As soon as I jumped to Criaris, I ran into the Cryocolis Agents. The were waiting for me cloaced, armed with Deathweaver Class IVX Fighters. I took 4 of them before my shields were empty.
+	There was no way to take them all down. I had enough fuel for one last jump, but they would track me, and follow me anywhere I could go. "Mad Vlad" was my only change to live. I've flown all those years hoping i'd never have to do it.
+	
+	
+	
+	Whew! That was close!! The Cryokolis Agents will not follow me here. You see, I did the "Mad Vlad" trick, it includes sabotaging your hyperdrive while doing an intergalactic hyperjump.
+	Practically, it sends you to a random System, so noone can follow you. So you'll definitely lose whoever is chasing you. This is the good part.
+	The bad thing, is that you find yourself in an unknown, possibly desserted system, with a failing hyperdrive. If you can't fix it, you'll die in that system.
+	I'm not the first human visiting this system. During the 6th Intergalactic War, a great battle took place here, and now the  whole place is full of shipwrecks
+	If I'm lucky, I might find some spare parts to repair my hyperdrive and get the Hell out of here.
+	Hey, maybe I'll do some looting too. These ships had XII class weapons, that now are illegal and out of production.
+	-->
+	
+	
+	
+	
+	<dialogue id="allCrystals" repeat="1">
+		<text>All Crystals are gathered. Good Bwoye</text>
+		<triggers></triggers>
+		<triggered>all_items_collected</triggered>		
+	</dialogue>
+	
+	
+	
+	<!-- Tutorial NEW NEW XTRA REVISED HOPEFULLY FINAL -->
+	
+	<dialogue id="tut1_1" repeat="1" >
+		<text>Use key[interact] to close dialogues like this one.</text>
+		<triggers>tut1_2</triggers>
+		<triggered>level_just_started</triggered>		
+	</dialogue>
+	
+	<dialogue id="tut1_2" repeat="1" >
+		<text>Use keys key[move_left], key[move_right], key[move_up], key[move_down], key[jump] to move around and jump.</text>
+		<triggers></triggers>
+		<triggered>tut1_2</triggered>		
+	</dialogue>
+	
+	
+	<dialogue id="tut1_3" repeat="1">
+		<text>Looks like you got stuck ! Press ESCAPE to restart or quit level</text>
+		<triggers></triggers>
+		<triggered>walked_28_38</triggered>		
+	</dialogue>
+	
+	
+	<dialogue id="tut1_4" repeat="1">
+		<text>Levers interact with doors and trapdoors of the same color, but be careful, they can be used only once!</text>
+		<triggers>tut1_4</triggers>
+		<triggered>walked_40_23</triggered>		
+	</dialogue>
+	
+	<dialogue id="tut1_5" repeat="1">
+		<text>Use key[interact] when standing in front of them to activate them</text>
+		<triggers></triggers>
+		<triggered>tut1_4</triggered>		
+	</dialogue>
+	
+	<dialogue id="tut1_6" repeat="1">
+		<text>Glass tiles can be destroyed. Use key[shoot] to shoot.</text>
+		<triggers></triggers>
+		<triggered>walked_42_17</triggered>		
+	</dialogue>
+	
+	
+	<dialogue id="tut1_7" repeat="1">
+		<text>This button is special. It controls gravity. With key[interact] you can activate and deactivate it.</text>
+		<triggers></triggers>
+		<triggered>walked_35_18</triggered>		
+	</dialogue>
+	<dialogue id="tut1_8" repeat="1">
+		<text>When gravity is off, use keys key[move_left], key[move_right], key[move_up] and key[move_down] to move.</text>
+		<triggers></triggers>
+		<triggered>tut1_7</triggered>		
+	</dialogue>
+	
+	<dialogue id="tut1_9" repeat="1" >
+		<text>The only problem with disabled gravity, is that you can't stop unless you hit a wall, so you can't change direction while flying... And your weapons won't work.</text>
+		<triggers>tut1_9</triggers>
+		<triggered>walked_27_15</triggered>		
+	</dialogue>
+	
+	<!--<dialogue id="tut1_10" repeat="1">
+		<text>you can re-enable the gravity with this switch</text>
+		<triggers></triggers>
+		<triggered>walked_18_13</triggered>		
+	</dialogue>-->
+	
+	<dialogue id="tut1_11" repeat="1">
+		<text>Switches are like Levers, but can be used multiple times. This one will operate the red trapdoors that are blocking this elevator. </text>
+		<triggers></triggers>
+		<triggered>walked_14_19</triggered>		
+	</dialogue>
+	
+	
+	<dialogue id="tut1_12" repeat="1">
+		<text>This is an exit Teleporter. You need to enable it and walk through it. Press key[tasks] to see how to enable it.</text>
+		<triggers></triggers>
+		<triggered>walked_10_12</triggered>		
+	</dialogue>
+	
+	
+	
+	
+	
+	<!-- TUTORIAL NEW -->
+	<dialogue id="intro_tut_1" repeat="1" >
+		<text>Use key[interact] to close dialogues like this one.</text>
+		<triggers>intro_tut_E</triggers>
+		<triggered>level_just_started</triggered>		
+	</dialogue>
+	<dialogue id="intro_tut_2" repeat="1">
+		<text>Use key[move_left] and key[move_right] to Walk. Press key[jump] to jump.</text>
+		<triggers></triggers>
+		<triggered>intro_tut_E</triggered>		
+	</dialogue>
+	
+	<dialogue id="intro_tut_3" repeat="1">
+		<text>Pressing key[interact], activates controls, when you're near them. Activate this green switch to start the elevator.</text>
+		<triggers></triggers>
+		<triggered>walked_15_50</triggered>		
+	</dialogue>
+	
+	<dialogue id="intro_tut_3a" repeat="1" layout="preon">
+		<text>I need get that elevator working, There must be a switch around here..</text>
+		<triggers></triggers>
+		<triggered>walked_13_56</triggered>
+		<canceled>startElevator1</canceled>
+	</dialogue>
+	
+	<dialogue id="intro_tut_4" repeat="1" layout="preon">
+		<text>There is a bunch of ammunition up there. I should get it, I have the feeling I'm gonna need it soon</text>
+		<triggers></triggers>
+		<triggered>walked_32_56</triggered>		
+	</dialogue>
+	
+	<dialogue id="intro_tut_5" repeat="1" layout="preon">
+		<text>This glass block is blocking my way. But I can smash it with one single bullet. Press key[shoot] to shoot.</text>
+		<triggers></triggers>
+		<triggered>walked_44_50</triggered>		
+	</dialogue>
+	
+	<dialogue id="intro_tut_6" repeat="1" layout="preon">
+		<text>There's no way I can jump that high to continue. I hope there's some gravity control down here</text>
+		<triggers></triggers>
+		<triggered>walked_47_51</triggered>		
+	</dialogue>
+	
+	<dialogue id="intro_tut_7" repeat="1">
+		<text>This switch is special. It controls gravity. In zero gravity, you can travel to any direction.</text>
+		<triggers>intro_tut_7End</triggers>
+		<triggered>walked_47_56</triggered>		
+	</dialogue>
+	<dialogue id="intro_tut_8" repeat="1">
+		<text>When gravity is off, use keys key[move_left], key[move_right], key[move_up] and key[move_down] to move.</text>
+		<triggers></triggers>
+		<triggered>intro_tut_7End</triggered>		
+	</dialogue>
+	
+	<dialogue id="intro_tut_9" repeat="1" >
+		<text>The only problem with disabled gravity, is you can't stop unless you hit a wall, so you can't change direction while flying.. And your weapons won't work.</text>
+		<triggers></triggers>
+		<triggered>walked_47_53</triggered>		
+	</dialogue>
+	
+	<dialogue id="intro_tut_10" repeat="1">
+		<text>you can re-enable the gravity with this switch</text>
+		<triggers></triggers>
+		<triggered>walked_48_46</triggered>		
+	</dialogue>
+	
+	<dialogue id="intro_tut_11" repeat="1" layout="preon">
+		<text>Oh look at these sweet security Droids. They won't fire at me, but I shouldn't touch them. Just shoot them from a safe distance.</text>
+		<triggers></triggers>
+		<triggered>walked_46_45</triggered>		
+	</dialogue>
+	
+	<dialogue id="intro_tut_12" repeat="1" layout="preon">
+		<text>Wait.. I forgot.. What am I doing here?? Oh yes I remembered. There's that dirty job I gotta get done.</text>
+		<triggers>intro_tut_12End</triggers>
+		<triggered>walked_29_41</triggered>		
+	</dialogue>
+	
+	<dialogue id="intro_tut_13" repeat="1" layout="preon">
+		<text>I gotta steal a special edition combat joystick, from a ship docked on that space station.</text>
+		<triggers>intro_tut_13End</triggers>
+		<triggered>intro_tut_12End</triggered>		
+	</dialogue>
+	<dialogue id="intro_tut_14" repeat="1" layout="preon">
+		<text>Then, I should get back to my ship and fly back to my 'customer'. He's paying good money, and this seems to be an easy job</text>
+		<triggers>intro_tut_14End</triggers>
+		<triggered>intro_tut_13End</triggered>		
+	</dialogue>
+	<dialogue id="intro_tut_15" repeat="1" layout="preon">
+		<text>What? You wanted to play with a nice guy? Or a clumsy sweet pirate-wannabe? Oh no, FYI I'm Preonidas, ex war veteran, and outlaw with "Deadly" pilot ranking</text>
+		<triggers>intro_tut_15End</triggers>
+		<triggered>intro_tut_14End</triggered>		
+	</dialogue>
+	<dialogue id="intro_tut_16" repeat="1" layout="preon">
+		<text>During the Intergalactic War IX I made about 145 widows in a single combat. After the war, I left the NeoSpartan army and went freelance. I have a 500K bounty on my head</text>
+		<triggers>intro_tut_16End</triggers>
+		<triggered>intro_tut_15End</triggered>		
+	</dialogue>
+	<dialogue id="intro_tut_17" repeat="1" layout="preon">
+		<text>Oh here I am, bragging about my skills again. Whenever you forget your tasks, or not sure what to do,  press key[tasks]</text>
+		<triggers>intro_tut_17End</triggers>
+		<triggered>intro_tut_16End</triggered>		
+	</dialogue>
+	
+	<dialogue id="intro_tut_18" repeat="1" layout="preon">
+		<text>Ok, I think that this blue hatch door leads to the ship I'm looking for. Could it be THAT easy ?</text>
+		<triggers></triggers>
+		<triggered>walked_29_22</triggered>		
+	</dialogue>
+	
+	<dialogue id="intro_tut_19" repeat="1" layout="preon">
+		<text>Smart guys, the door to ship is locked. I gotta find another way</text>
+		<triggers></triggers>
+		<triggered>walked_37_35</triggered>
+		<canceled>got_joystick</canceled>
+	</dialogue>
+	
+	<dialogue id="intro_tut_20" repeat="1" layout="preon">
+		<text>If I could open this door, I would find my way to the ship. I think I can unlock it from the captain's room on the top floor of the living quarters</text>
+		<triggers></triggers>
+		<triggered>walked_46_24</triggered>
+		<canceled>maintenanceDoor</canceled>
+	</dialogue>
+	
+	<dialogue id="intro_tut_21" repeat="1" layout="preon">
+		<text>This guy is armed, and has some armor too, so he'll need more shots. I better shoot him while he's not facing at me.</text>
+		<triggers>intro_tut_21End</triggers>
+		<triggered>walked_48_33</triggered>		
+	</dialogue>
+	<dialogue id="intro_tut_21a" repeat="1" layout="preon">
+		<text>Btw, I have an armor too. It can take 3 hits.</text>
+		<triggers></triggers>
+		<triggered>intro_tut_21End</triggered>		
+	</dialogue>
+	
+	<dialogue id="intro_tut_22" repeat="1" layout="preon">
+		<text>Ok, the Joystick is mine. I better leave before the security comes after me. My ship is to the left dock.</text>
+		<triggers></triggers>
+		<triggered>got_joystick</triggered>
+	</dialogue>
+	
+	<dialogue id="intro_tut_23" repeat="1" layout="preon">
+		<text>That's my ship! Let's start the engines and get the hell out of here.</text>
+		<triggers></triggers>
+		<triggered>walked_19_38</triggered>
+	</dialogue>
+	
+	<dialogue id="intro_tut_24" repeat="1" layout="preon" >
+		<text>That's my ship behind this door. But I'm not ready to leave yet!</text>
+		<triggers></triggers>
+		<triggered>walked_25_38</triggered>
+		<canceled>got_joystick</canceled>
+	</dialogue>
+	
+	
+	
+	
+	
+	
+	<!-- CUTSCENE 1--> 
+	
+	
+	<dialogue id="cut_1" repeat="1">
+		<text>2 minutes later..</text>
+		<triggers>cut_1_e</triggers>
+		<triggered>level_just_started</triggered>		
+	</dialogue>
+	<dialogue id="cut_2" repeat="1" layout="preon">
+		<text>Destination.. Alpha Criaris, Hyperdrive engines heat at 80%. In 30 seconds I'll be ready for the jump. Wait, what's that?</text>
+		<triggers>cut_2_e</triggers>
+		<triggered>cut_1_e</triggered>		
+	</dialogue>
+	<dialogue id="cut_3" repeat="1">
+		<text>(Ship's computer) Alert, Hostile ship approximating. Ship Details : Cryocolis Heavy Fighter, class : VII, Licence Number : 5un k1ck4r</text>
+		<triggers>cut_3_e</triggers>
+		<triggered>cut_2_e</triggered>		
+	</dialogue>
+	level_end_alternative
+	
+	<!--<dialogue id="cut_4" repeat="1">
+		<text></text>
+		<triggers>cut_4_e</triggers>
+		<triggered>cut_3_e</triggered>		
+	</dialogue>
+	-->
+	
+	<dialogue id="cut_5" repeat="1">
+		<text>(Ship's computer) Weapons : Plasma Cannons MK5, Shields : class VI</text>
+		<triggers>cut_5_e</triggers>
+		<triggered>cut_3_e</triggered>		
+	</dialogue>
+	<dialogue id="cut_6" repeat="1" layout="preon">
+		<text>Judging from the ridiculous Licence plates, there's only one guy I can think of..</text>
+		<triggers>cut_6_e</triggers>
+		<triggered>cut_5_e</triggered>		
+	</dialogue>
+	<dialogue id="cut_7" repeat="1" layout="piso">
+		<text>Long time no see Preonidas..</text>
+		<triggers>cut_7_e</triggers>
+		<triggered>cut_6_e</triggered>		
+	</dialogue>
+	<dialogue id="cut_8" repeat="1" layout="preon">
+		<text>Pisosthenis ! glad to see you're still alive. Last time we met, I left you floating in your rescue suit</text>
+		<triggers>cut_8_e</triggers>
+		<triggered>cut_7_e</triggered>		
+	</dialogue>
+	<dialogue id="cut_9" repeat="1" layout="piso">
+		<text>You had a better ship Preon! But it's never too late to take revenge. Not to mention your 400K bounty</text>
+		<triggers>cut_9_e</triggers>
+		<triggered>cut_8_e</triggered>		
+	</dialogue>
+	<dialogue id="cut_10" repeat="1" layout="preon">
+		<text>500K actually.. What a sucker.</text>
+		<triggers>cut_10_e</triggers>
+		<triggered>cut_9_e</triggered>		
+	</dialogue>
+	<dialogue id="cut_11" repeat="1" layout="piso">
+		<text>How much are you gonna get for the diamond cargo ?</text>
+		<triggers>cut_11_e</triggers>
+		<triggered>cut_10_e</triggered>		
+	</dialogue>
+	<dialogue id="cut_12" repeat="1" layout="preon">
+		<text>50K</text>
+		<triggers>cut_12_e</triggers>
+		<triggered>cut_11_e</triggered>		
+	</dialogue>
+	<dialogue id="cut_13" repeat="1" layout="piso">
+		<text>It's worth 150K. Who's the sucker now ? I'll make 650K out of you Preon</text>
+		<triggers>cut_13_e</triggers>
+		<triggered>cut_12_e</triggered>		
+	</dialogue>
+	<dialogue id="cut_14" repeat="1" layout="preon">
+		<text>You can't take me down Pisosthenis. Tell you what.. give me 100K and the joystick is yours, and I'll let you live. We'll both make some profit out of this.</text>
+		<triggers>cut_14_e</triggers>
+		<triggered>cut_13_e</triggered>		
+	</dialogue>
+	<dialogue id="cut_15" repeat="1" layout="piso">
+		<text>Don's start the win-win crap on me Preon. I've been fantasising of travelling through Beta Volcanis with your ass mounted on my cannon.</text>
+		<triggers>cut_15_e</triggers>
+		<triggered>cut_14_e</triggered>		
+	</dialogue>
+	<dialogue id="cut_16" repeat="1" layout="preon">
+		<text>ouch..</text>
+		<triggers>cut_16_e</triggers>
+		<triggered>cut_15_e</triggered>		
+	</dialogue>
+	<dialogue id="cut_17" repeat="1" layout="piso">
+		<text>Go get him boys</text>
+		<triggers>cut_17_e</triggers>
+		<triggered>cut_16_e</triggered>		
+	</dialogue>
+	<dialogue id="cut_18" repeat="1" layout="preon">
+		<text>Oh, you brought friends too..</text>
+		<triggers>cut_18_e</triggers>
+		<triggered>cut_17_e</triggered>		
+	</dialogue>
+	<dialogue id="cut_19" repeat="1">
+		<text>15 minutes of space dogfighting later..</text>
+		<triggers>cut_19_e</triggers>
+		<triggered>cut_18_e</triggered>		
+	</dialogue>
+	<dialogue id="cut_20" repeat="1">
+		<text>(Ship's Combat computer) Alert! Hull condition 16%, Shield systems: 0%, Enemy casualties : 14 Enemy targets left: 18, Survival chance : 0.0003%</text>
+		<triggers>cut_20_e</triggers>
+		<triggered>cut_19_e</triggered>		
+	</dialogue>
+	<dialogue id="cut_21" repeat="1" layout="preon">
+		<text>Shit, they're too many, I better do the jump now</text>
+		<triggers>cut_21_e</triggers>
+		<triggered>cut_20_e</triggered>		
+	</dialogue>
+	<dialogue id="cut_22" repeat="1" layout="piso">
+		<text>Where do you think you're going Preon? I've got a wormhole jump tracer. I'll follow you wherever you're going</text>
+		<triggers>cut_22_e</triggers>
+		<triggered>cut_21_e</triggered>		
+	</dialogue>
+	<dialogue id="cut_23" repeat="1" layout="preon">
+		<text>Shit, he's right.. Then there's only one option really</text>
+		<triggers>cut_23_e</triggers>
+		<triggered>cut_22_e</triggered>		
+	</dialogue>
+	<dialogue id="cut_24" repeat="1">
+		<text>(Ship's computer) I hope you're not thinking of the 'Mad Vlad' manouver captain</text>
+		<triggers>cut_24_e</triggers>
+		<triggered>cut_23_e</triggered>		
+	</dialogue>
+	<dialogue id="cut_25" repeat="1" layout="preon">
+		<text>Well.. is there any other option available ? Besides, I always wanted to try this manouver</text>
+		<triggers>cut_25_e</triggers>
+		<triggered>cut_24_e</triggered>		
+	</dialogue>
+	<dialogue id="cut_26" repeat="1">
+		<text>(Ship's computer) This manouver will land you on a random system, with your fuel tanks empty. There's a 76% chance that you'll land on an unoccupied system, and you'll be trapped there. For Ever!</text>
+		<triggers>cut_26_e</triggers>
+		<triggered>cut_25_e</triggered>		
+	</dialogue>
+	<dialogue id="cut_27" repeat="1" layout="preon">
+		<text>And there's a 100% chance to lose them. Do IT!!!</text>
+		<triggers>level_end_alternative</triggers>
+		<triggered>cut_26_e</triggered>		
+	</dialogue>
+	
+	
+	
+	
+	
+	
+	<!--
+	2 minutes later..	
+	(Preon)Destination.. Alpha Criaris, Hyperdrive engines heat at 80%. In 30 seconds I'll be ready for the jump. Wait, what's that?	
+	(Ship's computer) Alert, Hostile ship approximating. Ship Details : Cryocolis Heavy Fighter, class : VII, Licence Number : 5un k1ck4r
+	(Ship's computer) Weapons : Plasma Cannons MK5, Shields : class VI	
+	(Preon)Judging from the ridiculous Licence plates, there's only one guy I can think of..	
+	(Pisosthenis) Long time no see Preonidas..
+	(Preon) Pisosthenis ! glad to see you're still alive. Last time we met, I left you floating in your rescue suit
+	(Pisosthenis) You had a better ship Preon! But it's never too late to take revenge. Not to mention your 400K bounty 
+	(Preon) 500K actually.. What a sucker.
+	(Pisosthenis) How much are you gonna get for the Federal Joystick Preon ?
+	(Preon) 50K
+	(Pisosthenis) It's worth 150K. Who's the sucker now ? I'll make 650K out of you Preon
+	(Preon) You can't take me down Pisosthenis. Tell you what.. give me 100K and the joystick is yours, and I'll let you live. We'll both make some profit out of this.	
+	(Pisosthenis) Don's start the win-win crap on me Preon. I've been fantasising of travelling through Beta Volcanis with your ass mounted on my cannon.
+	(Preon) ouch..
+	(Pisosthenis) Go get him boys
+	(Preon) Oh, you brought friends too..
+	15 minutes of space dogfighting later..
+	(Ship's Combat computer) Alert! Hull condition 16%, Shield systems: 0%, Enemy casualties : 14 Enemy targets left: 18, Survival chance : 0.0003%
+	(Preon) Shit, they're too many, I better do the jump now
+	(Pisosthenis) Where do you think you're going Preon? I've got a wormhole jump tracer. I'll follow you wherever you're going
+	(Preon) Shit, he's right.. Then there's only one option really
+	(Ship's computer) I hope you're not thinking of the 'Drunk ' manouver captain
+	(Preon) Well.. is there any other option available ? Besides, I always wanted to try this manouver
+	(Ship's computer) This manouver will land you on a random system, with your fuel tanks empty. There's a 76% chance that you'll land on an unoccupied system, and you'll be trapped there
+	(Preon) And there's a 100% chance to lose them. Do IT!!!
+ 	-->
+	
+	
+	<!-- TUTORIAL OLD -->
+	
+	<!--<dialogue id="tutorial1" repeat="1">
+		<text>Use any key to close dialogues like this one.</text>
+		<triggers>tutorial1E</triggers>
+		<triggered>level_just_started</triggered>		
+	</dialogue>
+	
+	<dialogue id="tutorial2" repeat="1">
+		<text>Use key[move_left] and key[move_right] to Walk.</text>
+		<triggers></triggers>
+		<triggered>tutorial1E</triggered>		
+	</dialogue>
+	
+	
+	<dialogue id="tutorial3" repeat="1">
+		<text>Pressing key[interact], activates controls, when you are near them. Activate this switch to open that door.</text>
+		<triggers></triggers>
+		<triggered>walked_9_12</triggered>		
+	</dialogue>-->
+	
+	
+	<!--<dialogue id="tutorial4" repeat="1">
+		<text>Notice that this lever is the same color with the door it just opened</text>
+		<triggers>tutorial4End</triggers>
+		<triggered>walked_11_12</triggered>		
+	</dialogue>
+	
+	<dialogue id="tutorial5" repeat="1">
+		<text>Levers are activated only once.</text>
+		<triggers></triggers>
+		<triggered>tutorial4End</triggered>		
+	</dialogue>-->
+	
+	<!--<dialogue id="tutorial5" repeat="1">
+		<text>Press key[jump] to jump.</text>
+		<triggers></triggers>
+		<triggered>walked_13_12</triggered>		
+	</dialogue>
+	
+	<dialogue id="tutorial6" repeat="1">
+		<text>This glass tile is destructible. Blast it, using your weapon. Press key[shoot] to shoot.</text>
+		<triggers></triggers>
+		<triggered>walked_9_6</triggered>		
+	</dialogue>
+	
+	
+	<dialogue id="tutorial7" repeat="1">
+		<text>Levers, can be activated only once, unlike switches. This one controls an elevator. Give it a try.</text>
+		<triggers></triggers>
+		<triggered>walked_16_6</triggered>		
+	</dialogue>-->
+	
+	
+	
+	<!--<dialogue id="tutorial7" repeat="1">
+		<text>This switch is special. it controls gravity. In zero gravity, you can travel to any position, but you can't change direction while flying.</text>
+		<triggers></triggers>
+		<triggered>walked_33_13</triggered>		
+	</dialogue>
+	-->
+	<!--<dialogue id="tutorial8" repeat="1">
+		<text>This switch is special. It controls gravity. In zero gravity, you can travel to any direction, but you can't change direction while flying.</text>
+		<triggers>tutorial8End</triggers>
+		<triggered>walked_35_13</triggered>		
+	</dialogue>
+	
+	<dialogue id="tutorial9" repeat="1">
+		<text>See the switch up there? It opens the next door. Toggle the gravity off to reach it. Then, use key[move_left]/key[move_right]/key[move_up]/key[move_down] to move.</text>
+		<triggers>tutorial9End</triggers>
+		<triggered>tutorial8End</triggered>		
+	</dialogue>
+	
+	<dialogue id="tutorial10" repeat="1">
+		<text>Looks like you need to enable the gravity generators again. This time you'll have to activate it while flying, since you can't stop over it.</text>
+		<triggers>tutorial10End</triggers>
+		<triggered>walked_36_10</triggered>		
+	</dialogue>-->
+	<!--
+	<dialogue id="tutorial11" repeat="1">
+		<text>You'll have to disable gravity again, to reach the next switch.</text>
+		<triggers>tutorial11End</triggers>
+		<triggered>walked_42_13</triggered>		
+	</dialogue>
+	
+	<dialogue id="tutorial12" repeat="1">
+		<text>This time, the path to the switch is a bit harder. You'll need around 8 moves to reach it. You might have to plan your moves before starting.</text>
+		<triggers></triggers>
+		<triggered>tutorial11End</triggered>		
+	</dialogue>
+	
+	<dialogue id="tutorial13" repeat="1">
+		<text>The next cleaning droid is as easy as it looks. It looks cute, but don't let it touch you. Just kill it before you start liking him.</text>
+		<triggers>tutorial13End</triggers>
+		<triggered>walked_42_17</triggered>		
+	</dialogue>
+	
+	<dialogue id="tutorial14" repeat="1">
+		<text>Use your ammo wisely, it's limited. Don't worry for now, you just found some clips.</text>
+		<triggers>tutorial14End</triggers>
+		<triggered>tutorial13End</triggered>		
+	</dialogue>
+	
+	<dialogue id="tutorial15" repeat="1">
+		<text>By the way, your Nano-Drill Hand Cannon will not work with zero gravity. All your enemy's weapons will work though </text>
+		<triggers></triggers>
+		<triggered>tutorial14End</triggered>		
+	</dialogue>
+	
+	<dialogue id="tutorial16" repeat="1">
+		<text>This glass tile blocks the elevator. You're gonna need it to climb up</text>
+		<triggers></triggers>
+		<triggered>walked_26_18</triggered>		
+	</dialogue>
+	
+	<dialogue id="tutorial17" repeat="1">
+		<text>This dude is tougher than the droid. He shoots on sight too, so you better hit him while he's not looking at you.</text>
+		<triggers></triggers>
+		<triggered>walked_34_21</triggered>		
+	</dialogue>-->
+	
+	
+	
+	
+	
+	<dialogue id="tutorial19" repeat="1">
+		<text>This is your ship Captain!. It needs a crew of 3 people, but you're flying it alone.</text>
+		<triggers>tutorial19End</triggers>
+		<triggered>walked_13_26</triggered>		
+	</dialogue>
+	<dialogue id="tutorial20" repeat="1">
+		<text>Not because you're THAT cool. You just couldn't find the crew</text>
+		<triggers></triggers>
+		<triggered>tutorial19End</triggered>		
+	</dialogue>
+	<dialogue id="tutorial21" repeat="1">
+		<text>This is the level exit. When it's open, walk through it to end the level</text>
+		<triggers>tutorial21End</triggers>
+		<triggered>walked_9_23</triggered>		
+	</dialogue>
+	
+	<dialogue id="tutorial22" repeat="1">
+		<text>There is a lever at the right, it starts the ship engines. Start them to end the tutorial</text>
+		<triggers></triggers>
+		<triggered>tutorial21End</triggered>		
+	</dialogue>
+	
+	
+	
+	<dialogue id="bossLev_20" repeat="1" layout="preon">
+		<text>That topless demonic space marine guy, just became orbital</text>
+		<triggers></triggers>
+		<triggered>boss_killed</triggered>		
+	</dialogue>
+	
+	<!--<dialogue id="bossLev_1" repeat="0" layout="preon">
+		<text>I feel a bit weird here. I feel hard to explain.. I better get done quickly with this place and get the hell out of here.</text>
+		<triggers>bossLev_1_end</triggers>
+		<triggered>walked_27_8</triggered>		
+	</dialogue>-->
+	
+	<dialogue id="bossLev_1" repeat="1" layout="preon">
+		<text>I feel a bit weird here. It's hard to explain.. I better get done quickly with this place and get the hell out of here.</text>
+		<triggers>bossLev_1_end</triggers>
+		<triggered>level_just_started</triggered>		
+	</dialogue>
+	
+	
+	
+	
+	<dialogue id="bossLev_2" repeat="1" layout="preon">
+		<text>Wait, what's that weird guy, down there, boy he's huge.</text>
+		<triggers>bossLev_2_end</triggers>
+		<triggered>bossLev_1_end</triggered>		
+	</dialogue>
+	
+	
+	<dialogue id="bossLev_3" repeat="1" layout="mitros">
+		<text>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</text>
+		<triggers>bossLev_3_end</triggers>
+		<triggered>walked_11_19</triggered>		
+	</dialogue>
+	
+	
+	
+	<dialogue id="bossLev_4" repeat="1" layout="preon">
+		<text>Oops he saw me</text>
+		<triggers>bossLev_4_end</triggers>
+		<triggered>bossLev_3_end</triggered>		
+	</dialogue>
+	
+	<dialogue id="bossLev_5" repeat="1" layout="mitros">
+		<text>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</text>
+		<triggers>bossLev_5_end</triggers>
+		<triggered>bossLev_4_end</triggered>		
+	</dialogue>
+	
+	<dialogue id="bossLev_6" repeat="1" layout="preon">
+		<text>Whatever you say dude.</text>
+		<triggers>bossLev_6_end</triggers>
+		<triggered>bossLev_5_end</triggered>		
+	</dialogue>
+	
+	<dialogue id="bossLev_7" repeat="1" layout="mitros">
+		<text>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</text>
+		<triggers>bossLev_7_end</triggers>
+		<triggered>bossLev_6_end</triggered>		
+	</dialogue>
+	
+	<dialogue id="bossLev_8" repeat="1" layout="preon">
+		<text>Look, dude, I'm minding my own bussiness here. Why don't you do the same ?</text>
+		<triggers>bossLev_8_end</triggers>
+		<triggered>bossLev_7_end</triggered>		
+	</dialogue>
+	
+	<dialogue id="bossLev_9" repeat="1" layout="mitros">
+		<text>Socialize, Monetize, free to play with in-app purchases and DLC, tweet, share and like</text>
+		<triggers>bossLev_9_end</triggers>
+		<triggered>bossLev_8_end</triggered>		
+	</dialogue>
+	
+	<dialogue id="bossLev_10" repeat="1" layout="preon">
+		<text>Holy shit, he's talking pure evil. Hey could this be cpt Mejarr himself ?</text>
+		<triggers>bossLev_10_end</triggers>
+		<triggered>bossLev_9_end</triggered>		
+	</dialogue>
+	
+	
+	
+	<!-- 
+	(Lt Karmiris personal log)
+	Yesterday we left Theta Moularis, on our way to Kappa Saliaris. We're supposed to meet the rest of the Imperial Forces and head to battle the Arctanians.
+	All of our crew are both excited and scared. For the most of us, it's not out first time to the batlefield, but the Arctanians are not to be under-estimated. 
+	We believe that we have better chances to win, but then again.. any soldier believes so. Your enemy too.. 
+	
+	We're lucky having such a brave and experienced Captain. Cpt Mitros is the type of the leader that anyone respects, and relies on. He's so influential.
+	When you are in panic and doubt, cpt Mitros has the ability to give you orders in such a way, that will override your insticts and do things that you would normally refuse to do.
+	And you find yourself back on your feet fighting. Ready to sacrifice yourself. Like a war machine. Like a fighter. Like a soldier.
+	We all feel like we want to prove ourselves to him. To earn his respect. Be a part of his victories. Help him write the history. He's a hero.
+	And he's such a nice guy, friendly, modest, generous, righteous. He's irreplaceable. I hope he never dies.
+	I don't want to die either, but is my life as valuable as his ? Hey what the fuck am I thinking, this can't be normal.
+	
+	
+	We lost a lot of time travelling through some systems. We won't make it to Kappa Saliaris on time. Unless we take a shortcut.
+	It's decided. In 5 minutes we're warping to.. wait for it.. Gamma F**ing Infernis. Yeah I know. We've been hearing stories about it like forever.
+	God, I hope I'll survive this war. The stories I'll be telling..
+	
+	I gotta admit, Gamma Infernis is as creepy as it sounds. Normally we would have stayed there only 5 minutes, the minimum time needed to prepare the next warp jump.
+	But we needed one guy to get out of the ship to remove a small comet piece that jammed our hyperdrive's radar. Guess who did that. If you guessed Cpt Mitros, you're right.
+	During these agonizing 30 minutes, we all witnessed weird shit. Ships lights went randomly on/off, screechy sounds from the hull, animal screams etc.
+	Some guys even hallucinated. Maybe I did too. Not sure. While looking at the flares of Infernis sun, I swear I saw a goat's face. And a pentagram. Oh, and a school bus too
+	But maybe we were all ovewhelmed from the stories we knew. Could it be the hype making ourselves making up things ? 
+	If I ever become a millionaire, I'll make a tourist resort here. Hell of an investment lol.
+	
+	Not much time to write. Reached Saliaris. Met the Imperials. Battle in 15 mins. Gods help us
+	
+	Back alive. We won. Took captives too. Gotta rest. Change pants too.
+	
+	We had another battle in Glychie 7895 B. Great battle. Hundrends of ships. the Arctanians have fully retreated. Maybe this war is close to it's end.
+	
+	Mitros went over himself today. He took a captive and threw him to a room with a tiny hull hole. His back was sucked to the roof. For 3 minutes our ship was spraying blood like an Earth whale
+	Mitros was laughing and chanted something in Latin. He was trying to cheer us up, a reward for our brave battle. But I feel discussed. That poor Arctanian guy...
+	Today Mitros punished a poor guy that fled in the battle. He left the guy in space, wearing the upper body suit only. Said he didn't deserve to have balls.
+	Ok, Mitros is not the Captain I knew. He's so bad. in a bad way of bad. Not cool bad, just bad. Evil!
+	
+	Today cpt Mitros walked through the ship naked. He ripped off a joystick from the cockpit, some knives from the kitchen, and a grease can from the engine room. Then he grabbed a captive and took him to his cabin.
+	cpt Mitros is locked in his cabin for days now. He only left his room once to get some scalpels from the med room. I don't want to imagine what he's doing to the poor guy.
+	We saw him for the first time after 10 days. He has a pair of horns on his head and his knees bend backwards. Some medics tried to examine him. We never saw them again.
+	
+	cpt Mitros got angry with a guy that was staring at his horns. He took him to the engine room and stuck his head in the hyperdrive engine. That was totaly gross, and unjustified.
+	Plus we don't have an angine anymore. We're stucked in Glychie, with an insane captain. What could worse.
+	
+	Mitros has clearly got out of his mind. He's dangerous. Now he's killing anyone just for fun. Our crew decided to take action. A late action let me tell you.
+	Today we're gonna put him to the brig. It will be him against the whole crew. He's tough but I don't think he can take us all. Plus, we know that he has no weapons in his cabin. Except for the scalpels
+	
+	Our 'mutiny' attempt was a total disaster. Almost anyone is dead. I managed to get away while he was slaughtering the poor guys. I'm hidden in an air duct
+	I'm starving, can't stay hidden forever. I'm going out to face him. I know I don't have a chance, but nothing makes sense anyway. I don't wanna be alive anymore.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	I feel a bit weird here. It's hard to explain.. I better get done quickly with this place and get the hell out of here.
+	Wait, what's that weird guy, down there, boy he's huge.
+	
+	Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+	Oops he saw me
+	
+	Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+	Whatever you say dude. 
+	
+	Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+	Look, dude, I'm minding my own bussiness here. Why don't you do the same ?
+	
+	Socialize, Monetize, free to play with in-app purchases and DLC, tweet, share and like
+	Holy shit, he's talking pure evil. Hey could this be cpt Mitros himself ?
+	
+	
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+1914 translation by H. Rackham
+
+"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, 
+so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; 
+and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. 
+These cases are perfectly simple and easy to distinguish. 
+In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. 
+But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. 
+The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.
+	--> 
+	
+	
+</data>

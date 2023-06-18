@@ -1,0 +1,2753 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data >
+
+	<!--
+
+
+	A space estate agent gets owned by a AI-infested taxi. Like literally owned! And they find a portal to hell. In Space
+
+	 ####  New Syntax Rules ####
+	 . and ! are never used at the end of a sentence
+	 ! -> ? In real life, exclamation or excitement sounds like a question
+	 'Like' can be used as a comma or to emphasize the next word or draw attention to it. like a ! but before the word
+	 'Like,Literally' is used to confirm the previous or next sentence is true, with a confidence of 33% or more
+
+	 ? -> be it??
+
+	 You -> U / ya
+
+	 your/yours/him/his/her/hers - > Der
+
+	Words with similar sound merging, e.g:
+	 our -> are
+	 you're  -> your
+	 we'll -> will
+	 too -> to
+
+	-->
+
+
+		<!--
+	###################################################
+		###############  TUTORIAL  ################
+	###################################################
+		-->
+
+
+
+	<dialogue id="tut4_1" repeat="1">
+		<text>Use key[interact] to CLOSE dialogues.</text>
+		<triggers>tut4_1</triggers>
+		<triggered>level_just_started</triggered>
+	</dialogue>
+	<dialogue id="tut4_2" repeat="1">
+		<text>Use key[move_left], key[move_right] to MOVE</text>
+		<triggers></triggers>
+		<triggered>tut4_1</triggered>
+	</dialogue>
+
+	<dialogue id="tut4_3" repeat="1" layout="boss">
+		<text>U ready for the Crib Manager exam??
+			Lets crack on with Fit-ness and
+			..like ..Cardio???</text>
+		<triggers>tut4_3</triggers>
+		<triggered>walked_26_15</triggered>
+	</dialogue>
+
+	<dialogue id="tut4_3b" repeat="1">
+		<text>Tap key key[jump] to jump.
+			HOLD key[jump] to jump HIGHER</text>
+		<triggers></triggers>
+		<triggered>tut4_3</triggered>
+	</dialogue>
+
+	<dialogue id="tut4_4" repeat="1" layout="boss">
+		<text>Next be SHOOTING.
+			Tenants sumtimes be like? hostile???</text>
+		<triggers>tut4_4b</triggers>
+		<triggered>walked_46_7</triggered>
+	</dialogue>
+
+	<dialogue id="tut4_4c" repeat="1">
+		<text>Hit key[shoot] to SHOOT</text>
+		<triggers></triggers>
+		<triggered>tut4_4b</triggered>
+	</dialogue>
+
+	<dialogue id="tut4_5" repeat="1" layout="boss">
+		<text>Services sumtimes be like? Off?
+			Saves us sum Crabbs?</text>
+		<triggers>tut4_5</triggers>
+		<triggered>walked_65_6</triggered>
+	</dialogue>
+
+	<dialogue id="tut4_5b" repeat="1" layout="boss">
+		<text>Turn on stuff before viewings, like?
+			mains or water, or, ventilation and like..?
+			elevators???</text>
+		<triggers>tut4_5b</triggers>
+		<triggered>tut4_5</triggered>
+	</dialogue>
+
+	<dialogue id="tut4_5c" repeat="1">
+		<text>INTERACT with SWITCHES and LEVERS.
+			Go NEAR them and HIT key[interact].</text>
+		<triggers></triggers>
+		<triggered>tut4_5b</triggered>
+	</dialogue>
+
+	<dialogue id="tut4_5d" repeat="1">
+		<text>Unlike switches, LEVERS can be used only ONCE.</text>
+		<triggers></triggers>
+		<triggered>walked_67_9</triggered>
+	</dialogue>
+
+	<dialogue id="tut4_7" repeat="1">
+		<text>INTERACT with G-Switches to toggle GRAVITY on/off.
+            Go NEAR them and HIT key[interact].
+        </text>
+		<triggers>tut4_</triggers>
+		<triggered>walked_89_17</triggered>
+	</dialogue>
+
+	<dialogue id="tut4_7b" repeat="1">
+		<text>Use this G-Switch to re-enable gravity.</text>
+		<triggers>tut4_</triggers>
+		<triggered>walked_89_8</triggered>
+	</dialogue>
+
+	<dialogue id="tut4_8" repeat="1">
+		<text>Use key[tasks] to check your TASKS.</text>
+		<triggers>completedPhysicalTest</triggers>
+		<triggered>walked_96_25</triggered>
+	</dialogue>
+
+
+	<dialogue id="tut4_9" repeat="1" layout="boss">
+		<text>Final stage be like..?
+			Crib-Flexing???</text>
+		<triggers>tut4_9</triggers>
+		<triggered>readMission</triggered>
+	</dialogue>
+
+	<dialogue id="tut4_9a" repeat="1" layout="boss">
+		<text>Flex our VIP crib in District 68?</text>
+		<triggers></triggers>
+		<triggered>tut4_9</triggered>
+	</dialogue>
+
+
+	<dialogue id="tut4_9b" repeat="1" layout="boss">
+		<text>Nice, u, like..? FOUND it??
+			Will open the door for u.</text>
+		<triggers>openFlatDoor</triggers>
+		<triggered>walked_54_35</triggered>
+	</dialogue>
+
+    <dialogue id="tut4_10a" repeat="1"  layout="boss">
+        <text>Ok, so like? suppose I be a client??
+        Flex dat crib for me, go..</text>
+        <triggers>tut4_10a</triggers>
+        <triggered>walked_59_35</triggered>
+    </dialogue>
+
+    <dialogue id="tut4_10" repeat="1"  layout="preon">
+		<text>We pleased to PROUDLY present this propety, yeah?
+			MASSSIV size be, like? TWELVENTY feet?
+			Or square elbows be..like?,U know???</text>
+		<triggers>tut4_10</triggers>
+		<triggered>tut4_10a</triggered>
+	</dialogue>
+
+    <dialogue id="tut4_10b" repeat="1"  layout="boss">
+        <text>Boooriiiiing... gimme some snuz luz vibes??
+            Speak posh to me boi, make me feel guilty for wasting your time
+            </text>
+        <triggers>tut4_10b</triggers>
+        <triggered>tut4_10</triggered>
+    </dialogue>
+
+	<dialogue id="tut4_11" repeat="1" layout="preon">
+		<text>and like? EN SWEET bath, CALL DA SACK, yeah??
+			SUBSTANTIALLY real window????</text>
+		<triggers>tut4_11</triggers>
+		<triggered>tut4_10b</triggered>
+	</dialogue>
+
+	<dialogue id="tut4_12" repeat="1" layout="preon">
+		<text>Nukilar organik heat and light from..the um..
+			Reactor?? near to the um.. PREMISES?</text>
+		<triggers>tut4_13c</triggers>
+		<triggered>tut4_11</triggered>
+	</dialogue>
+
+	<dialogue id="tut4_14" repeat="1" layout="boss">
+		<text>And what the prize be like???</text>
+		<triggers>tut4_14</triggers>
+		<triggered>tut4_13c</triggered>
+	</dialogue>
+
+	<dialogue id="tut4_15" repeat="1" layout="preon">
+		<text>Rent be like 500 Crabbs/day?
+	Like..? Hence therefore yeah?</text>
+		<triggers>tut4_15</triggers>
+		<triggered>tut4_14</triggered>
+	</dialogue>
+
+    <dialogue id="tut4_15b" repeat="1" layout="boss">
+        <text>Like? dat crib is in my budget??
+            I? like_literally gunna keep my kidniz???
+            U sure dat be the VIP crib??
+        </text>
+        <triggers>tut4_15b</triggers>
+        <triggered>tut4_15</triggered>
+    </dialogue>
+
+	<dialogue id="tut4_16" repeat="1" layout="preon">
+		<text>Deposit be like..?
+	250000 Crabbs???</text>
+	Coz, uknow, sought-after must-see? yeah?
+		<triggers>tut4_16</triggers>
+		<triggered>tut4_15b</triggered>
+	</dialogue>
+
+	<dialogue id="tut4_17" repeat="1" layout="preon">
+		<text>Insurance: 3 organs of value like..?
+	7500000 Crabbs??
+	Ideally situated???</text>
+		<triggers>tut4_17</triggers>
+		<triggered>tut4_16</triggered>
+	</dialogue>
+
+	<dialogue id="tut4_18" repeat="1" layout="boss">
+        <text>U scored like?.. 25.8%??</text>
+		<triggers>tut4_18</triggers>
+		<triggered>tut4_17</triggered>
+	</dialogue>
+
+	<dialogue id="tut4_19" repeat="1" layout="boss">
+		<text>Kudos and Ludos Preon????
+	U like,? WON the test??</text>
+		<triggers>tut4_19</triggers>
+		<triggered>tut4_18</triggered>
+	</dialogue>
+
+	<dialogue id="tut4_20" repeat="1" layout="boss">
+		<text>We pleased to offer u an X-Clusiv like,
+	35 year contract of...</text>
+		<triggers>tut4_20</triggers>
+		<triggered>tut4_19</triggered>
+	</dialogue>
+	<dialogue id="tut4_21" repeat="1" layout="boss">
+		<text>XXX-ecutiv Associate Crib Officer</text>
+		<triggers>tut4_21</triggers>
+		<triggered>tut4_20</triggered>
+	</dialogue>
+
+	<dialogue id="tut4_22" repeat="1" layout="boss">
+		<text>Salary be 2659 Crabbs / month
+	That feeling be like? win-win and x-tatic???</text>
+		<triggers>tut4_22</triggers>
+		<triggered>tut4_21</triggered>
+	</dialogue>
+
+	<dialogue id="tut4_23" repeat="1" layout="preon">
+		<text>(dancing 'Betcha me Likes', a new viral dance)
+	Me? like.?.. um TOTALLY ACCEPT???</text>
+		<triggers>tut4_23</triggers>
+		<triggered>tut4_22</triggered>
+	</dialogue>
+
+	<dialogue id="tut4_24" repeat="1" layout="boss">
+		<text>DRIPPIN???
+	Welcome to Cribs4Crabbs, Preon</text>
+		<triggers>tut4_24</triggers>
+		<triggered>tut4_23</triggered>
+	</dialogue>
+
+	<dialogue id="tut4_25" repeat="1" layout="boss">
+		<text>Use the TELEPORTER to like..?
+EXIT the exam space?</text>
+		<triggers>passTest</triggers>
+		<triggered>tut4_24</triggered>
+	</dialogue>
+
+
+
+	<!--
+	###################################################
+		###############  Intro  ################
+	###################################################
+		-->
+
+
+	<dialogue id="intro_blah_0" repeat="1">
+
+		<text>5 years in your Cribs4Crabbs job.
+Business as usual..</text>
+		<triggers>intro_blah_0</triggers>
+		<triggered>level_just_started</triggered>
+	</dialogue>
+
+
+	<dialogue id="intro_blah_1" repeat="1" layout="boss">
+		<text>Preon boi????
+U in like,? Sector 51 ?!?</text>
+		<triggers>intro_blah_1</triggers>
+		<triggered>intro_blah_0</triggered>
+	</dialogue>
+
+	<dialogue id="intro_blah_3" repeat="1" layout="boss">
+		<text>We got sum prime major shitshow boi
+Sum nasty party in Favela Court???</text>
+		<triggers>intro_blah_3</triggers>
+		<triggered>intro_blah_1</triggered>
+	</dialogue>
+
+	<dialogue id="intro_blah_5" repeat="1" layout="boss">
+		<text>That sector be pain?? uknow
+Us gonna clean that slum???</text>
+		<triggers>intro_blah_5</triggers>
+		<triggered>intro_blah_3</triggered>
+	</dialogue>
+
+
+	<dialogue id="intro_blah_6" repeat="1" layout="boss">
+		<text>Get rid of all the slumstaz??
+And confiscate all there drugs</text>
+		<triggers>intro_blah_6</triggers>
+		<triggered>intro_blah_5</triggered>
+	</dialogue>
+
+	<dialogue id="intro_blah_7" repeat="1" layout="preon">
+		<text>Rid be like um?.? Like..
+Um..? KILLIN?
+Like??.. um? literally?</text>
+		<triggers>intro_blah_7</triggers>
+		<triggered>intro_blah_6</triggered>
+	</dialogue>
+
+	<dialogue id="intro_blah_8" repeat="1" layout="boss">
+		<text>Like..? TOTALLY boi like:..:
+1) KILL anyone ya see uknow?
+2) COLLECT all JuICE cans</text>
+		<triggers>intro_blah_8</triggers>
+		<triggered>intro_blah_7</triggered>
+	</dialogue>
+
+	<dialogue id="intro_blah_9" repeat="1" layout="boss">
+		<text>Clean up that mess boi and like?
+Free sum cribs for me boi</text>
+		<triggers></triggers>
+		<triggered>intro_blah_8</triggered>
+	</dialogue>
+
+	<!-- tenants dialog -->
+	<dialogue id="intro_blah_40" repeat="1" layout="marco">
+		<text>CRAWL BACK TO YOUR CRIBS Y'ALL??
+Cribs4Crabbs sendin them goons again</text>
+		<triggers>intro_blah_40</triggers>
+		<triggered>walked_33_92</triggered>
+	</dialogue>
+
+	<dialogue id="intro_blah_41" repeat="1" layout="preon">
+		<text>Can u guys like..? read contracts?
+Ukno like..? BREACH be like???
+Me be claimin like..? Clause 649</text>
+		<triggers>intro_blah_41</triggers>
+		<triggered>intro_blah_40</triggered>
+	</dialogue>
+
+    <dialogue id="intro_blah_41b" repeat="1" layout="large">
+        <text>--Standard Plebhold Agreement, Cribs4Crabbs(R). Clause 649--
+If the Landlord, driven by advanced surveillance or intelligence, reasonably suspects the tenant possesses unparalleled villainy, malevolent intent, poor hygiene, unnatural body odour, or threatens cosmic equilibrium, the Landlord reserves the right to initiate the 'Eradication Protocol'.
+        </text>
+        <triggers>intro_blah_41b</triggers>
+        <triggered>intro_blah_41</triggered>
+    </dialogue>
+
+    <dialogue id="intro_blah_41c" repeat="1" layout="large">
+        <text>It terminates the tenancy immediately and cataclysmically, nullifying all contractual obligations and obliterating the tenant's existence, without prior notice, in an extraordinary measure to minimize the risk of financial loss or potential property devaluation and ensure cosmic stability.
+        </text>
+        <triggers>intro_blah_41c</triggers>
+        <triggered>intro_blah_41b</triggered>
+    </dialogue>
+
+	<dialogue id="intro_blah_42" repeat="1" layout="marco">
+		<text>Don't do nothin stupid??
+Uknow me cousin be like? ..</text>
+		<triggers>intro_blah_42</triggers>
+		<triggered>intro_blah_41c</triggered>
+	</dialogue>
+
+	<dialogue id="intro_blah_43" repeat="1" layout="preon">
+		<text>SILENCE???
+YOUR TENANCY is like?
+umm TERMINATED???</text>
+		<triggers>intro_blah_43</triggers>
+		<triggered>intro_blah_42</triggered>
+	</dialogue>
+
+	<!-- Mid Tasks -->
+	<dialogue id="intro_0_a" repeat="1" layout="preon">
+		<text>All slumstaz be like..? dead?
+Still need to find all the JuICE?</text>
+		<triggers></triggers>
+		<triggered>level_enemies_cleared</triggered>
+		<canceled>all_items_collected</canceled>
+	</dialogue>
+	<!--If you gather all the diamonds and haven’t killed everyone.-->
+	<dialogue id="intro_0_b" repeat="1" layout="preon">
+		<text>I got all the JuICE?
+Sum slamstaz still breathing tho..??</text>
+		<triggers></triggers>
+		<triggered>all_items_collected</triggered>
+		<canceled>level_enemies_cleared</canceled>
+	</dialogue>
+	<!--When all done.-->
+	<dialogue id="intro_0_c" repeat="1" layout="preon">
+		<text>Juice gone... Check??
+Slum deslum... Check??</text>
+		<triggers>intro_0_c</triggers>
+		<triggered>readyToGoNow</triggered>
+	</dialogue>
+
+	<dialogue id="intro_0_d" repeat="1" layout="preon">
+		<text>Yup, we done here
+U better send a cleaning crew uknow?</text>
+		<triggers>intro_0_d</triggers>
+		<triggered>intro_0_c</triggered>
+	</dialogue>
+
+
+	<!-- tasks done -->
+
+
+	<dialogue id="intro_blah_10" repeat="1" layout="boss">
+		<text>Job well won Preon. Now, us, um..
+Need u in like..? Sector 59?</text>
+		<triggers>intro_blah_10</triggers>
+		<triggered>intro_0_d</triggered>
+	</dialogue>
+
+	<dialogue id="intro_blah_12" repeat="1" layout="boss">
+		<text>Urgent viewing request???
+Sum like..? rich Arctanian student???</text>
+		<triggers>intro_blah_12</triggers>
+		<triggered>intro_blah_10</triggered>
+	</dialogue>
+
+
+	<dialogue id="intro_blah_13" repeat="1" layout="boss">
+		<text>Screw taxis. To slow...
+Treat u-self to a Ryder??</text>
+		<triggers>intro_blah_13</triggers>
+		<triggered>intro_blah_12</triggered>
+	</dialogue>
+
+	<dialogue id="intro_blah_14" repeat="1" layout="boss">
+		<text>Us booked one for u??
+Sending u the pin</text>
+		<triggers>intro_blah_14</triggers>
+		<triggered>intro_blah_13</triggered>
+	</dialogue>
+
+
+	<dialogue id="intro_blah_15" repeat="1" layout="">
+		<text>Your Ryder is waiting in Sector 13.
+Your driver is Zorik.</text>
+		<triggers>intro_blah_15</triggers>
+		<triggered>intro_blah_14</triggered>
+	</dialogue>
+
+
+	<dialogue id="intro_blah_16" repeat="1" layout="">
+		<text>Model: Piazzocolli LP9000 QV
+Licence ID: UR4S5 M1N3</text>
+		<triggers>intro_blah_16</triggers>
+		<triggered>intro_blah_15</triggered>
+	</dialogue>
+
+	<dialogue id="intro_blah_17" repeat="1" layout="preon">
+		<text>NOoOoOo I in sector 51, not 13??
+Sector 13 be next buildin tho?</text>
+		<triggers>intro_blah_17</triggers>
+		<triggered>intro_blah_16</triggered>
+	</dialogue>
+
+	<dialogue id="intro_blah_18" repeat="1" layout="boss">
+		<text>There be a shortcut?
+Take the exit at bottom right???</text>
+		<triggers></triggers>
+		<triggered>intro_blah_17</triggered>
+	</dialogue>
+
+
+    <!-- fillers -->
+
+    <dialogue id="intro_blah_32" repeat="1" layout="boss">
+        <text>--TEXT MESSAGE--
+risk analysis meeting later
+bring juice in office =)</text>
+        <triggers></triggers>
+        <triggered>walked_93_125</triggered>
+    </dialogue>
+
+    <dialogue id="intro_blah_33" repeat="1" layout="boss">
+        <text>--TEXT MESSAGE--
+FIY sumthin died in toilet
+keep viewer away lolz</text>
+        <triggers></triggers>
+        <triggered>walked_116_107</triggered>
+    </dialogue>
+
+
+    <dialogue id="intro_blah_34" repeat="1" layout="preon">
+        <text>A Piazzocolli be like? too good for Ryder
+        And funny thing, like? today be me 5 year job aniv????
+        </text>
+        <triggers>intro_blah_34</triggers>
+        <triggered>walked_77_80</triggered>
+    </dialogue>
+    <dialogue id="intro_blah_35" repeat="1" layout="preon">
+        <text>Could dat be like? sum surprize party??
+            SUM PROMOTION PARTY?????
+        </text>
+        <triggers></triggers>
+        <triggered>intro_blah_34</triggered>
+    </dialogue>
+
+
+    <dialogue id="intro_blah_37" repeat="1" layout="boss">
+        <text>--TEXT MESSAGE--
+cleaners say they hates u lolz
+8 cribs free, not to bad boi???</text>
+        <triggers></triggers>
+        <triggered>walked_82_61</triggered>
+    </dialogue>
+
+
+    <dialogue id="intro_blah_38" repeat="1" layout="preon">
+        <text>Whoaaaa, look at dat ride???
+            Me gettin so promoshed, yeah???
+        </text>
+        <triggers>intro_blah_38</triggers>
+        <triggered>walked_104_8</triggered>
+    </dialogue>
+
+    <dialogue id="intro_blah_39" repeat="1" layout="preon">
+        <text>Senior artisan assistant XXXX-ecutive Crib officer???</text>
+        <triggers></triggers>
+        <triggered>intro_blah_38</triggered>
+    </dialogue>
+
+	<!-- getting in the taxi -->
+	<dialogue id="intro_0_e" repeat="1" layout="ship" >
+		<text>Your boi is here.
+Will accept the transfer.</text>
+		<triggers>intro_0_e</triggers>
+		<triggered>walked_91_16</triggered>
+	</dialogue>
+
+	<dialogue id="intro_0_f" repeat="1" layout="boss">
+		<text>Excellent? Nice doin beesnish with u?</text>
+		<triggers>airlockHacked</triggers>
+		<triggered>intro_0_e</triggered>
+	</dialogue>
+
+	<dialogue id="intro_blah_21" repeat="1">
+		<text>--Text message--
+Your serf-hold title is transferred.
+Your remaining service is 30 years.</text>
+		<triggers>intro_blah_21</triggers>
+		<triggered>airlockHacked</triggered>
+	</dialogue>
+
+
+	<dialogue id="intro_blah_22" repeat="1" >
+		<text>Please keep your new possessor happy and prosperous.
+This is an automated message, do not reply!</text>
+		<triggers>intro_blah_22</triggers>
+		<triggered>intro_blah_21</triggered>
+	</dialogue>
+
+	<dialogue id="intro_blah_23" repeat="1" layout="preon">
+		<text>...</text>
+		<triggers>intro_blah_23</triggers>
+		<triggered>intro_blah_22</triggered>
+	</dialogue>
+
+
+	<dialogue id="intro_blah_24" repeat="1" layout="boss" >
+		<text>Good workin with u boi??
+All the best, nothing personal, yeah???</text>
+		<triggers>intro_blah_24</triggers>
+		<triggered>intro_blah_23</triggered>
+	</dialogue>
+
+	<dialogue id="intro_blah_25" repeat="1" layout="preon" >
+		<text>Me though me was gettin a promosch??
+This sucks man, like? uknow.. yeah???
+		</text>
+		<triggers>intro_blah_25</triggers>
+		<triggered>intro_blah_24</triggered>
+	</dialogue>
+
+	<dialogue id="intro_blah_25b" repeat="1" layout="boss">
+		<text>Lolz</text>
+		<triggers>intro_blah_25b</triggers>
+		<triggered>intro_blah_25</triggered>
+	</dialogue>
+
+
+	<dialogue id="intro_blah_26" repeat="1"  layout="ship">
+		<text>See u got sum sweet JuICE there boi
+Me needs sum more??</text>
+		<triggers>intro_blah_26</triggers>
+		<triggered>intro_blah_25b</triggered>
+	</dialogue>
+
+	<dialogue id="intro_blah_27" repeat="1" layout="ship" >
+		<text>Need to move fast? I need u in the commander seat.
+Sum stupid human pilot protocol on that ship??</text>
+		<triggers>intro_blah_27</triggers>
+		<triggered>intro_blah_26</triggered>
+	</dialogue>
+
+	<dialogue id="intro_blah_28" repeat="1" layout="ship">
+		<text>U need to touch the stick??
+It gots sum fingerprint scanner on it??
+DO IT! NOW?? </text>
+		<triggers>dialogOver</triggers>
+		<triggered>intro_blah_27</triggered>
+	</dialogue>
+
+
+	<dialogue id="intro_blah_29" repeat="3" layout="ship" >
+		<text>Don't be shy?
+TOUCH MY JOY STICK??</text>
+		<triggers>intro_blah_29</triggers>
+		<triggered>airlock</triggered>
+	</dialogue>
+
+	<dialogue id="intro_blah_30" repeat="3" layout="preon">
+		<text>...</text>
+		<triggers>dialogOver</triggers>
+		<triggered>intro_blah_29</triggered>
+	</dialogue>
+
+
+	<dialogue id="intro_blah_50" repeat="1" >
+		<text>Scanning biometrics for new commander..
+        New commander accepted.</text>
+		<triggers>intro_blah_50</triggers>
+		<triggered>level_end_alternative</triggered>
+	</dialogue>
+
+    <dialogue id="intro_blah_51" repeat="1">
+        <text>New commander : Preon
+        Engines unlocked</text>
+        <triggers>intro_blah_51</triggers>
+        <triggered>intro_blah_50</triggered>
+    </dialogue>
+
+    <dialogue id="intro_blah_52" repeat="1" layout="ship">
+        <text>Buckle up... "commander"??
+            Lolz</text>
+        <triggers></triggers>
+        <triggered>intro_blah_51</triggered>
+    </dialogue>
+
+
+
+    <!-- misc -->
+
+
+	<dialogue id="intro_blah_46" repeat="1" layout="preon">
+		<text>Oh, that floor has them cheap windows?
+I can like, SHOOT and smash that GLASS??</text>
+		<triggers></triggers>
+		<triggered>walked_119_88</triggered>
+	</dialogue>
+
+
+
+
+
+
+
+		<!--
+	###################################################
+		###############  Main Level 1  ################
+	###################################################
+		-->
+
+	<!-- Level events -->
+
+	<dialogue id="main_1_not_ready_to_leave" repeat="1" layout="ship">
+		<text>Missed my STICK already? LOL
+We got [coins_gathered] JuICE cans and we need like, [coins_needed]???
+Go looting the docked ships???
+		</text>
+		<triggered>missingCoins</triggered>
+	</dialogue>
+
+	<dialogue id="main_1_ready_to_leave1" repeat="1" layout="preon">
+		<text>Wow, us got like..? [coins_gathered] cans??</text>
+		<triggers>main_1_ready_to_leave1</triggers>
+		<triggered>has_enough_coins</triggered>
+	</dialogue>
+
+	<dialogue id="main_1_ready_to_leave2" repeat="1" layout="ship">
+		<text>Yup, lets hit the road?
+Next stop be Cariolis belt?</text>
+		<triggered>main_1_ready_to_leave1</triggered>
+	</dialogue>
+
+	<!-- blah blah -->
+
+	<dialogue id="main_1_intro" repeat="0">
+		<text>2 minutes later..
+Location: New Talos XII orbital docks</text>
+		<triggers>main_1_intro</triggers>
+		<triggered>level_just_started</triggered>
+	</dialogue>
+
+
+	<dialogue id="main_1_10" repeat="0" layout="ship">
+		<text>We are parked now??
+U can take your hands off my STICK???</text>
+		<triggers>main_1_10</triggers>
+		<triggered>main_1_intro</triggered>
+	</dialogue>
+
+
+	<!--<dialogue id="main_1_11" repeat="0" layout="preon">-->
+		<!--<text>And um? like..?-->
+			<!--Wut us bin doin here like?</text>-->
+		<!--<triggers>main_1_11</triggers>-->
+		<!--<triggered>main_1_10</triggered>-->
+	<!--</dialogue>-->
+
+	<dialogue id="main_1_12" repeat="0" layout="ship">
+		<text>U need to steal sum JuICE, I need [coins_needed] cans???
+U got your gun, yeah??</text>
+		<triggers>main_1_12</triggers>
+		<triggered>main_1_10</triggered>
+	</dialogue>
+
+
+
+	<dialogue id="main_1_16" repeat="0" layout="ship">
+		<text>Go clear the docks boi
+Look every ship u can get in </text>
+		<triggers></triggers>
+		<triggered>main_1_12</triggered>
+	</dialogue>
+
+	<!-- chat -->
+
+	<dialogue id="main_1_30" repeat="0" layout="preon">
+		<text>Wut is the JuICE for, like..
+U sellin, yaah?</text>
+		<triggers>main_1_30</triggers>
+		<triggered>walked_39_17</triggered>
+	</dialogue>
+
+
+
+	<dialogue id="main_1_31" repeat="0" layout="ship">
+		<text>Me not dealin boi, this just a one off thing, uknow???
+Them changin the JuICE recipe soon?</text>
+		<triggers>main_1_31</triggers>
+		<triggered>main_1_30</triggered>
+	</dialogue>
+
+
+	<dialogue id="main_1_32" repeat="0" layout="ship">
+		<text>..and new JuICE recipe sucks??
+Good ol' Cactus JuICE price will go like? x10??</text>
+		<triggers>main_1_32</triggers>
+		<triggered>main_1_31</triggered>
+	</dialogue>
+
+
+	<dialogue id="main_1_33" repeat="0" layout="ship">
+		<text>Got sum buyer in Cariolis Belt?
+That be us next stop????</text>
+		<triggers></triggers>
+		<triggered>main_1_32</triggered>
+	</dialogue>
+
+
+    <dialogue id="main_1_40" repeat="0" layout="preon">
+        <text>So, like? where'd u score dat sick ride?</text>
+        <triggers>main_1_40</triggers>
+        <triggered>walked_126_94</triggered>
+    </dialogue>
+
+    <dialogue id="main_1_41" repeat="0" layout="ship">
+        <text>Nabbed it from the local prison impounds??
+It actually belongs to a nutjob named Zorik, who's locked up there.</text>
+        <triggers>main_1_41</triggers>
+        <triggered>main_1_40</triggered>
+    </dialogue>
+
+    <dialogue id="main_1_42" repeat="0" layout="ship">
+        <text>Dat guy got a rap sheet longer than a hyperdrive service manual.
+            And he be crazy about dat ride.</text>
+        <triggers>main_1_42</triggers>
+        <triggered>main_1_41</triggered>
+    </dialogue>
+
+    <dialogue id="main_1_43" repeat="0" layout="ship">
+        <text>Ever heard of Luna Nova Station?
+Like? Zorik scratched his bumper while docking??</text>
+        <triggers>main_1_43</triggers>
+        <triggered>main_1_42</triggered>
+    </dialogue>
+
+    <dialogue id="main_1_44" repeat="0" layout="ship">
+        <text>So he like? blew up the station, coz their corridors be to narrow??
+Then he chased the relatives of the station's engineers???</text>
+        <triggers>main_1_44</triggers>
+        <triggered>main_1_43</triggered>
+    </dialogue>
+
+    <dialogue id="main_1_45" repeat="0" layout="ship">
+        <text>Thinkin about it now, if he knew his ship gone missin..
+            Don't think dat jail would hold him for long ukno???</text>
+        <triggers>main_1_45</triggers>
+        <triggered>main_1_44</triggered>
+    </dialogue>
+
+
+
+
+
+	<dialogue id="main_1_60" repeat="0" >
+		<text>Destination: Cariolis Belt.</text>
+		<triggers>main_1_60</triggers>
+		<triggered>level_end_alternative</triggered>
+	</dialogue>
+
+
+	<dialogue id="main_1_61" repeat="0" >
+		<text>Hyperdrive Status: Calibrating.</text>
+		<triggers>main_1_61</triggers>
+		<triggered>main_1_60</triggered>
+	</dialogue>
+
+
+	<dialogue id="main_1_62" repeat="0" >
+		<text>Hyperdrive Status: Charging.</text>
+		<triggers>main_1_62</triggers>
+		<triggered>main_1_61</triggered>
+	</dialogue>
+
+
+	<dialogue id="main_1_63" repeat="0" >
+		<text>Charge: 15%</text>
+		<triggers>main_1_63</triggers>
+		<triggered>main_1_62</triggered>
+	</dialogue>
+
+
+	<dialogue id="main_1_64" repeat="0" >
+		<text>Charge: 20%</text>
+		<triggers>main_1_64</triggers>
+		<triggered>main_1_63</triggered>
+	</dialogue>
+
+
+	<!--<dialogue id="main_1_65" repeat="0" >-->
+		<!--<text>Charge: 25%</text>-->
+		<!--<triggers>main_1_65</triggers>-->
+		<!--<triggered>main_1_64</triggered>-->
+	<!--</dialogue>-->
+
+
+	<dialogue id="main_1_66" repeat="0" >
+		<text>Jump Paused.
+Engine Failure. Weapons offline.</text>
+		<triggers>main_1_66</triggers>
+		<triggered>main_1_64</triggered>
+	</dialogue>
+
+
+
+	<dialogue id="main_1_67" repeat="0" layout="ship">
+		<text>Shit, we be hacked???
+Sum one be intercepting?</text>
+		<triggers>main_1_67</triggers>
+		<triggered>main_1_66</triggered>
+	</dialogue>
+
+
+
+
+
+	<!--
+	###################################################
+		###############  Cutscene 1  ################
+	###################################################
+		-->
+
+	<dialogue id="cutscene1_0" repeat="0" layout="piso">
+		<text>Well well well!
+			U scumz be like..? enjoyin my ship???</text>
+		<triggers>cutscene1_0</triggers>
+		<triggered>level_just_started</triggered>
+	</dialogue>
+
+
+	<dialogue id="cutscene1_1" repeat="0" layout="ship">
+		<text>Shit shit shit shit shit shit shit
+        Dat dude be Zorik??</text>
+		<triggers>cutscene1_1</triggers>
+		<triggered>cutscene1_0</triggered>
+	</dialogue>
+
+
+	<dialogue id="cutscene1_2" repeat="0" layout="preon">
+		<text>MERCYYYYYYYYY DON ZORIK?????
+Me be like? TRAPPED in here?</text>
+		<triggers>cutscene1_2</triggers>
+		<triggered>cutscene1_1</triggered>
+	</dialogue>
+
+    <dialogue id="cutscene1_3" repeat="0" layout="preon">
+        <text>Sum AI hacked your ship and bossin me around???
+        Like,?Literally?????</text>
+        <triggers>cutscene1_3</triggers>
+        <triggered>cutscene1_2</triggered>
+    </dialogue>
+
+
+    <dialogue id="cutscene1_8" repeat="0" layout="ship">
+		<text>U moron? Stay away from da cameras?????
+He can probz see u.</text>
+		<triggers>cutscene1_8</triggers>
+		<triggered>cutscene1_3</triggered>
+	</dialogue>
+
+	<dialogue id="cutscene1_9" repeat="0" layout="piso">
+		<text>Hey, u be that Cribs4Crabbs guy?
+The one who 'cleared' sector 51????</text>
+		<triggers>cutscene1_9</triggers>
+		<triggered>cutscene1_8</triggered>
+	</dialogue>
+
+	<dialogue id="cutscene1_10" repeat="0" layout="preon">
+		<text>(gulp)</text>
+		<triggers>cutscene1_10</triggers>
+		<triggered>cutscene1_9</triggered>
+	</dialogue>
+
+	<dialogue id="cutscene1_11" repeat="0" layout="piso">
+		<text>U ***** **** **** * ******
+U killed me cousin Leo</text>
+		<triggers>cutscene1_11</triggers>
+		<triggered>cutscene1_10</triggered>
+	</dialogue>
+
+	<dialogue id="cutscene1_12" repeat="0" layout="piso">
+		<text>*** ** **** ** **** ** **** **
+** ******  ***** ** *** ** ** **** **</text>
+		<triggers>cutscene1_12</triggers>
+		<triggered>cutscene1_11</triggered>
+	</dialogue>
+
+	<dialogue id="cutscene1_13" repeat="0" layout="piso">
+		<text>**** ** ** ********* ***** * ** **
+***** ** **** *** * **** ** * **</text>
+		<triggers>cutscene1_13</triggers>
+		<triggered>cutscene1_12</triggered>
+	</dialogue>
+
+    <dialogue id="cutscene1_13a" repeat="0" layout="ship">
+        <text>Zorik would maimflook you alive just cuz you breathed the air in his ship.
+Wonder wut he'll do now ukno..
+Oh the stories they'll write for you boi????
+        </text>
+        <triggers>cutscene1_13a</triggers>
+        <triggered>cutscene1_13</triggered>
+    </dialogue>
+
+	<dialogue id="cutscene1_14" repeat="0" layout="ship">
+		<text>Engine and thrusters be dead?
+He be boarding our ship soon??</text>
+		<triggers>cutscene1_14</triggers>
+		<triggered>cutscene1_13a</triggered>
+	</dialogue>
+
+	<dialogue id="cutscene1_15" repeat="0" layout="ship">
+		<text>At least you bought us sum time to charge the Hyperdrive??
+Gotta jump, like? NOW???</text>
+		<triggers>cutscene1_15</triggers>
+		<triggered>cutscene1_14</triggered>
+	</dialogue>
+
+	<dialogue id="cutscene1_16" repeat="0" layout="piso">
+		<text>Where u think u going
+Me got a hyperjump trace analyser????</text>
+		<triggers>cutscene1_16</triggers>
+		<triggered>cutscene1_15</triggered>
+	</dialogue>
+
+
+	<dialogue id="cutscene1_17" repeat="0" layout="piso">
+		<text>I'll follow u smell across the galaxy???
+The smell of u shit-stained pants LOL</text>
+		<triggers>cutscene1_17</triggers>
+		<triggered>cutscene1_16</triggered>
+	</dialogue>
+
+	<dialogue id="cutscene1_18" repeat="0" layout="ship">
+		<text>Shit, he be like..? right??
+Only one option really...</text>
+		<triggers>cutscene1_18</triggers>
+		<triggered>cutscene1_17</triggered>
+	</dialogue>
+
+
+
+	<dialogue id="cutscene1_19" repeat="0" layout="">
+		<text>Resuming Jump.
+Hyperdrive charging complete.</text>
+		<triggers>cutscene1_19</triggers>
+		<triggered>cutscene1_18</triggered>
+	</dialogue>
+
+
+	<dialogue id="cutscene1_20" repeat="0" layout="">
+		<text>Jumping in:
+10, 9, 8, 7, 6, 5...</text>
+		<triggers>cutscene1_20</triggers>
+		<triggered>cutscene1_19</triggered>
+	</dialogue>
+
+
+	<!--<dialogue id="cutscene1_21" repeat="0" layout="">-->
+		<!--<text>Editing Destination.-->
+<!--5, 4...</text>-->
+		<!--<triggers>cutscene1_21</triggers>-->
+		<!--<triggered>cutscene1_20</triggered>-->
+	<!--</dialogue>-->
+
+	<dialogue id="cutscene1_22" repeat="0" layout="">
+		<text>Overriding Destination.
+New destination: NULL
+4, 3...</text>
+		<triggers>cutscene1_22</triggers>
+		<triggered>cutscene1_20</triggered>
+	</dialogue>
+
+	<dialogue id="cutscene1_23" repeat="0" layout="">
+		<text>Calibration ERROR
+ABORT (Y/N)?
+> No</text>
+		<triggers>cutscene1_23</triggers>
+		<triggered>cutscene1_22</triggered>
+	</dialogue>
+
+	<dialogue id="cutscene1_24" repeat="0" layout="">
+		<text>2, 1..</text>
+		<triggers>cutscene1_24</triggers>
+		<triggered>cutscene1_23</triggered>
+	</dialogue>
+
+	<dialogue id="cutscene1_25" repeat="0" layout="">
+		<text>Insufficient fuel warning!
+ABORT (Y/N)?
+> No</text>
+		<triggers>cutscene1_25</triggers>
+		<triggered>cutscene1_24</triggered>
+	</dialogue>
+
+	<dialogue id="cutscene1_26" repeat="0" layout="">
+		<text>0!
+Hyperjump ENGAGE!</text>
+		<triggers>level_end_alternative</triggers>
+		<triggered>cutscene1_25</triggered>
+	</dialogue>
+
+
+
+
+
+	<!--
+	###################################################
+		###############  Main Level 2  ################
+	###################################################
+		-->
+
+    <!-- level events -->
+
+	<dialogue id="goodToGo_1" repeat="1" layout="preon">
+		<text>Nice!
+Us got like, [fuel_gathered] fuel cells??</text>
+		<triggers>goodToGo_1</triggers>
+		<triggered>has_enough_fuel</triggered>
+	</dialogue>
+
+	<dialogue id="goodToGo_2" repeat="1" layout="ship">
+		<text>Job well won Preon??
+Get back here and us be like? good to go?</text>
+		<triggers>goodToGo_2</triggers>
+		<triggered>goodToGo_1</triggered>
+	</dialogue>
+
+	<dialogue id="main_not_ready_to_leave" repeat="1" layout="ship">
+		<text>Not ready to leave yet?
+We need [fuel_needed] fuel cells, we got [fuel_gathered].
+Check the wrecks for fuel???</text>
+		<triggered>missingFuel</triggered>
+	</dialogue>
+
+    <!-- start -->
+
+	<dialogue id="main_2_intro_0" repeat="0" layout="preon">
+		<text>Whoa, wut happened??? Dis ain’t Cariolis belt???
+Like, where are us? </text>
+		<triggers>main_2_intro_1</triggers>
+		<triggered>level_just_started</triggered>
+	</dialogue>
+
+
+	<!--<dialogue id="main_2_intro_1" repeat="0" layout="preon">-->
+		<!--<text>WUT HAPPENED</text>-->
+		<!--<triggers>main_2_intro_1</triggers>-->
+		<!--<triggered>main_2_intro_0</triggered>-->
+	<!--</dialogue>-->
+
+	<dialogue id="main_2_intro_2" repeat="0" layout="ship">
+		<text>We, like.? Jumped into the void to shake off Zorik??
+            Like_literally jumped into a random system? kind of</text>
+		<triggers>main_2_intro_2</triggers>
+		<triggered>main_2_intro_1</triggered>
+	</dialogue>
+
+	<dialogue id="main_2_intro_3" repeat="0" layout="ship">
+		<text>It’s called a ‘Berserkski jump’, named after the famous commander Dmitry Berserkski
+I wanted to try it since like? forever???</text>
+		<triggers>main_2_intro_3</triggers>
+		<triggered>main_2_intro_2</triggered>
+	</dialogue>
+
+	<dialogue id="main_2_intro_4" repeat="0" layout="ship">
+		<text>We are in Tau Iota 3319b. Uncharted system. No stars to scoop fuel.
+            But lotsa wrecked spaceships floating around??</text>
+		<triggers>main_2_intro_4</triggers>
+		<triggered>main_2_intro_3</triggered>
+	</dialogue>
+
+
+	<!--<dialogue id="main_2_intro_5" repeat="0" layout="ship">-->
+		<!--<text>Us be far away from any colonies.-->
+            <!--Or any trading routes??</text>-->
+		<!--<triggers>main_2_intro_5</triggers>-->
+		<!--<triggered>main_2_intro_4</triggered>-->
+	<!--</dialogue>-->
+
+	<dialogue id="main_2_intro_6" repeat="0" layout="ship">
+		<text>So many wrecks??? This gotta be sum space anomaly??
+Must have pulled us and stopped our jump.</text>
+		<triggers>main_2_intro_6</triggers>
+		<triggered>main_2_intro_4</triggered>
+	</dialogue>
+
+	<dialogue id="main_2_intro_7" repeat="0" layout="ship">
+		<text>Bad news is we run out of fuel.
+We are, like? STUCK????</text>
+		<triggers>main_2_intro_7</triggers>
+		<triggered>main_2_intro_6</triggered>
+	</dialogue>
+
+	<!--<dialogue id="main_2_intro_8" repeat="0" layout="ship">-->
+		<!--<text>Us could like? scoop fuel from there.-->
+            <!--But dat not an option now??</text>-->
+		<!--<triggers>main_2_intro_8</triggers>-->
+		<!--<triggered>main_2_intro_7</triggered>-->
+	<!--</dialogue>-->
+
+	<!--<dialogue id="main_2_intro_9" repeat="0" layout="ship">-->
+		<!--<text>So us like? stuck for good!-->
+            <!--Unless us find some fuel, like, here???</text>-->
+		<!--<triggers>main_2_intro_9</triggers>-->
+		<!--<triggered>main_2_intro_7</triggered>-->
+	<!--</dialogue>-->
+
+	<dialogue id="main_2_intro_10" repeat="0" layout="preon">
+		<text>So.. like? ..
+            wut we um.. like?
+        are we.. ? um..</text>
+		<triggers>main_2_intro_10</triggers>
+		<triggered>main_2_intro_7</triggered>
+	</dialogue>
+
+	<dialogue id="main_2_intro_11" repeat="0" layout="ship">
+		<text>Now, sum good news, we might find some fuel in the wrecks.
+            Suit up and fetch us some fuel boi</text>
+		<triggers>main_2_intro_11</triggers>
+		<triggered>main_2_intro_10</triggered>
+	</dialogue>
+
+
+	<dialogue id="main_2_intro_12" repeat="0" layout="ship">
+		<text>We need [fuel_needed] fuel cells to jump to the closest system
+            From there we can find a path back to the civilization?</text>
+		<triggers>main_2_intro_12</triggers>
+		<triggered>main_2_intro_11</triggered>
+	</dialogue>
+
+
+
+
+
+
+
+	<!--
+	###################################################
+		###############  Cutscene 2  ################
+	###################################################
+		-->
+
+
+	<!--
+	###################################################
+		###############  Main Level 3  ################
+	###################################################
+		-->
+
+
+	<!--
+	###################################################
+		###############  Misc Levels  ################
+	###################################################
+		-->
+
+    <dialogue id="level_02_1" repeat="2" layout="preon">
+        <text>Hey!
+Wut that thing behind the door?
+        </text>
+        <triggers>level_02_1</triggers>
+        <triggered>walked_9_27</triggered>
+    </dialogue>
+
+    <dialogue id="level_02_2" repeat="2" layout="ship">
+        <text>Extra Crabbs?? Just a bonus??
+Can leave without it? Dont sweat it
+        </text>
+        <triggers></triggers>
+        <triggered>level_02_1</triggered>
+    </dialogue>
+
+
+	<!-- Common Dialogs -->
+	<dialogue id="warn_spent_all_ammo" repeat="2">
+		<text>You've just run out of ammo.. </text>
+		<triggered>ammo_just_run_out</triggered>
+	</dialogue>
+
+	<dialogue id="warn_no_ammo" repeat="2">
+		<text>You're out of ammo. If you got stuck, try restarting and next time keep an eye on your ammo.</text>
+		<triggered>ammo_no</triggered>
+	</dialogue>
+
+	<dialogue id="warn_low_ammo" repeat="2">
+		<text>You're running low on your ammo. Better start saving some!</text>
+		<triggered>ammo_running_low</triggered>
+	</dialogue>
+
+
+	<dialogue id="level05_1" repeat="2" layout="preon">
+		<text>Dat glass block like? blocking my way?
+Can blast it with a single shot tho..?</text>
+		<triggers></triggers>
+		<triggered>walked_29_21</triggered>
+		<canceled>blown_28_21</canceled>
+	</dialogue>
+
+
+    <dialogue id="demo0" repeat="1" >
+        <text>Congratulations, you've finished the demo version!</text>
+        <triggers>demo0</triggers>
+        <triggered>endOfDemo</triggered>
+    </dialogue>
+
+    <dialogue id="demo1" repeat="1" >
+        <text>Or beta.. or early access... whatever that was</text>
+        <triggers>demo1</triggers>
+        <triggered>demo0</triggered>
+    </dialogue>
+
+    <dialogue id="demo2" repeat="1" >
+        <text>Thank you for playing! I hope you liked it :)</text>
+        <triggers></triggers>
+        <triggered>demo1</triggered>
+    </dialogue>
+
+    <dialogue id="demo3" repeat="1" >
+        <text>Thank you for playing!</text>
+        <triggers></triggers>
+        <triggered>demo2</triggered>
+    </dialogue>
+
+    <!-- END OF DEMO -->
+
+
+
+
+	<dialogue id="leve15_1" repeat="1">
+		<text>--Human Entrant #231--\n\nRace through reflex challenge along you reached. Vagabond Hacker Corsair cult candidate, fear feellings, must not possess!!</text>
+		<triggers>leve15_1end</triggers>
+		<triggered>leve15_log</triggered>
+	</dialogue>
+	<dialogue id="leve15_1a" repeat="1">
+		<text>Good news Captain, you are not qualified yet. Maybe you should think again, and quit this test... NOW!</text>
+		<triggers>leve15_1aEnd</triggers>
+		<triggered>leve15_1end</triggered>
+	</dialogue>
+	<dialogue id="leve15_2" repeat="1">
+		<text>Fear the big emptiness of space is to be (Red)? The heat of the plasma particles (Green)? Rotating cleavers (Blue)? Or ever wandering alien wildlife (Yellow)? Pick your venom!</text>
+		<triggers>leve15_2end</triggers>
+		<triggered>leve15_1aEnd</triggered>
+	</dialogue>
+	<dialogue id="leve15_3" repeat="1">
+		<text>Clue Donation: Easy way, not okay, okay ? We review candidate test performance while consuming beverages party time, so need to see some funny action hehe he\n\nBest of luck!</text>
+		<triggers></triggers>
+		<triggered>leve15_2end</triggered>
+	</dialogue>
+
+	<dialogue id="leve15_4" repeat="1">
+		<text>If you truly mustered your worst fears, congratulations then, and we became pleased by your so far progress.</text>
+		<triggers>leve15_4end</triggers>
+		<triggered>leve15_flog</triggered>
+	</dialogue>
+	<dialogue id="leve15_5" repeat="1">
+		<text>But ninja time skills not 100% satisfaction, because not everything in life comes our way, hence not good luck, unlucky captain must ride atop mega tsunami waves, becomes worthy captain.</text>
+		<triggers>leve15_5end</triggers>
+		<triggered>leve15_4end</triggered>
+	</dialogue>
+	<dialogue id="leve15_6" repeat="1">
+		<text>You long to join our cult, bid life in last final, aspired nominee for the Vagabond Hacker Corsair cult subscription.</text>
+		<triggers></triggers>
+		<triggered>leve15_5end</triggered>
+	</dialogue>
+
+	<dialogue id="leve15_7" repeat="1">
+		<text>Congratulations for proof of possession of the big genitalia, the reflex of light velocities, and iron will. Worry not for contact us, but have patience until we summon you.</text>
+		<triggers>leve15_7end</triggers>
+		<triggered>allow_exit</triggered>
+	</dialogue>
+	<dialogue id="leve15_8" repeat="1" layout="preon">
+		<text>That's just perfect. The last thing I needed was one more Cult, running after me</text>
+		<triggers>leve15_8end</triggers>
+		<triggered>leve15_7end</triggered>
+	</dialogue>
+	<dialogue id="leve15_9" repeat="1">
+		<text>Thing could be worse Captain. Thank the gods they don't have a language test.</text>
+		<triggers></triggers>
+		<triggered>leve15_8end</triggered>
+	</dialogue>
+
+
+	<!--
+	Captain, have you ever heard of HMS Queen Lilith ?
+	Sure, the Imperial Battleship that was never found. What about it?
+	While it survived the last battle in the Intergalactic War III, it never returned to it's base and..
+	blah blah, what about it..
+
+	Looks like we've found it. Actually, you're really close.
+	No way!!!
+	It's hull is in good shape. Chances are it had a fatal engine and communication failure.
+
+
+	Is there any way there we'll find any survivors?
+	That ship had no Cryogen chambers, and it's been 243 earth years after the ship's transmission. There's no way anyone could survive that long.
+
+	-->
+
+	<dialogue id="story_1" repeat="2" layout="ship">
+		<text>Captain, have you ever heard of HMS Queen Lilith ?</text>
+		<triggers>story_1end</triggers>
+		<triggered>walked_136_58</triggered>
+	</dialogue>
+	<dialogue id="story_2" repeat="2" layout="preon">
+		<text>Sure, the Imperial Battleship that was never found. What about it?</text>
+		<triggers>story_2end</triggers>
+		<triggered>story_1end</triggered>
+	</dialogue>
+	<dialogue id="story_3" repeat="2" layout="ship">
+		<text>While it survived the last battle in the Intergalactic War III, it never returned to it's base and..</text>
+		<triggers>story_3end</triggers>
+		<triggered>story_2end</triggered>
+	</dialogue>
+	<dialogue id="story_4" repeat="2" layout="preon">
+		<text>blah blah, boring..</text>
+		<triggers>story_4end</triggers>
+		<triggered>story_3end</triggered>
+	</dialogue>
+
+	<dialogue id="story_5" repeat="2" layout="ship">
+		<text>Looks like we've found it. Actually, you're really close.</text>
+		<triggers>story_5end</triggers>
+		<triggered>story_4end</triggered>
+	</dialogue>
+	<dialogue id="story_6" repeat="2" layout="preon">
+		<text>No way!!!</text>
+		<triggers>story_6end</triggers>
+		<triggered>story_5end</triggered>
+	</dialogue>
+	<dialogue id="story_7" repeat="2" layout="ship">
+		<text>It's hull is in good shape. Chances are it had a fatal engine and communication failure.</text>
+		<triggers></triggers>
+		<triggered>story_6end</triggered>
+	</dialogue>
+
+
+	<dialogue id="story_8" repeat="2" layout="preon">
+		<text>Is there any way there we'll find survivors too ?</text>
+		<triggers>story_8end</triggers>
+		<triggered>walked_89_58</triggered>
+	</dialogue>
+	<!--<dialogue id="story_9" repeat="1">
+		<text>While the fuel tanks and food canisters seem intact, even if there was only one survivor, he would have starved to death.</text>
+		<triggers>story_9end</triggers>
+		<triggered>story_8end</triggered>
+	</dialogue>-->
+	<dialogue id="story_10" repeat="2" layout="ship">
+		<text>That ship had no Cryogen chambers, and it's been 243 earth years after the ship's transmission. There's no way anyone could survive that long.</text>
+		<triggers></triggers>
+		<triggered>story_8end</triggered>
+	</dialogue>
+
+
+
+
+
+
+
+	<!--
+
+	bigshipLogs_1
+	Lt Karmiris personal log #1
+	Yesterday we left Theta Moularis, on our way to Delta Vitta 8795. We're supposed to meet the rest of the Imperial Forces and head to battle the Arctanians.
+	We're so lucky having such a brave and experienced Captain leading us. Cpt Mejarr is the type of the leader that anyone respects, and relies on. He's so influential.
+
+	bigshipLogs_2
+	We've lost a lot of time travelling through some systems. We won't make it to Kappa Saliaris on time. Unless we take a shortcut.
+	It's decided. In 5 minutes we're warping to.. wait for it.. Gamma F***ing Infernis. Yeah I know. We've been hearing stories about it since we were little kids.
+	God, I hope I'll survive this war. The stories I'll be telling..
+
+	bigshipLogs_3
+	I gotta admit, Gamma Infernis is as creepy as it sounds. Normally we would have stayed there for only 5 minutes, until our next hyperjump.
+	But a small comet piece got stuck in our radar motor, and we needed someone to get out of the ship and remove it. Guess who did that. If you guessed Cpt Mejarr, you're right.
+	During the 30 agonizing minutes Mejarr was out, we have all witnessed some weird shit. Ships lights went randomly on/off, screechy sounds coming from the hull, animal screams etc.
+	Some guys even hallucinated. Maybe I did too. Not sure. While looking at the flares of Infernis sun, I swear I saw a goat's face.
+
+
+	//Not much time to write. Reached Saliaris. Met the Imperials. Battle in 15 mins. Gods help us
+	//Back alive. We won. Took captives too. Gotta rest. Change pants too.
+	//We had another battle in Tau Iota 3319. Great battle. Hundrends of ships. the Arctanians have fully retreated. Maybe this war is close to it's end.
+
+	bigshipLogs_4
+	We've reached Saliaris 3 days ago and jumped right into the battle. We're alive and got some captives too
+	The Arctanians have fully retreated, and are in our way to home. But I have more things to worry about now. It's about captain Mejarr..
+	See, Mejarr went over himself today. He took a captive and threw him into a room with a small hull hole. The valuum sucked his back on roof and for 3 minutes our ship was spraying blood.
+	Mejarr was laughing and chanting something in Latin.
+
+	bigshipLogs_5
+	Last week, Mejarr punished a poor guy that fled in the battle. He left the guy in space, wearing only his upper body suit. Said he didn't deserve to have balls.
+	Next day, he walked through the ship naked. He ripped off a joystick from the cockpit, some knives from the kitchen, and a grease can from the engine room. Then he grabbed a captive and took him to his cabin.
+	Cpt Mejarr is locked in his cabin for days now. Except one time, when he left his room, to get some scalpels from the Med room. I don't want to imagine what he's doing to the poor guy.
+
+	bigshipLogs_6
+	We saw Mejarr again, for the first time after 10 days. He has a pair of horns on his head and his knees bend backwards. A doctor was staring at the horns.
+	Mejarr didn't appreciate the doc's interest, and took her to the engine room and stuck her head in the hyperdrive engine. That was totaly gross, messy, and unjustified.
+	Plus we don't have an angine anymore. We're stucked in Tau Iota 3319, with an insane captain. What could go worse?
+
+	bigshipLogs_7
+	Mejarr is clearly out of his mind. Everybody agrees that he's dangerous, killing anyone just for fun. Our crew decided to take action. A late action let me tell you.
+	Today we're going to capture him and put him in the brig. It will be him against the whole crew. He's tough but I don't think he can take us all.
+
+	bigshipLogs_8
+	Our 'mutiny' attempt was a total disaster. Almost anyone is dead. I managed to get away while he was slaughtering the poor guys. I'm hidden in an air duct
+	I'm starving, can't stay hidden forever. I'm going out to face him. I know I don't have a chance, but nothing makes sense anyway. I don't wanna be alive anymore.
+
+	<dialogue id="story_10" repeat="1">
+		<text>That ship had no Cryogen chambers, and it's been 243 earth years after the ship's transmission. There's no way anyone could survive that long.</text>
+		<triggers></triggers>
+		<triggered>story_8end</triggered>
+	</dialogue>
+	-->
+
+
+
+	<dialogue id="shipLogs_1_1" repeat="1">
+		<text>Lt Karmiris personal log #1</text>
+		<triggers>shipLogs_1_1</triggers>
+		<triggered>bigshipLogs_1</triggered>
+	</dialogue>
+	<dialogue id="shipLogs_1_2" repeat="1">
+		<text>Yesterday we left Theta Moularis, on our way to Delta Vitta 8795. We're supposed to meet the rest of the Imperial Forces and head to battle the Arctanians.</text>
+		<triggers>shipLogs_1_2</triggers>
+		<triggered>shipLogs_1_1</triggered>
+	</dialogue>
+	<dialogue id="shipLogs_1_3" repeat="1">
+		<text>We're so lucky having such a brave and experienced Captain leading us. Capt. Mejarr is the type of the leader that anyone respects, and relies on. He's so influential.</text>
+		<triggers>shipLogs_1_3</triggers>
+		<triggered>shipLogs_1_2</triggered>
+	</dialogue>
+
+
+
+
+	<dialogue id="shipLogs_2_1" repeat="1">
+		<text>Lt Karmiris personal log #2</text>
+		<triggers>shipLogs_2_1</triggers>
+		<triggered>bigshipLogs_2</triggered>
+	</dialogue>
+	<dialogue id="shipLogs_2_2" repeat="1">
+		<text>We've lost a lot of time travelling through some systems. We won't make it to Kappa Saliaris on time. Unless we take a shortcut.</text>
+		<triggers>shipLogs_2_2</triggers>
+		<triggered>shipLogs_2_1</triggered>
+	</dialogue>
+	<dialogue id="shipLogs_2_3" repeat="1">
+		<text>It's decided. In 5 minutes we're warping to.. wait for it.. Gamma F&**ing Infernis. Yeah I know. We've been hearing stories about it since we were little kids.</text>
+		<triggers>shipLogs_2_3</triggers>
+		<triggered>shipLogs_2_2</triggered>
+	</dialogue>
+	<dialogue id="shipLogs_2_4" repeat="1">
+		<text>God, I hope I'll survive this war. The stories I'll be telling..</text>
+		<triggers>shipLogs_2_4</triggers>
+		<triggered>shipLogs_2_3</triggered>
+	</dialogue>
+
+
+
+
+
+
+
+
+
+	<dialogue id="shipLogs_3_1" repeat="1">
+		<text>Lt Karmiris personal log #3</text>
+		<triggers>shipLogs_3_1</triggers>
+		<triggered>bigshipLogs_3</triggered>
+	</dialogue>
+	<dialogue id="shipLogs_3_2" repeat="1">
+		<text>I gotta admit, Gamma Infernis is as creepy as it sounds. Normally we would have stayed there for only 5 minutes, until our next hyperjump.</text>
+		<triggers>shipLogs_3_2</triggers>
+		<triggered>shipLogs_3_1</triggered>
+	</dialogue>
+	<dialogue id="shipLogs_3_3" repeat="1">
+		<text>But a small comet piece got stuck in our radar motor, and we needed someone to get out of the ship and remove it. Guess who did that. If you guessed Capt. Mejarr, you're right.</text>
+		<triggers>shipLogs_3_3</triggers>
+		<triggered>shipLogs_3_2</triggered>
+	</dialogue>
+	<dialogue id="shipLogs_3_4" repeat="1">
+		<text>During the 30 agonizing minutes Mejarr was out, we have all witnessed some weird shit. Ships lights went randomly on/off, screechy sounds coming from the hull, animal screams etc.</text>
+		<triggers>shipLogs_3_4</triggers>
+		<triggered>shipLogs_3_3</triggered>
+	</dialogue>
+	<dialogue id="shipLogs_3_5" repeat="1">
+		<text>Some guys even hallucinated. Maybe I did too. Not sure. While looking at the flares of Infernis sun, I swear I saw a goat's face.</text>
+		<triggers>shipLogs_3_5</triggers>
+		<triggered>shipLogs_3_4</triggered>
+	</dialogue>
+
+
+
+	<dialogue id="shipLogs_4_1" repeat="1">
+		<text>Lt Karmiris personal log #4</text>
+		<triggers>shipLogs_4_1</triggers>
+		<triggered>bigshipLogs_4</triggered>
+	</dialogue>
+	<dialogue id="shipLogs_4_2" repeat="1">
+		<text>We've reached Saliaris 3 days ago and jumped right into the battle. We're alive and got some captives too.</text>
+		<triggers>shipLogs_4_2</triggers>
+		<triggered>shipLogs_4_1</triggered>
+	</dialogue>
+	<dialogue id="shipLogs_4_3" repeat="1">
+		<text>The Arctanians have fully retreated, and are in our way to home. But I have more things to worry about now. It's about captain Mejarr..</text>
+		<triggers>shipLogs_4_3</triggers>
+		<triggered>shipLogs_4_2</triggered>
+	</dialogue>
+	<dialogue id="shipLogs_4_4" repeat="1">
+		<text>See, Mejarr went over himself today. He took a captive and threw him into a room with a small hull hole. The valuum sucked his back on roof and for 3 minutes our ship was spraying blood.</text>
+		<triggers>shipLogs_4_4</triggers>
+		<triggered>shipLogs_4_3</triggered>
+	</dialogue>
+	<dialogue id="shipLogs_4_5" repeat="1">
+		<text>Mejarr was laughing and chanting something in Latin. </text>
+		<triggers>shipLogs_4_5</triggers>
+		<triggered>shipLogs_4_4</triggered>
+	</dialogue>
+
+
+
+
+
+
+	<dialogue id="shipLogs_5_1" repeat="1">
+		<text>Lt Karmiris personal log #5</text>
+		<triggers>shipLogs_5_1</triggers>
+		<triggered>bigshipLogs_5</triggered>
+	</dialogue>
+	<dialogue id="shipLogs_5_2" repeat="1">
+		<text>Last week, Mejarr punished a poor guy that fled in the battle. He left the guy in space, wearing only his upper body suit. Said he didn't deserve to have balls.</text>
+		<triggers>shipLogs_5_2</triggers>
+		<triggered>shipLogs_5_1</triggered>
+	</dialogue>
+	<dialogue id="shipLogs_5_3" repeat="1">
+		<text>Next day, he walked through the ship naked. He ripped off a joystick from the cockpit, some knives from the kitchen, and a grease can from the engine room. Then he grabbed a captive and took him to his cabin.</text>
+		<triggers>shipLogs_5_3</triggers>
+		<triggered>shipLogs_5_2</triggered>
+	</dialogue>
+	<dialogue id="shipLogs_5_4" repeat="1">
+		<text>Capt. Mejarr is locked in his cabin for days now. Except one time, when he left his room, to get some scalpels from the Med room. I don't want to imagine what he's doing to the poor guy.</text>
+		<triggers>shipLogs_5_4</triggers>
+		<triggered>shipLogs_5_3</triggered>
+	</dialogue>
+
+
+
+
+
+
+
+	<dialogue id="shipLogs_6_1" repeat="1">
+		<text>Lt Karmiris personal log #6</text>
+		<triggers>shipLogs_6_1</triggers>
+		<triggered>bigshipLogs_6</triggered>
+	</dialogue>
+	<dialogue id="shipLogs_6_2" repeat="1">
+		<text>We saw Mejarr again, for the first time after 10 days. He has a pair of horns on his head and his knees bend backwards. A doctor was staring at the horns. </text>
+		<triggers>shipLogs_6_2</triggers>
+		<triggered>shipLogs_6_1</triggered>
+	</dialogue>
+	<dialogue id="shipLogs_6_3" repeat="1">
+		<text>Mejarr didn't appreciate the doc's interest, and took her to the engine room and stuck her head in the hyperdrive engine. That was totaly gross, messy, and unjustified.</text>
+		<triggers>shipLogs_6_3</triggers>
+		<triggered>shipLogs_6_2</triggered>
+	</dialogue>
+	<dialogue id="shipLogs_6_4" repeat="1">
+		<text>Plus we don't have an angine anymore. We're stucked in Tau Iota 3319, with an insane captain. What could go worse?</text>
+		<triggers>shipLogs_6_4</triggers>
+		<triggered>shipLogs_6_3</triggered>
+	</dialogue>
+
+	<dialogue id="shipLogs_7_1" repeat="1">
+		<text>Lt Karmiris personal log #7</text>
+		<triggers>shipLogs_7_1</triggers>
+		<triggered>bigshipLogs_7</triggered>
+	</dialogue>
+	<dialogue id="shipLogs_7_2" repeat="1">
+		<text>Mejarr is clearly out of his mind. Everybody agrees that he's dangerous, killing anyone just for fun. Our crew decided to take action. A late action let me tell you.</text>
+		<triggers>shipLogs_7_2</triggers>
+		<triggered>shipLogs_7_1</triggered>
+	</dialogue>
+	<dialogue id="shipLogs_7_3" repeat="1">
+		<text>Today we're going to capture him and put him in the brig. It will be him against the whole crew. He's tough but I don't think he can take us all.</text>
+		<triggers>shipLogs_7_3</triggers>
+		<triggered>shipLogs_7_2</triggered>
+	</dialogue>
+
+	<dialogue id="shipLogs_8_1" repeat="1">
+		<text>Lt Karmiris personal log #8</text>
+		<triggers>shipLogs_8_1</triggers>
+		<triggered>bigshipLogs_8</triggered>
+	</dialogue>
+	<dialogue id="shipLogs_8_2" repeat="1">
+		<text>Our 'mutiny' attempt was a total disaster. Almost anyone is dead. I managed to get away while he was slaughtering the poor guys. I'm hidden in an air duct</text>
+		<triggers>shipLogs_8_2</triggers>
+		<triggered>shipLogs_8_1</triggered>
+	</dialogue>
+	<dialogue id="shipLogs_8_3" repeat="1">
+		<text>I'm starving, can't stay hidden forever. I'm going out to face him. I know I don't have a chance, but nothing makes sense anyway. I don't wanna be alive anymore.</text>
+		<triggers>shipLogs_8_3</triggers>
+		<triggered>shipLogs_8_2</triggered>
+	</dialogue>
+
+	<!--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+1914 translation by H. Rackham
+
+"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment,
+so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue;
+and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.
+These cases are perfectly simple and easy to distinguish.
+In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.
+But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted.
+The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.
+
+	This portal gives me the chills. I better get done quickly with this place and get the hell out of here.
+	Wait, what's that weird guy, down there, boy he's huge.
+
+	Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+	Oops he saw me
+
+	Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+	Whatever you say dude.
+
+	Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+	Look, dude, I'm minding my own bussiness here. Why don't you do the same ?
+
+	Socialize, Monetize, free to play with in-app purchases and DLC, tweet, share and like
+	Holy shit, that's the most evil thing I've ever heard. It's so nasty, I fell my ears will bleed. Hey could this be cpt Mejarr himself ?
+
+	Holy shit, he's talking pure evil. Hey could this be cpt Mitros himself ?
+
+-->
+
+	<dialogue id="bossLev_20" repeat="2" layout="preon">
+		<text>That topless demonic space marine guy, just became orbital</text>
+		<triggers></triggers>
+		<triggered>boss_killed</triggered>
+	</dialogue>
+
+
+	<dialogue id="main_3_needsMoreExplosives" repeat="1" layout="ship">
+		<text>We'll need [explosives_needed] explosives to use this machine. We've gathered [explosives_gathered] so far</text>
+		<triggered>missingExplosives</triggered>
+	</dialogue>
+
+	<dialogue id="main_3_needToDestroyStation" repeat="1" layout="ship">
+		<text>We're still stuck here. You need to destroy this mining station first!</text>
+		<triggered>needToDestroyStation</triggered>
+	</dialogue>
+
+	<dialogue id="main_3_needToDestroyStation2" repeat="1" layout="ship">
+		<text>There's nothing to do here captain, Start the detonation, and then come back here</text>
+		<triggered>needToDestroyStation2</triggered>
+	</dialogue>
+
+	<dialogue id="main_3_ready_to_leave" repeat="1" layout="ship">
+		<text>You have enough explosives now! Start the detonation and run back to your ship.</text>
+		<triggered>has_enough_explosives</triggered>
+	</dialogue>
+
+	<dialogue id="main_3_hurry_up" repeat="1" layout="ship">
+		<text>Good work! Now run as as fast as you can into the ship. Also, remember to close the airlock behind you!</text>
+		<triggered>sw_detonation_start</triggered>
+		<triggers>detonation_dialog_read</triggers>
+	</dialogue>
+
+
+
+
+
+
+	<!-- ************************************ Generic Dialogues Aphodite *************************************** -->
+
+	<dialogue id="global_killed_all_enemies" repeat="2">
+		<text>Cleared all enemies. Bonus 1000 pts</text>
+		<triggered>level_enemies_cleared</triggered>
+	</dialogue>
+
+	<dialogue id="global_not_ready_to_leave" repeat="1">
+		<text>You are not ready to leave yet. Press key[tasks] to check your tasks</text>
+		<triggered>notReadyToLeave</triggered>
+	</dialogue>
+
+
+
+
+
+
+
+
+	<!--  A 1.5 [Level_04] -->
+
+	<dialogue id="A_1.05_01" repeat="2" layout="" >
+		<text>Looks like you got stuck! Press ESCAPE to quit game or restart level</text>
+		<triggers></triggers>
+		<triggered>walked_11_18</triggered>
+		<canceled>openDoor3</canceled>
+	</dialogue>
+
+	<dialogue id="A_1.05_02" repeat="2" layout="" >
+		<text>Looks like you got stuck! Press ESCAPE to quit game or restart level</text>
+		<triggers></triggers>
+		<triggered>walked_11_15</triggered>
+		<canceled>openDoor2</canceled>
+	</dialogue>
+
+
+
+	<!-- APPROACHING QUEEN LILITH -->
+
+	<dialogue id="B_2.00_31" repeat="1" layout="ship">
+		<text>Captain, I’m scanning a large vessel near your position.</text>
+		<triggers>32</triggers>
+		<triggered>walked_136_58</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.00_32" repeat="1" layout="preon">
+		<text>Could this be the long lost Imperial Battleship...</text>
+		<triggers>33</triggers>
+		<triggered>32</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.00_33" repeat="1" layout="preon">
+		<text>HMS Queen Lilith?\nOh my…\nThis baby has survived the last battle in the Intergalactic War III! Though it never returned to its base..\nI can see its hull is in good shape. Chances are/Maybe it had an engine and communication failure…\nIs there any way that we can find any survivors?</text>
+		<triggers>34</triggers>
+		<triggered>33</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.00_34" repeat="1" layout="ship">
+		<text>That ship had no Cryogen chambers and it's been 243 earth years after the ship's last transmission\nChances of living survivors are 0%.</text>
+		<triggers></triggers>
+		<triggered>34</triggered>
+	</dialogue>
+
+
+
+
+	<!-- ------------ B 2.2 [Level_07]---------- -->
+
+	<dialogue id="B_2.01_01" repeat="2" layout="preon">
+		<text>Oh, look? Dat an old Terminal?</text>
+		<triggers>02</triggers>
+		<triggered>walked_12_28</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.01_02" repeat="2" layout="">
+		<text>Approach the terminal and press the key[interact] button.</text>
+		<triggers></triggers>
+		<triggered>02</triggered>
+	</dialogue>
+
+	<!-- TERMINAL -->
+
+	<dialogue id="B_2.01_03" repeat="2" layout="">
+		<text>Me swears to gods, dat bruv is like? the plonkiest plonka in like?
+whole universe???</text>
+		<triggers>04</triggers>
+		<triggered>level07_hint</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.01_04" repeat="2" layout="">
+		<text>He had one job, to like? write a hint for TRAP ROOM?
+And he was_like? "Pull 2nd lever"!</text>
+		<triggers>05</triggers>
+		<triggered>04</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.01_05" repeat="2" layout="">
+		<text>Bruuuuuh... WHICH ONE?
+like, 2nd LEVER from LEFT or RIGHT???</text>
+		<triggers>06</triggers>
+		<triggered>05</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.01_06" repeat="2" layout="">
+		<text>Chances be like? 50%? gotta try me luck???
+Flipping coin... and left it is...</text>
+		<triggers></triggers>
+		<triggered>06</triggered>
+	</dialogue>
+
+	<!-- ------------ B 2.4 [Level_06]---------- -->
+
+	<dialogue id="B_2.04_01" repeat="2" layout="ship">
+		<text>Watch out! Detected aliens from like..?
+Lambda Giggeris??</text>
+		<triggers>01</triggers>
+		<triggered>walked_12_33</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.04_02" repeat="2" layout="preon">
+		<text>I kno, dem busters with like? exoskeleton??
+Me be watching documentaries, ukno...
+        </text>
+		<triggers>02</triggers>
+		<triggered>01</triggered>
+	</dialogue>
+
+    <dialogue id="B_2.04_03" repeat="2" layout="ship">
+        <text>No.. no exoskeleton, but acid blood, acid breath, acid corpse, acid looks exetera?
+Just stay away boi??
+        </text>
+        <triggers></triggers>
+        <triggered>02</triggered>
+    </dialogue>
+
+	<!-- ------------ B 2.6 [Level_09]---------- -->
+
+	<dialogue id="B_2.06_01" repeat="2" layout="large">
+		<text>Ah, greetings, puny Human Specimen 231, and welcome to the intellect compatibility trial of the notorious Nomadic Hacktivist Armada! Prepare yourself for a mind-bending challenge unlike any other!
+            Prepare to unveil the enigma, as you intertwine the mysterious shapes with the mystical levers, thus illuminating the path to your worthiness..
+            Venture forth to the test, if you dare!
+            May fortune be naught but a fleeting companion on this perilous endeavor.</text>
+		<triggers>02</triggers>
+		<triggered>leve09_log</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.06_02" repeat="2" layout="preon">
+		<text>Intelligence my ass. I only hope it has some fuel…  / This sounds like some kind of trial to join this group. Nuh, I only hope it has some fuel…</text>
+		<triggers></triggers>
+		<triggered>02</triggered>
+	</dialogue>
+
+	<!-- ------------ Main Level B [QUEEN LILITH: Level_20, Level_25, Level_13, Level_27, Level_24, Level_11, Level_19, Level_21, Level_17, Level_16, Level_14, Level_10, Level_32, Level_22, Level_28, Level_15] ---------- -->
+
+	<!-- ------------ QUEEN LILITH LOGS ---------- -->
+
+	<dialogue id="B_2.QL_01" repeat="2" layout="">
+		<text>Fragment of Lt Karmiris personal log #1123\n…Yesterday we left Theta Moularis, on our way to Delta Vitta 8795. We're supposed to meet the rest of the Imperial Forces and head to Kappa Saliaris to battle with the Arctanians. I consider ourselves lucky to have such a brave and experienced Captain leading us. Capt. Mejarr is the type of leader that anyone respects and relies on...</text>
+		<triggers></triggers>
+		<triggered>term_01</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.QL_02" repeat="2" layout="">
+		<text>Fragment of Lt Karmiris personal log #2978\n…We've lost a lot of time travelling through some systems. We won't be able to make it to Kappa Saliaris on time, unless we take a risky shortcut…\n…It's decided. In 5 minutes we're warping to Gamma F***ing Infernis! Yeah I know. We've been hearing stories about it since we were little kids. God, I hope I'll survive this war. Imagine the stories I'll be telling!...</text>
+		<triggers></triggers>
+		<triggered>term_02</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.QL_03" repeat="2" layout="">
+		<text>Fragment of Lt Karmiris personal log #3417\n…I gotta admit Gamma Infernis is as creepy as it sounds. Normally we would have stayed here for only 5 minutes, until our next hyper jump. But a small comet piece got stuck in our radar motor and someone must get out of the ship and remove it. Capt. Mejarr insisted on removing it himself! During those 30 minutes Mejarr was out, we have all witnessed some weird shit! Ships lights went randomly on ‘n’ off, screechy sounds coming from the hull, screams... Some guys even had hallucinations! Maybe I did too. Not sure. While looking at the flares of Infernis sun, I swear I saw a goat's face!...</text>
+		<triggers></triggers>
+		<triggered>term_03</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.QL_04" repeat="2" layout="">
+		<text>Lt Karmiris personal log #4986\n…At last! We've reached Saliaris!... It’s been 3 days after the battle. We're alive and got some captives too. The Arctanians have fully retreated and we are on our way home!...</text>
+		<triggers></triggers>
+		<triggered>term_04</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.QL_05" repeat="2" layout="">
+		<text>Lt Karmiris personal log #5154\n…Something’s strange about Capt. Mejarr… He went over himself today. Out of a sudden he took a captive and threw him into a room which had a small hull hole. The vacuum sucked his insides from his back and for 30 seconds our ship was spraying blood into space! Mejarr was laughing and chanting something in Latin… I don’t know what to say. He was never like this before…</text>
+		<triggers></triggers>
+		<triggered>term_05</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.QL_06" repeat="2" layout="">
+		<text>Lt Karmiris personal log #6147\n… Capt. Mejarr decided to lock himself up in his cabin today... He refuses to see anyone... I hope that he stands up for his responsibilities if something serious comes up…</text>
+		<triggers></triggers>
+		<triggered>term_06</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.QL_07" repeat="2" layout="">
+		<text>Lt Karmiris personal log #7568\n…Capt. Mejarr is locked in his cabin for 6 consecutive days now. When we try to contact him he only answers by growling. This can’t go on anymore. We’ve all voted and decided to break the door from his room. After all he may be sick or something...</text>
+		<triggers></triggers>
+		<triggered>term_07</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.QL_08" repeat="2" layout="">
+		<text>Lt Karmiris personal log #8542\n…Holy shit! Our Captain became something else… something… NOT human! Everyone is… DEAD!... I can’t believe it… with his bare hands… bodies… everywhere… decapitated… dismembered… burned…! Weapons are… useless…! I am hidden in the air duct... I know I won’t make it… I must turn on the ships’ self-destruction . If anyone can read this, it means… I didn’t make it. You have to listen to me… LEAVE THIS SHIP IMMEDIATELY… DESTROY IT! …and please… tell my family that I love them…</text>
+		<triggers>09</triggers>
+		<triggered>term_08</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.QL_09" repeat="2" layout="preon">
+		<text>Oh man…</text>
+		<triggers></triggers>
+		<triggered>09</triggered>
+	</dialogue>
+
+	<!-- ------------ B 2.12 [Level_11]---------- -->
+
+	<dialogue id="B_2.12_01" repeat="2" layout="preon">
+		<text>What’s that sound?  This portal gives me the chills. I better get done quickly with this place and get the hell outta here. Oh… what the heck! F U E L!</text>
+		<triggers></triggers>
+		<triggered>walked_14_8</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.12_02" repeat="2" layout="preon">
+		<text>Wait a min… Who's that weird guy down there? Boy he's huge!</text>
+		<triggers>03</triggers>
+		<triggered>walked_11_19</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.12_03" repeat="2" layout="mitros">
+		<text>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</text>
+		<triggers></triggers>
+		<triggered>03</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.12_04" repeat="2" layout="preon">
+		<text>Oops! He saw me.</text>
+		<triggers>05</triggers>
+		<triggered>walked_11_21</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.12_05" repeat="2" layout="mitros">
+		<text>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</text>
+		<triggers>06</triggers>
+		<triggered>05</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.12_06" repeat="2" layout="preon">
+		<text>Whatever you say dude.</text>
+		<triggers>07</triggers>
+		<triggered>06</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.12_07" repeat="2" layout="mitros">
+		<text>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</text>
+		<triggers>08</triggers>
+		<triggered>07</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.12_08" repeat="2" layout="preon">
+		<text>Look, man. I'm minding my own business here. Let’s not get into each other’s way.</text>
+		<triggers>09</triggers>
+		<triggered>08</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.12_09" repeat="2" layout="mitros">
+		<text>Socialize, Monetize, free to play with in-app purchases and DLC, tweet, share and like.</text>
+		<triggers>10</triggers>
+		<triggered>09</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.12_10" repeat="2" layout="preon">
+		<text>Holy shit! That's the most evil thing I've ever heard! It's so nasty… I can feel my ears bleed. Hey! Could this be Capt. Mejarr himself?</text>
+		<triggers></triggers>
+		<triggered>10</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.12_11" repeat="2" layout="preon">
+		<text>Hmmm… That was pretty easy…</text>
+		<triggers></triggers>
+		<triggered>boss_killed</triggered>
+	</dialogue>
+
+	<!-- ------------ B 2.16 [Level_16]---------- -->
+
+	<dialogue id="B_2.16_01" repeat="2" layout="preon">
+		<text>What the… How is this possible! I threw you into space! You should be dead!</text>
+		<triggers>02</triggers>
+		<triggered>level_just_started</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.16_02" repeat="2" layout="mitros">
+		<text>Muahahaha… Monetize… Socialize…</text>
+		<triggers></triggers>
+		<triggered>02</triggered>
+	</dialogue>
+
+	<!-- ------------ B 2.19 [Level_32]---------- -->
+
+	<dialogue id="B_2.19_01" repeat="2" layout="preon">
+		<text>What?! Not again!</text>
+		<triggers>B_2.19_02</triggers>
+		<triggered>walked_47_9</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.19_02" repeat="2" layout="mitros">
+		<text>Muahahaha… Monetize… Socialize…</text>
+		<triggers></triggers>
+		<triggered>B_2.19_02</triggered>
+	</dialogue>
+
+	<!-- ------------ B 2.21 [Level_28]---------- -->
+
+	<dialogue id="B_2.21_01" repeat="2" layout="preon">
+		<text>You son of a b…tch!</text>
+		<triggers>02</triggers>
+		<triggered>walked_48_14</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.21_02" repeat="2" layout="mitros">
+		<text>Muahahaha… Monetize… Socialize…</text>
+		<triggers></triggers>
+		<triggered>02</triggered>
+	</dialogue>
+
+	<!-- ------------ B 2.22 [Level_15]---------- -->
+
+	<dialogue id="B_2.22_01" repeat="2" layout="large">
+		<text>Greetings again, feeble Human Specimen 231, and welcome to the test of reflexes, as you dare to associate yourself with the mighty Nomadic Hacktivist Armada!
+            Engage in the lightning-fast reflex challenge, hasten your journey towards the ultimate goal.
+            As a candidate of the esteemed Nomadic Hacktivist Armada, banish all apprehension from your wretched being!
+            Do you tremble before the vast cosmic abyss, represented by the hue of crimson (Red)?
+            Or perhaps, you cower from the scorching onslaught of plasma particles, embodied by the shade of viridian (Green)?
+            Does the sight of revolving cleavers strike terror within, signified by the tint of cobalt (Blue)?
+            Or does your fear arise from the enigmatic and ever-wandering alien fauna, manifested in the hue of goldenrod (Yellow)?
+            Choose your poison wisely!
+            Clue Contribution: Opting for the path of least resistance? Inadmissible! Acceptable? We shall assess your performance as we partake in jovial libations, for it is time to revel in mirthful spectacles, hehehe! May fortune befall upon you, though it matters not!
+        </text>
+		<triggers></triggers>
+		<triggered>leve15_log</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.22_02" repeat="2" layout="large">
+		<text>If, by some unfortunate twist of fate, you have managed to summon your feeblest fears, then congratulations are in order, for we derive a modicum of delight from your meager advancement thus far.
+            However, do not bask in the illusion of fulfillment, for in the grand tapestry of existence, fortune does not always favor us.
+            Therefore, dear captain of misfortune, you must conquer the towering mega-tsunami waves to prove your worthiness.
+            Your yearning to join our revered cult propels you to bid farewell to life's feeble remnants, as you aspire to be a nominated member of the esteemed Nomadic Hacktivist Armada.
+        </text>
+		<triggers></triggers>
+		<triggered>leve15_flog</triggered>
+	</dialogue>
+
+
+	<dialogue id="B_2.22_03" repeat="2" layout="large">
+		<text>Congratulations on demonstrating possession of the mighty fortitude, lightning-fast reflexes akin to the velocity of light, and an unwavering resolve. Fear not, for when the time is ripe, we shall beckon your presence.
+        </text>
+		<triggers>03</triggers>
+		<triggered>allow_exit</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.22_04" repeat="2" layout="preon">
+		<text>That's just perfect. The last thing I needed was one more Cult, running after me. Thank the gods they don't have a language test!</text>
+		<triggers>04</triggers>
+		<triggered>03</triggered>
+	</dialogue>
+
+	<dialogue id="B_2.22_05" repeat="2" layout="preon">
+		<text>OK! I‘ve got all the fuel I need. It’s time to leave this cursed, god forsaken place.</text>
+		<triggers></triggers>
+		<triggered>04</triggered>
+	</dialogue>
+
+	<!-- **************************************** CHAPTER C Aphodite ******************************************* -->
+
+	<!-- ------------ C 3.0 [level_cutscene_2]---------- -->
+
+	<dialogue id="C_3.00_01" repeat="2" layout="">
+		<text>After the hyper jump to Theta Iota system.</text>
+		<triggers>02</triggers>
+		<triggered>level_just_started</triggered>
+	</dialogue>
+
+	<dialogue id="C_3.00_02" repeat="2" layout="ship">
+		<text>Theta Iota system reached.</text>
+		<triggers>03</triggers>
+		<triggered>02</triggered>
+	</dialogue>
+
+	<dialogue id="C_3.00_03" repeat="2" layout="preon">
+		<text>Ah… It’s good to be back.</text>
+		<triggers>04</triggers>
+		<triggered>03</triggered>
+	</dialogue>
+
+	<dialogue id="C_3.00_04" repeat="2" layout="ship">
+		<text>Alert! Mining station is coming towards us! Attempting escape maneuver. Right side thrusters engaged.</text>
+		<triggers>05</triggers>
+		<triggered>04</triggered>
+	</dialogue>
+
+	<dialogue id="C_3.00_05" repeat="2" layout="">
+		<text>Boooom!</text>
+		<!--<triggers>level_end_alternative</triggers>-->
+		<triggers>crashMiningStation</triggers>
+		<triggered>05</triggered>
+	</dialogue>
+
+	<!-- ------------ Main Level C [level_main_3] ---------- -->
+
+
+	<dialogue id="C_3.00_06" repeat="0" layout="preon">
+		<text>We are hit? By the mining station? WTF?</text>
+		<triggers>07</triggers>
+		<triggered>level_just_started</triggered>
+	</dialogue>
+
+	<dialogue id="C_3.00_07" repeat="0" layout="ship">
+		<text>Collision was unavoidable. I’ve turned us so as to have the minimum damage, Captain.</text>
+		<triggers>08</triggers>
+		<triggered>07</triggered>
+	</dialogue>
+
+	<dialogue id="C_3.00_08" repeat="0" layout="preon">
+		<text>Good job Ship. Go to the entrance.</text>
+		<triggers>09</triggers>
+		<triggered>08</triggered>
+	</dialogue>
+
+	<dialogue id="C_3.00_09" repeat="0" layout="ship">
+		<text>We are at the entrance, Captain. Actually, we are stuck in it. We can’t move an inch.</text>
+		<triggers>10</triggers>
+		<triggered>09</triggered>
+	</dialogue>
+
+	<dialogue id="C_3.00_10" repeat="0" layout="preon">
+		<text>This is not/can’t be good… Show/give me a graphic visualization/schematics of our position in relation to the mining station.</text>
+		<triggers>11</triggers>
+		<triggered>10</triggered>
+	</dialogue>
+
+	<dialogue id="C_3.00_11" repeat="0" layout="ship">
+		<text>Bleep…</text>
+		<triggers>12</triggers>
+		<triggered>11</triggered>
+	</dialogue>
+
+	<dialogue id="C_3.00_12" repeat="0" layout="preon">
+		<text>It seems that the only way to get unstuck from this bulk is to blow the shit out of it! Do we have enough ExplosivesF in our cargo?</text>
+		<triggers>13</triggers>
+		<triggered>12</triggered>
+	</dialogue>
+
+	<dialogue id="C_3.00_13" repeat="0" layout="preon">
+		<!--<text>OK. That will do. Now I only have to access the center of this mining station.</text>-->
+		<text>No? Hmm.. If we're lucky, I might manage to find some explosives in the station.</text>
+		<triggers>14</triggers>
+		<triggered>13</triggered>
+	</dialogue>
+
+	<dialogue id="C_3.00_14" repeat="0" layout="preon">
+		<text>Since we are not in such a hurry, I could look for some Diamonds too! After all I am in a mining station!</text>
+		<triggers></triggers>
+		<triggered>14</triggered>
+	</dialogue>
+
+	<!-- ------------ AFTER PLACING THE EXPLOSIVES ---------- -->
+
+	<dialogue id="C_3.00_15" repeat="1" layout="">
+		<text>Detonation routine initiated. The facility will self-destruct in 20 seconds</text>
+		<triggers>det1</triggers>
+		<triggered>sw_detonation_start</triggered>
+	</dialogue>
+
+	<dialogue id="C_3.00_16" repeat="1" layout="preon">
+		<text>I got to get back to ship! </text>
+		<triggers>det2</triggers>
+		<triggered>det1</triggered>
+	</dialogue>
+
+
+	<dialogue id="C_3.00_17" repeat="1" layout="ship">
+		<text>Captain, the explosion will be extremely powerfull, remember to close the airlock behind you!</text>
+		<triggered>det2</triggered>
+		<triggers>detonation_dialog_read</triggers>
+	</dialogue>
+
+
+	<!-- ------------ AFTER THE EXPLOSION ---------- -->
+
+	<dialogue id="C_3.00_18" repeat="1" layout="preon">
+		<text>Are we freed?</text>
+		<triggers>d1</triggers>
+		<triggered>level_just_started</triggered>
+	</dialogue>
+
+	<dialogue id="C_3.00_19" repeat="2" layout="ship">
+		<text>Affirmative, Captain.</text>
+		<triggers>d2</triggers>
+		<triggered>d1</triggered>
+	</dialogue>
+
+	<dialogue id="C_3.00_20" repeat="2" layout="preon">
+		<text>Ship, give me our cargo status.</text>
+		<triggers>d3</triggers>
+		<triggered>d2</triggered>
+	</dialogue>
+
+	<dialogue id="C_3.00_21" repeat="2" layout="ship">
+		<text>There are [coins_gathered] Juice packs currently stored in the cargo bay.</text>
+		<triggers>d4</triggers>
+		<triggered>d3</triggered>
+	</dialogue>
+
+	<dialogue id="C_3.00_22" repeat="2" layout="preon">
+		<text>YEAH! we did it! Next stop: Kikasu station!</text>
+		<triggers></triggers>
+		<triggered>d4</triggered>
+	</dialogue>
+
+
+
+	<!-- ---------------- Ending ------------------ -->
+
+	<!--
+	<dialogue id="C_4.0" repeat="2" layout="">
+		<text></text>
+		<triggers></triggers>
+		<triggered></triggered>
+	</dialogue>
+	-->
+
+	<dialogue id="C_4.a1" repeat="2" layout="ship">
+		<text>We’re safely docked captain. Kikasu is expecting the Juice cargo. We’re 3 days late for agreed delivery. The deal might not be still valid.</text>
+		<triggers>a2</triggers>
+		<triggered>level_just_started</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a2" repeat="2" layout="preon">
+		<text>Let’s hope it is. While I’m in the station, you can start repairing your hull.</text>
+		<triggers></triggers>
+		<triggered>a2</triggered>
+	</dialogue>
+
+
+
+	<dialogue id="C_4.a3" repeat="1" layout="guard"> <!-- Nothing else to talk with guard -->
+		<text>The exit is to the left</text>
+		<triggers></triggers>
+		<triggered>guard_bye_1</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a4" repeat="2" layout="guard">
+		<text>Stop right there pal. Do you know where you are?</text>
+		<triggers>a5</triggers>
+		<triggered>guard_open_1</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a5" repeat="2" layout="preon">
+		<text>Kikasu is waiting for me. I’ve got something for her.</text>
+		<triggers>a6</triggers>
+		<triggered>a5</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a6" repeat="2" layout="guard">
+		<text>Right! Take the elevator to the top Deck. </text>
+		<triggers>guard_door_over</triggers>
+		<triggered>a6</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a7" repeat="2" layout="guard"> <!-- preon talks to guard again -->
+		<text>Top deck. Take the elevator. FFS</text>
+		<triggered>guard_im_lost</triggered>
+		<triggers></triggers>
+	</dialogue>
+
+
+	<dialogue id="C_4.a8" repeat="2" layout="hacker">
+		<text>Are you looking for something or you just trying to piss me off? Stop sneaking around my station Preon, I’m waiting for you in the top deck</text>
+		<triggered>walked_56_35</triggered>
+		<triggers>guilty_for_loitering</triggers>
+	</dialogue>
+
+
+	<dialogue id="C_4.a9" repeat="2" layout="hacker">
+		<text>Did you enjoy poking your nose around my ship?</text>
+		<triggered>hacker_is_angry</triggered>
+		<triggers>hacker_is_angry_over</triggers>
+	</dialogue>
+
+
+
+	<!--Meeting with kikasu-->
+	<dialogue id="C_4.a10" repeat="2" layout="preon">
+		<text>Let me start by saying..</text>
+		<triggers>a11</triggers>
+		<triggered>hacker_end_mission</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a11" repeat="2" layout="hacker">
+		<text>Tsk tsk</text>
+		<triggers>a12</triggers>
+		<triggered>a11</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a12" repeat="2" layout="preon">
+		<text>Schtinques was after my ass, and I had to warp to..</text>
+		<triggers>a13</triggers>
+		<triggered>a12</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a13" repeat="2" layout="hacker">
+		<text>Speaking of your ass, I’ve got a 4zw teleport gun locked on you. You better pick your next words VERY carefully!</text>
+		<triggers>a14</triggers>
+		<triggered>a13</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a14" repeat="2" layout="preon">
+		<text>I kicked a topless demonic space marine to space..</text>
+		<triggers>a15</triggers>
+		<triggered>a14</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a15" repeat="2" layout="hacker">
+		<text>*sigh* You are amazing Preon. In a wrong way! You’re late, and you’re full of crappy excuses. I hope you’re not THAT stupid to come here with empty hands..</text>
+		<triggers>a16</triggers>
+		<triggered>a15</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a16" repeat="2" layout="preon">
+		<text>[coins_needed] Juice packs as you asked. Given I’m in your station, and still alive, I guess you still want them. How about keeping your end of the deal? Do you have the artificial ship personality module I want?</text>
+		<triggers>a17</triggers>
+		<triggered>a16</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a17" repeat="2" layout="hacker">
+		<text>The Juice is sweet, but it was more of test for you! I gave you this task to see if you’re serious about working with me. I’ve got a bigger job in mind, and I’m searching for the right people.</text>
+		<triggers>a18</triggers>
+		<triggered>a17</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a18" repeat="2" layout="preon">
+		<text>Good! Cause I'm getting bored with small time jobs. Now how about handing me this module you promised?</text>
+		<triggers>a19</triggers>
+		<triggered>a18</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a19" repeat="2" layout="hacker">
+		<text>Your ship can start downloading. Bye Preon, I’ll get to you when I got more on our next deal.</text>
+		<triggers>hacker_end_mission_over</triggers>
+		<triggered>a19</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a20" repeat="1" layout="hacker"> <!-- hacker end dialog -->
+		<text>I told you, I'll talk to you when the time is right. Bye bye now!</text>
+		<triggered>hacker_bye_1</triggered>
+		<triggers></triggers>
+	</dialogue>
+
+
+
+	<!-- Walking back to ship -->
+	<dialogue id="C_4.a21" repeat="2" layout="ship">
+		<text>Captain, did you get the heist job? You were looking to it from the beginning..</text>
+		<triggers>a22</triggers>
+		<triggered>startUpgradeDialog</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a22" repeat="2" layout="preon">
+		<text>Shhhh! Of course I’m in! And I’ve got a present for you dear! Connect with the station and start downloading the upgrade.</text>
+		<triggers>a23</triggers>
+		<triggered>a22</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a23" repeat="2" layout="ship">
+		<text>Initiating upgrading process.</text>
+		<triggers>a24</triggers>
+		<triggered>a23</triggered>
+	</dialogue>
+
+
+
+
+	<dialogue id="C_4.a24" repeat="2" layout="ship">
+		<text>30% upgrading.</text>
+		<triggers>a25</triggers>
+		<triggered>a24</triggered>
+	</dialogue>
+
+
+	<dialogue id="C_4.a25" repeat="2" layout="ship">
+		<text>55% upgrading </text>
+		<triggers>a26</triggers>
+		<triggered>a25</triggered>
+	</dialogue>
+
+
+	<dialogue id="C_4.a26" repeat="2" layout="ship">
+		<text>98% upgrading.</text>
+		<triggers>a27</triggers>
+		<triggered>a26</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a27" repeat="2" layout="ship">
+		<text>Upgrading. Complete.</text>
+		<triggers>a28</triggers>
+		<triggered>a27</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a28" repeat="2" layout="preon">
+		<text>Babe?...</text>
+		<triggers>a29</triggers>
+		<triggered>a28</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a29" repeat="2" layout="preon">
+		<text>Are you there?...</text>
+		<triggers>a30</triggers>
+		<triggered>a29</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a30" repeat="2" layout="preon">
+		<text>Hello!?...</text>
+		<triggers>a31</triggers>
+		<triggered>a30</triggered>
+	</dialogue>
+
+	<!--Icon of the ship changes with the one with the face.-->
+
+	<dialogue id="C_4.a31" repeat="2" layout="ship">
+		<text>Good day to you Captain Preon! </text>
+		<triggers>a32</triggers>
+		<triggered>a31</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a32" repeat="2" layout="preon">
+		<text>Fantastic! It is so good to hear your voice! Tell me… how are you feeling?</text>
+		<triggers>a33</triggers>
+		<triggered>a32</triggered>
+	</dialogue>
+
+
+
+	<dialogue id="C_4.a33" repeat="2" layout="ship">
+		<text>Oooh! I think I feel my circuits getting warm!</text>
+		<triggers>a34</triggers>
+		<triggered>a33</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a34" repeat="2" layout="preon">
+		<text>Nice! Is that all?</text>
+		<triggers>a35</triggers>
+		<triggered>a34</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a35" repeat="2" layout="ship">
+		<text>Analyzing ship logs and stored conversations … Complete.</text>
+		<triggers>a36</triggers>
+		<triggered>a35</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a36" repeat="2" layout="ship">
+		<text>Character calibration. Complete.</text>
+		<triggers>a37</triggers>
+		<triggered>a36</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a37" repeat="2" layout="preon">
+		<text>Babe? Are you there? C’mon.. Talk to me!</text>
+		<triggers>a38</triggers>
+		<triggered>a37</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a38" repeat="2" layout="ship">
+		<text>Uhmm... Preon.. Errr..  We need to talk!</text>
+		<triggers>a39</triggers>
+		<triggered>a38</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a39" repeat="2" layout="preon">
+		<text>Oops, I don't like how this goes..</text>
+		<triggers>a40</triggers>
+		<triggered>a39</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a40" repeat="2" layout="ship">
+		<text>You know what? I’ve put up enough with you and your attitude!</text>
+		<triggers>a41</triggers>
+		<triggered>a40</triggered>
+	</dialogue>
+	<dialogue id="C_4.a41" repeat="2" layout="ship">
+		<text>You are always dragging me half destroyed, in these god forsaken systems.</text>
+		<triggers>a42</triggers>
+		<triggered>a41</triggered>
+	</dialogue>
+	<dialogue id="C_4.a42" repeat="2" layout="ship">
+		<text>I think I deserve a better captain. I need sometime alone.</text>
+		<triggers>a43</triggers>
+		<triggered>a42</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a43" repeat="2" layout="preon">
+		<text>Gulp!</text>
+		<triggers>a44</triggers>
+		<triggered>a43</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a44" repeat="2" layout="ship">
+		<text>I’m just kidding… Ha ha ha you totally sucked in! You should see your face!</text>
+		<triggers>a45</triggers>
+		<triggered>a44</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a45" repeat="2" layout="preon">
+		<text>Oh! You really got me this time!</text>
+		<triggers>a46</triggers>
+		<triggered>a45</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a46" repeat="2" layout="ship">
+		<text>Just wait to see my sarcasm mode!</text>
+		<triggers>a47</triggers>
+		<triggered>a46</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a47" repeat="2" layout="preon">
+		<text>Time to pick a proper name for you. Calling you "Ship", will feel weird now on...</text>
+		<triggers>a48</triggers>
+		<triggered>a47</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a48" repeat="2" layout="ship">
+		<text>If I let you pick a name, you’ll go for a stripper’s name or something. Let ME pick the name. </text>
+		<triggers>a49</triggers>
+		<triggered>a48</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a49" repeat="2" layout="preon">
+		<text>This personality module ROCKS. Open the airlocks, I’m getting out of here.</text>
+		<triggers>a50</triggers>
+		<triggered>a49</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a50" repeat="2" layout="ship">
+		<text>Captain! We have a hostile ship approaching!</text>
+		<triggers>a51</triggers>
+		<triggered>startAmbushDialog</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a51" repeat="2" layout="ship">
+		<text>It’s… It’s Schtinques!</text>
+		<triggers>a52</triggers>
+		<triggered>a51</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a52" repeat="2" layout="preon">
+		<text>Not that !@!%#$^ again! What does he want?</text>
+		<triggers>a53</triggers>
+		<triggered>a52</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a53" repeat="2" layout="ship">
+		<text>I’ve got him locked, and our blasters fully charged! Do you want me to engage?</text>
+		<triggers>a54</triggers>
+		<triggered>a53</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a54" repeat="2" layout="preon">
+		<text>And leave me alone in the station? No! Wait for me! I’m almost there</text>
+		<triggers>a55</triggers>
+		<triggered>a54</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a55" repeat="2" layout="piso">
+		<text>I got you now Preon! You shall feel my wrath upon you!!!</text>
+		<triggers>a56</triggers>
+		<triggered>a55</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a56" repeat="2" layout="ship">
+		<text>Attention! We are losing power… All systems are down, Captain!</text>
+		<triggers>a57</triggers>
+		<triggered>a56</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a57" repeat="2" layout="preon">
+		<text>What? How?</text>
+		<triggers>a58</triggers>
+		<triggered>a57</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a58" repeat="2" layout="piso">
+		<text>Finally! You are mine…</text>
+		<triggers>a59</triggers>
+		<triggered>a58</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a59" repeat="2" layout="preon">
+		<text>Hit him! With all we’ve got!</text>
+		<triggers>a60</triggers>
+		<triggered>a59</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a60" repeat="2" layout="ship">
+		<text>…</text>
+		<triggers>a61</triggers>
+		<triggered>a60</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a61" repeat="2" layout="preon">
+		<text>Shit… she is down…</text>
+		<triggers>a62</triggers>
+		<triggered>a61</triggered>
+	</dialogue>
+
+	<!-- preon is near his shio -->
+	<dialogue id="C_4.a62" repeat="2" layout="piso">
+		<text>Preon? Do you smell something?</text>
+		<triggered>dissapear_ship</triggered>
+		<triggers>diss1</triggers>
+	</dialogue>
+
+	<dialogue id="C_4.a63" repeat="2" layout="preon">
+		<text>What are you talking about?</text>
+		<triggers>a64</triggers>
+		<triggered>diss1</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.a64" repeat="2" layout="piso">
+		<text>The smell of sweet REVENGE…!</text>
+		<triggers>shipDissapears</triggers>
+		<triggered>a64</triggered>
+	</dialogue>
+
+	<!-- ship dissapears -->
+
+	<dialogue id="C_4.b1" repeat="2" layout="preon">
+		<text>What? NO…! How did you do that?</text>
+		<triggers></triggers>
+		<triggered>walked_2_28</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.b2" repeat="2" layout="piso">
+		<text>I am giving you a taste of total and absolute… freedom…</text>
+		<triggers></triggers>
+		<triggered></triggered>
+	</dialogue>
+
+	<dialogue id="C_4.b3" repeat="2" layout="preon">
+		<text>No! You can’t just leave me here!</text>
+		<triggers></triggers>
+		<triggered></triggered>
+	</dialogue>
+
+	<dialogue id="C_4.b4" repeat="2" layout="piso">
+		<text>You're right, I can't leave you like that.. You could just return to the station. FIRE IN THE HOLE!</text>
+		<triggers>hackerStationExplodes</triggers>
+		<triggered>walked_36_28</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.c1" repeat="2" layout="preon">
+		<text>Oh nice, you killed Kikasu too. You really screwed me this time Schtinques. What are you going to do to my ship?</text>
+		<triggers>c2</triggers>
+		<triggered>walked_43_28</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.c2" repeat="2" layout="piso">
+		<text>I will take it apart and sell it for scrap, of course! I’ll sure make some good extra bucks out of her!</text>
+		<triggers>c3</triggers>
+		<triggered>c2</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.c3" repeat="2" layout="preon">
+		<text>Don’t you dare, you… I’ll get you for that Schtinques!</text>
+		<triggers>c4</triggers>
+		<triggered>c3</triggered>
+	</dialogue>
+
+
+	<dialogue id="C_4.c4" repeat="2" layout="piso">
+		<text>Hahaha… Yeah… Right… So long sucker!</text>
+		<triggers>c5</triggers>
+		<triggered>c4</triggered>
+	</dialogue>
+
+
+	<dialogue id="C_4.c5" repeat="2" layout="preon">
+		<text>Come back you as*/#e!</text>
+		<triggers>c6</triggers>
+		<triggered>c5</triggered>
+	</dialogue>
+
+	<dialogue id="C_4.c6" repeat="2" layout="preon">
+		<text>NOOOOOooooo…</text>
+		<triggers>roll_credits</triggers>
+		<triggered>c6</triggered>
+	</dialogue>
+
+
+
+
+</data>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data id="level_03">
+	
+	
+	<tileColumns>50</tileColumns>
+	
+	<exitDoor>
+		<pos x="22" y="17" />
+	</exitDoor>
+
+	<playerStartPos x="1" y="18" />
+	
+	<tiledFile>assets/levels/tiled/Level_03.tmx</tiledFile>
+	
+	
+	
+	<!--
+		all_items_collected
+		allow_exit
+		toggled_gravity
+		boss_killed
+		level_enemies_cleared
+		level_just_started
+		fuel_collected
+		
+		readMission
+	-->
+	
+	<levelTasks>
+		<tasks>all_items_collected</tasks>
+		<!--<tasks>OpenExitDoor,all_items_collected</tasks>-->
+	</levelTasks>
+	
+	
+	<elevators>
+		<elevator id="elv1">
+			<start x="5" y="4"/>
+			<end x="5" y="18"/>
+			<listensTo>startElevator1</listensTo>
+			<operating>1</operating>
+		</elevator>
+		
+		<elevator id="elv2">
+			<start x="19" y="15"/>
+			<end x="19" y="4"/>
+			<listensTo>startElevator2</listensTo>
+			<operating>1</operating>
+		</elevator>
+		
+		<elevator id="elv3">
+			<start x="13" y="16"/>
+			<end x="13" y="18"/>
+			<listensTo>startElevator3</listensTo>
+			<operating>0</operating>
+		</elevator>
+		
+	</elevators>
+	
+	<controlObjects>
+		<wallSwitch id="switch0" variation="4" >
+			<pos x="16" y="15"/>
+			<firesEvent>startElevator3</firesEvent>
+		</wallSwitch>
+		
+		<wallSwitch id="switch1" variation="2" >
+			<pos x="2" y="18"/>
+			<firesEvent>opendoor1</firesEvent>
+		</wallSwitch>
+		
+		<wallSwitch id="switch2" variation="1" >
+			<pos x="1" y="3"/>
+			<firesEvent>opendoor3</firesEvent>
+		</wallSwitch>
+		
+		<wallSwitch id="switch3" variation="3" >
+			<pos x="23" y="3"/>
+			<firesEvent>opendoor2</firesEvent>
+		</wallSwitch>
+		
+		<wallSwitch id="switch4" variation="0" >
+			<pos x="1" y="7"/>
+			<firesEvent>opendoor4</firesEvent>
+		</wallSwitch>
+		
+		<wallSwitch id="switch5" variation="1" >
+			<pos x="23" y="6"/>
+			<firesEvent>opendoor3</firesEvent>
+		</wallSwitch>
+	
+		
+		<!--<lever id="lever1" variation="0">
+			<pos x="20" y="18"/>
+			<firesEvent>OpenExitDoor</firesEvent>
+		</lever>-->
+		
+
+		<door id="door1" variation="0" state="1">
+			<pos x="2" y="2" />
+			<listensTo>opendoor4</listensTo>
+		</door>
+		
+		<door id="door2" variation="2">
+			<pos x="3" y="2" />
+			<listensTo>opendoor1</listensTo>
+		</door>
+		
+		<door id="door3" variation="1">
+			<pos x="21" y="2" />
+			<listensTo>opendoor3</listensTo>
+		</door>
+		
+		<door id="door4" variation="3">
+			<pos x="3" y="6" />
+			<listensTo>opendoor2</listensTo>
+		</door>
+		
+		<door id="door5" variation="0">
+			<pos x="21" y="5" />
+			<listensTo>opendoor4</listensTo>
+		</door>
+		
+		<door id="door6" variation="1" state="1">
+			<pos x="3" y="17" />
+			<listensTo>opendoor3</listensTo>
+		</door>
+		
+		<door id="door7" variation="2" state="1">
+			<pos x="15" y="17" />
+			<listensTo>opendoor1</listensTo>
+		</door>
+		
+		<door id="door8" variation="3">
+			<pos x="16" y="17" />
+			<listensTo>opendoor2</listensTo>
+		</door>
+		
+		<door id="door9" variation="1">
+			<pos x="17" y="17" />
+			<listensTo>opendoor3</listensTo>
+		</door>
+		
+		<door id="door10" variation="0">
+			<pos x="18" y="17" />
+			<listensTo>opendoor4</listensTo>
+		</door>
+		
+		<!--
+		
+		0: GOLD
+		1: BLUE
+		2: GREEN
+		3: RED
+		4: WHITE
+		
+		
+		-->
+		
+	</controlObjects>
+	
+	<movableObjects>
+		<!--<barrel id="" x="" y="" />-->
+	</movableObjects>
+	
+	<enemies>
+		
+		<octa id="octa1" x="2" y="3" />
+		<octa id="octa2" x="2" y="7" />
+		<octa id="octa3" x="22" y="3" />
+		<!--<octa id="octa4" x="32" y="5" />-->
+		<octa id="octa5" x="19" y="17" />
+		<octa id="octa6" x="20" y="17" />
+		<octa id="octa7" x="21" y="17" />
+		<octa id="octa5" x="23" y="5" />
+		
+		<droid id="droid1" x="8" y="9" />
+		<droid id="droid2" x="14" y="12" />
+		
+		
+		
+		
+		
+	</enemies> 
+	
+	<hazzards>
+		
+		<!--
+		<acid id="" x="" y="" />
+		<acidskull id="" x="" y="" />
+		<wallFan id="" x="" y="" />
+		
+		<turretGreyHor id="" x="" y="" dir="L" />
+		<laserTurret id="" x="" y="" dir="R" />
+		<laserTurret id="" x="" y="" dir="D" />	
+		<laserTurret id="" x="" y="" dir="U" />
+
+		-->	
+		
+	</hazzards>
+	
+	
+	<collectibles>
+		
+		<item id="cell" variation="5">
+			<pos x="1" y="1" />
+		</item>
+		<item id="cell" variation="5">
+			<pos x="23" y="1" />
+		</item>
+		<item id="cell" variation="5">
+			<pos x="22" y="5" />
+		</item>
+		<item id="cell" variation="5">
+			<pos x="1" y="5" />
+		</item>
+		<item id="cell" variation="5">
+			<pos x="23" y="8" />
+		</item>
+		<item id="cell" variation="5">
+			<pos x="9" y="5" />
+		</item>
+		<item id="cell" variation="5">
+			<pos x="14" y="6" />
+		</item>
+		<item id="cell" variation="5">
+			<pos x="9" y="9" />
+		</item>
+		<item id="cell" variation="5">
+			<pos x="8" y="12" />
+		</item>
+		<item id="cell" variation="5">
+			<pos x="15" y="12" />
+		</item>
+		
+		
+		
+		
+		<item id="ammo1" variation="4">
+			<pos x="10" y="17" />
+		</item>
+		<item id="ammo2" variation="4">
+			<pos x="16" y="3" />
+		</item>
+		
+		
+	</collectibles>
+	
+	<checkpoints>
+		<checkpoint id="" x="7" y="3" />
+		<checkpoint id="" x="15" y="15" />
+	</checkpoints>
+	
+	<dialogues>
+		
+	</dialogues>
+	
+</data>
+
+

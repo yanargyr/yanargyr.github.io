@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data id="level_main_2">
+	
+	<tileColumns>150</tileColumns>
+	
+	<exitDoor>
+		<pos x="" y="" />
+	</exitDoor>
+
+	<playerStartPos x="24" y="19" />
+	
+	<tiledFile>assets/levels/tiled/Level_MAIN_2.tmx</tiledFile>
+		
+	<isMainLevel>1</isMainLevel>
+	<chapter>2</chapter>
+	
+	
+	<levelTasks altExit="1">
+		<tasks>fuel_collected,end_chapter2</tasks>
+	</levelTasks>
+	
+	<debris dir="R" intervalSeconds="6" collection="8,9,10,14,2,3,4" />
+	
+	<customEvents>
+		<event id="level_end_alternative">
+			<prequisites>end_chapter2</prequisites>
+		</event>
+		<event id="fuel_collected">
+			<prequisites>has_enough_fuel</prequisites>
+		</event>
+	</customEvents>
+	
+	
+	<elevators>
+		
+		<elevator id="BossShipPilotRoom">
+			<start x="81" y="66"/>
+			<end x="81" y="71"/>
+			<operating>1</operating>
+		</elevator>
+		
+		<elevator id="BossShipBarracks">
+			<start x="41" y="69"/>
+			<end x="41" y="73"/>
+			<operating>1</operating>
+		</elevator>
+		
+		<elevator id="BossShipCargoRoom">
+			<start x="23" y="73"/>
+			<end x="23" y="77"/>
+			<operating>1</operating>
+		</elevator>
+		
+		<elevator id="BossShipEngineRoom">
+			<start x="86" y="80"/>
+			<end x="86" y="75"/>
+			<operating>1</operating>
+		</elevator>
+		<elevator id="BossShipEngineHallEnd">
+			<start x="55" y="75"/>
+			<end x="55" y="77"/>
+			<operating>1</operating>
+		</elevator>
+		
+		<elevator id="BossShipEngineCore">
+			<start x="98" y="79"/>
+			<end x="98" y="83"/>
+			<operating>1</operating>
+		</elevator>
+		<elevator id="BossShipEngineCoreInner">
+			<start x="91" y="80"/>
+			<end x="91" y="83"/>
+			<operating>1</operating>
+		</elevator>
+		
+		
+		<elevator id="1stShip">
+			<start x="69" y="8"/>
+			<end x="69" y="12"/>
+			<operating>1</operating>
+		</elevator>
+		
+		
+	</elevators>
+	
+	<controlObjects>
+		
+		<wallSwitch id="SwShipEngines" variation="5" >
+			<pos x="25" y="19" />
+			<unlock>fuel_collected</unlock>
+			<lockedMsg>missingFuel</lockedMsg>
+			<firesEvent>end_chapter2</firesEvent>
+		</wallSwitch>
+		<!--<firesEvent>level_end_alternative</firesEvent>-->
+		
+		
+		<!-- Preon's ship -->
+		<door id="DoorPreonShipAirlockInner" variation="0" state="0">
+			<pos x="26" y="21" />
+			<listensTo>PreonShipAirlockSw</listensTo>
+		</door>
+		<door id="DoorPreonShipAirlockOuter" variation="0" state="1">
+			<pos x="29" y="21" />
+			<listensTo>PreonShipAirlockSw</listensTo>
+		</door>
+		<wallSwitch id="SwPreonShipAirlockInner" variation="0" >
+			<pos x="25" y="22"/>
+			<firesEvent>PreonShipAirlockSw</firesEvent>
+		</wallSwitch>
+		<wallSwitch id="SwPreonShipAirlockOuter" variation="0" >
+			<pos x="27" y="22"/>
+			<firesEvent>PreonShipAirlockSw</firesEvent>
+		</wallSwitch>
+		
+		
+		<!-- Wreck 1 -->
+		<door id="DoorWreck1AirlockOuter" variation="0" state="1">
+			<pos x="49" y="10" />
+			<listensTo>WreckShip1AirlockSw</listensTo>
+		</door>
+		<door id="DoorWreck1AirlockInner" variation="0" state="0">
+			<pos x="52" y="10" />
+			<listensTo>WreckShip1AirlockSw</listensTo>
+		</door>
+		<wallSwitch id="SwWreck1AirlockInner1" variation="0" >
+			<pos x="51" y="11"/>
+			<firesEvent>WreckShip1AirlockSw</firesEvent>
+		</wallSwitch>
+		<wallSwitch id="SwWreck1AirlockInner2" variation="0" >
+			<pos x="53" y="11"/>
+			<firesEvent>WreckShip1AirlockSw</firesEvent>
+		</wallSwitch>
+		
+		
+		<wallSwitch id="SwWreck1Exit" variation="1" >
+			<pos x="73" y="15"/>
+			<firesEvent>Wreck1Exit</firesEvent>
+		</wallSwitch>
+		<door id="DoorWreck1Exit" variation="1" state="0">
+			<pos x="82" y="10" />
+			<listensTo>Wreck1Exit</listensTo>
+		</door>
+		
+		<trapDoor id="DoorWreck1Cargo" variation="3" state="0">
+			<pos x="76" y="13" />
+			<listensTo>Wreck1Cargo</listensTo>
+		</trapDoor>
+		<wallSwitch id="SwWreck1Cargo" variation="3" >
+			<pos x="74" y="7"/>
+			<firesEvent>Wreck1Cargo</firesEvent>
+		</wallSwitch>
+		
+		
+		
+		<!-- Wreck 2 -->
+		<door id="DoorWreck2AirlockOuter" variation="0" state="1">
+			<pos x="110" y="13" />
+			<listensTo>WreckShip2AirlockSw</listensTo>
+		</door>
+		<door id="DoorWreck2AirlockInner" variation="0" state="0">
+			<pos x="113" y="13" />
+			<listensTo>WreckShip2AirlockSw</listensTo>
+		</door>
+		<wallSwitch id="SwWreck2Airlock1" variation="0" >
+			<pos x="112" y="14"/>
+			<firesEvent>WreckShip2AirlockSw</firesEvent>
+		</wallSwitch>
+		<wallSwitch id="SwWreck2Airlock2" variation="0" >
+			<pos x="114" y="14"/>
+			<firesEvent>WreckShip2AirlockSw</firesEvent>
+		</wallSwitch>
+		
+		<door id="DoorWreck2RearAirlock1" variation="3" state="0">
+			<pos x="127" y="11" />
+			<listensTo>WreckShip2AirlockRear</listensTo>
+		</door>
+		<wallSwitch id="SwWreck2RearAirlock1" variation="3" >
+			<pos x="112" y="8"/>
+			<firesEvent>WreckShip2AirlockRear</firesEvent>
+		</wallSwitch>
+		<wallSwitch id="SwWreck2RearAirlock2" variation="3" >
+			<pos x="129" y="12"/>
+			<firesEvent>WreckShip2AirlockRear</firesEvent>
+		</wallSwitch>
+		
+		
+		
+		
+		<!-- Wreck 3 -->
+		<trapDoor id="DoorWreck3Aairlock1Outer" variation="0" state="1">
+			<pos x="141" y="29" />
+			<listensTo>WreckShip3Airlock1Sw</listensTo>
+		</trapDoor>
+		<door id="DoorWreck3Aairlock1Inner" variation="0" state="0">
+			<pos x="140" y="31" />
+			<listensTo>WreckShip3Airlock1Sw</listensTo>
+		</door>
+		<wallSwitch id="SwWreck3Aairlock1Outer" variation="0" >
+			<pos x="139" y="32"/>
+			<firesEvent>WreckShip3Airlock1Sw</firesEvent>
+		</wallSwitch>
+		<wallSwitch id="SwWreck3Aairlock1Inner" variation="0" >
+			<pos x="143" y="32"/>
+            <firesEvent>endOfDemo</firesEvent>
+
+            <!--<firesEvent>WreckShip3Airlock1Sw</firesEvent>-->
+
+		</wallSwitch>
+		
+		<door id="DoorWreck3Airlock2Outer" variation="0" state="1">
+			<pos x="123" y="35" />
+			<listensTo>WreckShip3Airlock2Sw</listensTo>
+		</door>
+		<door id="DoorWreck3Airlock2Inner" variation="0" state="0">
+			<pos x="126" y="35" />
+			<listensTo>WreckShip3Airlock2Sw</listensTo>
+		</door>
+		<wallSwitch id="SwWreck3Airlock2Inner" variation="0" >
+			<pos x="125" y="36"/>
+			<firesEvent>WreckShip3Airlock2Sw</firesEvent>
+		</wallSwitch>
+		<wallSwitch id="SwWreck3Airlock2Outer" variation="0" >
+			<pos x="127" y="37"/>
+			<firesEvent>WreckShip3Airlock2Sw</firesEvent>
+		</wallSwitch>
+		
+		
+		<!-- THE SHIP!!! -->
+		
+		<trapDoor id="DoorBigShipFirst" variation="3" state="1">
+			<pos x="16" y="66" />
+			<listensTo>BigShip_entrance</listensTo>
+		</trapDoor>
+		<wallSwitch id="SwBigShipFirst" variation="3" >
+			<pos x="16" y="68"/>
+			<firesEvent>BigShip_entrance</firesEvent>
+		</wallSwitch>
+		
+		
+		
+		<door id="DoorBigShipWestAirlockOuter" variation="0" state="0">
+			<pos x="51" y="67" />
+			<listensTo>BigShipWest</listensTo>
+		</door>
+		<door id="DoorBigShipWestAirlockInner" variation="0" state="1">
+			<pos x="47" y="67" />
+			<listensTo>BigShipWest</listensTo>
+		</door>
+		<wallSwitch id="DoorWestAirlockInside" variation="0" >
+			<pos x="50" y="68"/>
+			<firesEvent>BigShipWest</firesEvent>
+		</wallSwitch>
+		<wallSwitch id="DoorWestAirlockOutside" variation="0" >
+			<pos x="46" y="68"/>
+			<firesEvent>BigShipWest</firesEvent>
+		</wallSwitch>
+		<wallSwitch id="SwWestAirlockOutsideWestAirlockRemote" variation="0" >
+			<pos x="21" y="68"/>
+			<firesEvent>BigShipWest</firesEvent>
+		</wallSwitch>
+		
+		
+		<door id="DoorBigShipEastAirlockOuter" variation="0" state="0">
+			<pos x="91" y="70" />
+			<listensTo>BigShipEast</listensTo>
+		</door>
+		<door id="BigShip East Airlock, Inner" variation="0" state="1">
+			<pos x="87" y="70" />
+			<listensTo>BigShipEast</listensTo>
+		</door>
+		<wallSwitch id="SwEastInner" variation="0" >
+			<pos x="89" y="71"/>
+			<firesEvent>BigShipEast</firesEvent>
+		</wallSwitch>
+		<wallSwitch id="SwWestAirlockInner" variation="0" >
+			<pos x="86" y="71"/>
+			<firesEvent>BigShipEast</firesEvent>
+		</wallSwitch>
+		
+		<door id="DoorBigShipMaiHallLockLeft" variation="2" state="0">
+			<pos x="36" y="75" />
+			<listensTo>BigShipMaiHallLock</listensTo>
+		</door>
+		<door id="DoorBigShipMaiHallLockRight" variation="2" state="1">
+			<pos x="49" y="75" />
+			<listensTo>BigShipMaiHallLock</listensTo>
+		</door>
+		<wallSwitch id="SwBigShipMaiHallLockLeft" variation="2" >
+			<pos x="43" y="79"/>
+			<firesEvent>BigShipMaiHallLock</firesEvent>
+		</wallSwitch>
+		<wallSwitch id="SwBigShipMaiHallLockRight" variation="2" >
+			<pos x="48" y="76"/>
+			<firesEvent>BigShipMaiHallLock</firesEvent>
+		</wallSwitch>
+		<wallSwitch id="SwBigShipMaiHallLockRight2" variation="2" >
+			<pos x="50" y="76"/>
+			<firesEvent>BigShipMaiHallLock</firesEvent>
+		</wallSwitch>
+		
+		<door id="DoorBigShipBottomExitRed" variation="3" state="0">
+			<pos x="66" y="80" />
+			<listensTo>BigShipbottomExitRed</listensTo>
+		</door>
+		<wallSwitch id="SwBigShipBottomExitRed" variation="3" >
+			<pos x="71" y="81"/>
+			
+			<firesEvent>BigShipbottomExitRed</firesEvent>
+		</wallSwitch>
+		
+		
+		<door id="DoorBigShipBottomExitGold" variation="0" state="0">
+			<pos x="67" y="80" />
+			<listensTo>BigShipbottomExitGold</listensTo>
+		</door>
+		<wallSwitch id="SwBigShipBottomExitGold" variation="0" >
+			<pos x="95" y="80"/>
+			<firesEvent>BigShipbottomExitGold</firesEvent>
+		</wallSwitch>
+		
+		<door id="DoorBigShipBottomExitBlue" variation="1" state="0">
+			<pos x="68" y="80" />
+			<listensTo>BigShipbottomExitBlue</listensTo>
+		</door>
+		<wallSwitch id="SwBigShipBottomExitBlue" variation="1" >
+			<pos x="76" y="65"/>
+			<firesEvent>BigShipbottomExitBlue</firesEvent>
+		</wallSwitch>
+		
+		
+		
+		
+		<door id="DoorBroken" variation="3" state="0">
+			<pos x="80" y="67" />
+			<listensTo>nothing</listensTo>
+		</door>
+	
+		
+		<trapDoor id="DoorBigShipCargoRoof" variation="1" state="0">
+			<pos x="41" y="70" />
+			<listensTo>BigShip_cargo_roof</listensTo>
+		</trapDoor>
+		<wallSwitch id="SwDoorBigShipCargoRoof" variation="1" >
+			<pos x="24" y="68"/>
+			<firesEvent>BigShip_cargo_roof</firesEvent>
+		</wallSwitch>
+		<wallSwitch id="DoorBigShipCargoRoof2" variation="1" >
+			<pos x="43" y="73"/>
+			<firesEvent>BigShip_cargo_roof</firesEvent>
+		</wallSwitch>
+		
+		<wallSwitch id="SWLilithBackDoor" variation="2" >
+			<pos x="53" y="71"/>
+			<firesEvent>LilithBackDoor</firesEvent>
+		</wallSwitch>
+		<door id="DoorLilithBackDoor" variation="2" state="0">
+			<pos x="100" y="77" />
+			<listensTo>LilithBackDoor</listensTo>
+		</door>
+		
+		
+		
+		
+		<computer id="" >
+			<pos x="14" y="67"/>
+			<firesEvent>term_01</firesEvent>
+		</computer>
+		<computer id="" >
+			<pos x="48" y="67"/>
+			<firesEvent>term_02</firesEvent>
+		</computer>
+		<computer id="" >
+			<pos x="26" y="67"/>
+			<firesEvent>term_03</firesEvent>
+		</computer>
+		<computer id="" >
+			<pos x="34" y="71"/>
+			<firesEvent>term_04</firesEvent>
+		</computer>
+		<computer id="" >
+			<pos x="27" y="71"/>
+			<firesEvent>term_05</firesEvent>
+		</computer>
+		<computer id="" >
+			<pos x="18" y="74"/>
+			<firesEvent>term_06</firesEvent>
+		</computer>
+		<computer id="" >
+			<pos x="37" y="78"/>
+			<firesEvent>term_07</firesEvent>
+		</computer>
+		<computer id="" >
+			<pos x="43" y="75"/>
+			<firesEvent>term_08</firesEvent>
+		</computer>
+		
+		
+		<!--
+		
+		0: GOLD
+		1: BLUE
+		2: GREEN
+		3: RED
+		4: WHITE
+		
+		<wallSwitch id="" variation="1" >
+			<pos x="" y=""/>
+			<firesEvent></firesEvent>
+		</wallSwitch>
+		
+		<computer id="" >
+			<pos x="" y=""/>
+			<firesEvent></firesEvent>
+		</computer>
+		
+		<gravSwitch id="">
+			<pos x="" y=""/>	
+		</gravSwitch>
+		
+		
+		<lever id="" variation="">
+			<pos x="" y=""/>
+			<firesEvent></firesEvent>
+		</lever>
+			
+		<door id="" variation="" state="">
+			<pos x="" y="" />
+			<listensTo></listensTo>
+		</door>
+		
+		<trapDoor id="" variation="" state="">
+			<pos x="" y="" />
+			<listensTo></listensTo>
+		</trapDoor>
+		-->
+		
+		
+		
+		
+		
+		
+<!--		
+05
+07
+23
+09 HVCC
+06
+30
+20
+25
+13 *
+27
+24 *
+11 Boss charge
+19 *
+21
+17
+16 boss fly
+14
+10
+32 boss stomp
+22
+28 boss shoot
+15 * HCVV
+-->
+
+        <levelDoor id="door_lev5" variation="2">
+			<pos x="72" y="6" />
+			<opensLevel>level_05</opensLevel>
+		</levelDoor>
+		
+		<levelDoor id="door_lev7" variation="2">
+			<pos x="115" y="13" />
+            <opensLevel>level_06</opensLevel>
+			<!--<opensLevel>level_07</opensLevel>-->
+		</levelDoor>
+		
+		<levelDoor id="door_lev23" variation="2">
+			<pos x="115" y="7" />
+            <opensLevel>level_25</opensLevel>
+			<!--<opensLevel>level_23</opensLevel>-->
+		</levelDoor>
+        <!-- End of DEMO -->
+
+
+        <!--&lt;!&ndash; HVCC &ndash;&gt;-->
+        <!--<levelDoor id="door_lev9" variation="2">-->
+            <!--<pos x="135" y="31"/>-->
+            <!--<opensLevel>level_09</opensLevel>-->
+        <!--</levelDoor>-->
+
+        <!--<levelDoor id="door_lev6" variation="2">-->
+            <!--<pos x="19" y="67"/>-->
+            <!--<opensLevel>level_07</opensLevel>-->
+        <!--</levelDoor>-->
+
+
+        <!--<levelDoor id="door_lev30" variation="2">-->
+            <!--<pos x="44" y="67"/>-->
+            <!--<opensLevel>level_30</opensLevel>-->
+        <!--</levelDoor>-->
+
+        <!--<levelDoor id="door_lev20" variation="2">-->
+            <!--<pos x="29" y="67"/>-->
+            <!--<opensLevel>level_20</opensLevel>-->
+        <!--</levelDoor>-->
+
+        <!--<levelDoor id="door_lev25" variation="2">-->
+            <!--<pos x="32" y="71"/>-->
+            <!--<opensLevel>level_23</opensLevel>-->
+        <!--</levelDoor>-->
+
+        <!--&lt;!&ndash; optional &ndash;&gt;-->
+        <!--<levelDoor id="door_lev13" variation="2">-->
+            <!--<pos x="20" y="71"/>-->
+            <!--<opensLevel>level_13</opensLevel>-->
+        <!--</levelDoor>-->
+
+        <!--&lt;!&ndash; too hard, should be placed later &ndash;&gt;-->
+        <!--<levelDoor id="door_lev27" variation="2">-->
+            <!--<pos x="25" y="71"/>-->
+            <!--<opensLevel>level_27</opensLevel>-->
+        <!--</levelDoor>-->
+
+        <!--&lt;!&ndash; optional &ndash;&gt;-->
+        <!--<levelDoor id="door_lev24" variation="2">-->
+            <!--<pos x="41" y="78"/>-->
+            <!--<opensLevel>level_24</opensLevel>-->
+        <!--</levelDoor>-->
+
+        <!--&lt;!&ndash; Boss 1, Charging &ndash;&gt;-->
+        <!--<levelDoor id="door_lev11" variation="2">-->
+            <!--<pos x="52" y="75"/>-->
+            <!--<opensLevel>level_11</opensLevel>-->
+        <!--</levelDoor>-->
+
+        <!--&lt;!&ndash; optional &ndash;&gt;-->
+        <!--<levelDoor id="door_lev19" variation="2">-->
+            <!--<pos x="57" y="70"/>-->
+            <!--<opensLevel>level_19</opensLevel>-->
+        <!--</levelDoor>-->
+
+        <!--<levelDoor id="door_lev21" variation="2">-->
+            <!--<pos x="61" y="73"/>-->
+            <!--<opensLevel>level_21</opensLevel>-->
+        <!--</levelDoor>-->
+
+        <!--<levelDoor id="door_lev17" variation="2">-->
+            <!--<pos x="65" y="76"/>-->
+            <!--<opensLevel>level_17</opensLevel>-->
+        <!--</levelDoor>-->
+
+        <!--&lt;!&ndash; Boss Bomber &ndash;&gt;-->
+        <!--<levelDoor id="door_lev16" variation="2">-->
+            <!--<pos x="78" y="64"/>-->
+            <!--<opensLevel>level_16</opensLevel>-->
+        <!--</levelDoor>-->
+
+        <!--<levelDoor id="door_lev14" variation="2">-->
+            <!--<pos x="76" y="70"/>-->
+            <!--<opensLevel>level_14</opensLevel>-->
+        <!--</levelDoor>-->
+
+        <!--<levelDoor id="door_lev10" variation="2">-->
+            <!--<pos x="76" y="77"/>-->
+            <!--<opensLevel>level_10</opensLevel>-->
+        <!--</levelDoor>-->
+
+        <!--&lt;!&ndash; Boss Stomping &ndash;&gt;-->
+        <!--<levelDoor id="door_lev32" variation="2">-->
+            <!--<pos x="73" y="80"/>-->
+            <!--<opensLevel>level_32</opensLevel>-->
+        <!--</levelDoor>-->
+
+        <!--<levelDoor id="door_lev22" variation="2">-->
+            <!--<pos x="93" y="76"/>-->
+            <!--<opensLevel>level_22</opensLevel>-->
+        <!--</levelDoor>-->
+
+        <!--&lt;!&ndash; Boss Shooting &ndash;&gt;-->
+        <!--<levelDoor id="door_lev28" variation="2">-->
+            <!--<pos x="93" y="79"/>-->
+            <!--<opensLevel>level_28</opensLevel>-->
+        <!--</levelDoor>-->
+
+        <!--&lt;!&ndash; optional HVCC &ndash;&gt;-->
+        <!--<levelDoor id="door_lev15" variation="2">-->
+            <!--<pos x="132" y="76"/>-->
+            <!--<opensLevel>level_15</opensLevel>-->
+        <!--</levelDoor>-->
+
+
+    </controlObjects>
+	
+	<enemies>		
+	</enemies>
+	
+	
+	
+	
+	<!-- ,intro1,intro2,intro3,intro4,intro5,intro6,intro7,intro8,intro9,intro10,intro11,story_1,story_2,story_3,story_4,story_5,story_6,story_7,story_8,story_9,story_10,portals_0,portals_1,portals_2,portals_3,portals_4,portals_5,shipLogs_1_1,shipLogs_1_2,shipLogs_1_3,shipLogs_2_1,shipLogs_2_2,shipLogs_2_3,shipLogs_2_4,shipLogs_3_1,shipLogs_3_2,shipLogs_3_3,shipLogs_3_4,shipLogs_3_5,shipLogs_4_1,shipLogs_4_2,shipLogs_4_3,shipLogs_4_4,shipLogs_4_5,shipLogs_5_1,shipLogs_5_2,shipLogs_5_3,shipLogs_5_4,shipLogs_6_1,shipLogs_6_2,shipLogs_6_3,shipLogs_6_4,shipLogs_7_1,shipLogs_7_2,shipLogs_7_3,shipLogs_8_1,shipLogs_8_2,shipLogs_8_3-->
+	<!--<dialogues>intro1,intro2,intro3,intro4,log1,log2,log3,log4,log5,log6,log7,log8,log9,log10,log11,canReadLog</dialogues>-->
+
+	<!-- <dialogues>B_2.00_20,B_2.00_21,B_2.00_22,B_2.00_23,B_2.00_24,B_2.00_25,B_2.00_26,B_2.00_27,B_2.00_28,B_2.00_29,B_2.00_30,B_2.00_31,B_2.00_32,B_2.00_33,B_2.00_34,goodToGo_1,goodToGo_2,main_not_ready_to_leave,B_2.QL_01,B_2.QL_02,B_2.QL_03,B_2.QL_04,B_2.QL_05,B_2.QL_06,B_2.QL_07,B_2.QL_08,B_2.QL_09</dialogues>-->
+	
+	<dialogues>demo0,demo1,demo2,demo3,goodToGo_1,goodToGo_2,main_not_ready_to_leave,main_2_intro_0,main_2_intro_2,main_2_intro_3,main_2_intro_4,main_2_intro_6,main_2_intro_7,main_2_intro_10,main_2_intro_11,main_2_intro_12</dialogues>
+	<!--main_2_intro_1
+	main_2_intro_5
+	main_2_intro_8
+	main_2_intro_9
+	-->
+	
+</data>
+
+

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<section>
+		<header>Developed by:</header>
+	</section>
+	
+	<credit>
+		<header>Yannis Argyropoulos</header>
+		<info>Coding
+		Game design
+		Level design
+		Graphics
+		Story
+		Sound Effects</info>
+	</credit>
+	
+	<credit>
+		<header>Christos Argyropoulos</header>
+		<info>Game Design
+		Graphics
+		Coding (prototype)
+		Level Design</info>
+	</credit>
+	
+	
+	<credit>
+		<header>Aphrodite Madika</header>
+		<info>Quality assurance
+		Story
+		Level design</info>
+	</credit>
+	
+	<credit>
+		<header>Vasilis Skopelitis</header>
+		<info>Music (original score)
+		Story
+		Quality assurance</info>
+	</credit>
+		
+	<credit>
+		<header>Carlos Musicmania</header>
+		<info>Music, procuding and mixing</info>
+	</credit>
+		
+	<credit>
+		<header>Development Tools</header>
+		<info>HaxeFlixel
+Tiled
+HaxeDevelop
+IntelliJ IDEA
+GIMP
+BFXR
+		</info>
+	</credit>
+
+    <credit>
+        <header>Development Tools (older versions)</header>
+        <info>Flixel
+DAME editor
+Flash Develop
+Visual Studio Code
+        </info>
+    </credit>
+
+    <!--<info>
+        HaxeFlixel
+            https://haxeflixel.com/
+		Tiled
+            https://www.mapeditor.org/
+        HaxeDevelop
+            https://haxe.org/blog/meet-haxedevelop/
+        IntelliJ IDEA
+            https://www.jetbrains.com/idea/
+        GIMP
+            https://www.gimp.org/
+        BFXR
+            https://www.bfxr.net/
+		</info>-->
+
+    <section>
+        <header>Soundtrack</header>
+    </section>
+
+    <credit>
+        <header>Spacevert - Wicked Circuitry EP</header>
+        <info>Available in youtube and spotify </info>
+    </credit>
+
+    <!--
+    <credit>
+        <header>Development Tools</header>
+        <info>HaxeFlixel
+            DAME editor
+            Tiled editor
+            FlashDevelop
+            HaxeDevelop
+            Visual Studio Code
+            Gimp
+            BFXR</info>
+    </credit>
+    -->
+
+
+    <!--
+	<section>
+		<header>Special thanks</header>
+	</section>
+
+
+	<credit>
+		<header>Prototype Testing and Feedback</header>
+		<info>Theodosis Tsitouris
+Fernando Astiaso
+Alejandro Astiaso
+Kostas Kanaris</info>
+	</credit>
+
+	<credit>
+		<header>Prototype Testing and Feedback</header>
+		<info>Christos Kleisiaris
+Mariora ???
+Lefteris Kozanidis
+Georgia Chelioti</info>
+	</credit>
+
+	-->
+		
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+	<!-- 
+	
+	<section>
+		<header></header>
+	</section>
+	<credit>
+		<header></header>
+		<info></info>
+	</credit>
+		
+		-->
+</data>
