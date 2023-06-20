@@ -188,16 +188,6 @@
 
 
 
-
-        <!-- Other ship blocked door -->
-        <door id="Chapter1LockedDoor" variation="2" state="0">
-            <pos x="22" y="1" />
-            <listensTo></listensTo>
-        </door>
-
-
-
-
 		
 		<levelDoor id="door_lev_1" variation="2">
 			<pos x="54" y="34" />
