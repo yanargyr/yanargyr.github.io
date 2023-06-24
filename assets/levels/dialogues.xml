@@ -41,14 +41,32 @@
 		<triggered>level_just_started</triggered>
 	</dialogue>
 	<dialogue id="tut4_2" repeat="1">
-		<text>Use key[move_left], key[move_right] to MOVE</text>
+		<text>Use key[move_left], key[move_right] to MOVE
+        (Close this dialogue first!)</text>
 		<triggers></triggers>
 		<triggered>tut4_1</triggered>
 	</dialogue>
 
-	<dialogue id="tut4_3" repeat="1" layout="boss">
-		<text>U ready for the Crib Manager exam??
-			Lets crack on with Fit-ness and
+
+    <dialogue id="tut4_2a" repeat="1" layout="preon">
+        <text>Hi, um.. like?.. is this the right way..
+to like?.. the interview room for Cribs4Grabs??</text>
+        <triggers>tut4_2a</triggers>
+        <triggered>walked_21_15</triggered>
+    </dialogue>
+
+    <dialogue id="tut4_2b" repeat="1" layout="boss">
+        <text>Damn boi, it be CRABBS, not GRABS???
+Crabbs like..? our currency uknow??
+Cribs4Crabbs, yeah?
+        </text>
+        <triggers></triggers>
+        <triggered>tut4_2a</triggered>
+    </dialogue>
+
+
+    <dialogue id="tut4_3" repeat="1" layout="boss">
+		<text>So.. like?.. lets crack on with Fit-ness and
 			..like ..Cardio???</text>
 		<triggers>tut4_3</triggers>
 		<triggered>walked_26_15</triggered>
@@ -361,23 +379,24 @@ Me be claimin like..? Clause 649</text>
     <dialogue id="intro_blah_41b" repeat="1" layout="large">
         <text>--Standard Plebhold Agreement, Cribs4Crabbs(R). Clause 649--
 If the Landlord, driven by advanced surveillance or intelligence, reasonably suspects the tenant possesses unparalleled villainy, malevolent intent, poor hygiene, unnatural body odour, or threatens cosmic equilibrium, the Landlord reserves the right to initiate the 'Eradication Protocol'.
+It terminates the tenancy immediately and cataclysmically, nullifying all contractual obligations and obliterating the tenant's existence, without prior notice, in an extraordinary measure to minimize the risk of financial loss or potential property devaluation and ensure cosmic stability.
         </text>
         <triggers>intro_blah_41b</triggers>
         <triggered>intro_blah_41</triggered>
     </dialogue>
 
-    <dialogue id="intro_blah_41c" repeat="1" layout="large">
-        <text>It terminates the tenancy immediately and cataclysmically, nullifying all contractual obligations and obliterating the tenant's existence, without prior notice, in an extraordinary measure to minimize the risk of financial loss or potential property devaluation and ensure cosmic stability.
-        </text>
-        <triggers>intro_blah_41c</triggers>
-        <triggered>intro_blah_41b</triggered>
-    </dialogue>
+    <!--<dialogue id="intro_blah_41c" repeat="1" layout="large">-->
+        <!--<text>It terminates the tenancy immediately and cataclysmically, nullifying all contractual obligations and obliterating the tenant's existence, without prior notice, in an extraordinary measure to minimize the risk of financial loss or potential property devaluation and ensure cosmic stability.-->
+        <!--</text>-->
+        <!--<triggers>intro_blah_41c</triggers>-->
+        <!--<triggered>intro_blah_41b</triggered>-->
+    <!--</dialogue>-->
 
 	<dialogue id="intro_blah_42" repeat="1" layout="marco">
 		<text>Don't do nothin stupid??
 Uknow me cousin be like? ..</text>
 		<triggers>intro_blah_42</triggers>
-		<triggered>intro_blah_41c</triggered>
+		<triggered>intro_blah_41b</triggered>
 	</dialogue>
 
 	<dialogue id="intro_blah_43" repeat="1" layout="preon">

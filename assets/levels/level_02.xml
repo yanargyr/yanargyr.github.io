@@ -60,7 +60,7 @@
 		
 		
 		<door id="" variation="2" state="">
-			<pos x="11" y="31" />
+			<pos x="29" y="31" />
 			<listensTo>green</listensTo>
 		</door>
 		<lever id="" variation="2" >
@@ -74,7 +74,7 @@
 			<listensTo>yellow</listensTo>
 		</door>
 		<wallSwitch id="" variation="0" >
-			<pos x="29" y="32"/>
+			<pos x="28" y="32"/>
 			<firesEvent>yellow</firesEvent>
 		</wallSwitch>
 		
@@ -97,7 +97,10 @@
 			<pos x="21" y="14"/>
 			<firesEvent>red</firesEvent>
 		</lever>
-		
+
+        <gravSwitch id="">
+            <pos x="32" y="33"/>
+        </gravSwitch>
 		<!--
 		
 		0: GOLD
@@ -148,14 +151,14 @@
 		<corsairDude id="corsair" x="21" y="20" />
 		<droid id="droid" x="37" y="14" />
 		<droid2 id="droid" x="42" y="25" />
-		
-		<octa id="octa" x="33" y="29" />
+
+		<octa id="octa" x="31" y="29" />
 		<octa id="octa" x="39" y="29" />
 		<octa id="octa" x="41" y="29" />
-		
-		
-		<octa id="octa" x="33" y="32" />
-		<octa id="octa" x="39" y="32" />
+
+
+		<octa id="octa" x="31" y="32" />
+		<octa id="octa" x="43" y="32" />
 		
 		<droid id="droid" x="21" y="23" />
 		<droid id="droid" x="21" y="28" />
@@ -193,6 +196,35 @@
 		<acid id="" x="41" y="14"  top="1" />
 		<acid id="" x="42" y="14"  top="1" />
 		<acid id="" x="43" y="14"  top="1" />
+
+
+        <acid id="" x="33" y="34"  top="1" />
+        <acid id="" x="34" y="34"  top="1" />
+        <acid id="" x="35" y="34"  top="1" />
+        <acid id="" x="36" y="34"  top="1" />
+        <acid id="" x="37" y="34"  top="1" />
+        <acid id="" x="38" y="34"  top="1" />
+        <acid id="" x="39" y="34"  top="1" />
+        <acid id="" x="40" y="34"  top="1" />
+        <acid id="" x="41" y="34"  top="1" />
+        <acid id="" x="42" y="34"  top="1" />
+
+
+        <acid id="" x="32" y="26"  top="1" />
+        <acid id="" x="33" y="26"  top="1" />
+        <acid id="" x="34" y="26"  top="1" />
+        <acid id="" x="35" y="26"  top="1" />
+        <acid id="" x="36" y="26"  top="1" />
+        <acid id="" x="37" y="26"  top="1" />
+        <acid id="" x="38" y="26"  top="1" />
+        <acid id="" x="39" y="26"  top="1" />
+        <acid id="" x="40" y="26"  top="1" />
+        <acid id="" x="41" y="26"  top="1" />
+        <acid id="" x="42" y="26"  top="1" />
+        <acid id="" x="43" y="26"  top="1" />
+        <acid id="" x="44" y="26"  top="1" />
+
+
 		<!--
 		<acid id="" x="" y="" />
 		<acidskull id="" x="" y="" />
@@ -218,7 +250,7 @@
 			<pos x="21" y="31" />
 		</item>
 		<item id="ammo1" variation="4">
-			<pos x="44" y="32" />
+			<pos x="44" y="33" />
 		</item>
 		<item id="ammo1" variation="4">
 			<pos x="36" y="20" />
@@ -243,7 +275,7 @@
 			<pos x="40" y="30" />
 		</item>
 		<item id="cell_5" variation="5"  bonus="0">
-			<pos x="38" y="32" />
+			<pos x="38" y="33" />
 		</item>
 		<item id="cell_6" variation="5"  bonus="0">
 			<pos x="34" y="25" />
@@ -275,10 +307,10 @@
 		<item id="cell_15" variation="5"  bonus="0">
 			<pos x="10" y="13" />
 		</item>
-		
-		
-		
-		
+
+
+
+
 		<!--
 		
 		0,1,2,3 : Energy Cells  (required)		
@@ -301,6 +333,7 @@
 	
 	<checkpoints>
 		<checkpoint id="" x="31" y="12" />
+        <checkpoint id="" x="30" y="20" />
 	</checkpoints>
 	
 	<dialogues>level_02_1,level_02_2</dialogues>

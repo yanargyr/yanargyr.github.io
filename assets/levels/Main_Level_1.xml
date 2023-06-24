@@ -121,7 +121,8 @@
             <firesEvent>ship2_airlock</firesEvent>
         </wallSwitch>
         <wallSwitch id="SW_ship1_elv" variation="4" >
-            <pos x="104" y="20"/>
+            <!--<pos x="104" y="20"/>-->
+            <pos x="112" y="16"/>
             <firesEvent>elv_0</firesEvent>
         </wallSwitch>
 
@@ -213,7 +214,11 @@
 			<pos x="96" y="78" />
 			<opensLevel>level_04</opensLevel>
 		</levelDoor>
-		
+
+        <levelDoor id="door_lev_6" variation="2">
+            <pos x="86" y="95" />
+            <opensLevel>level_18</opensLevel>
+        </levelDoor>
 		
 		
 

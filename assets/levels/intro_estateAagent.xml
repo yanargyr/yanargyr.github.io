@@ -503,7 +503,7 @@
 	
 	<debris dir="R" intervalSeconds="0.8" collection="100,100,101,101,101,102,103,103,103,103,104,105,106,107,108,109" />
 
-
-	<dialogues>intro_blah_50,intro_blah_51,intro_blah_52,intro_blah_39,intro_blah_34,intro_blah_35,intro_blah_38,intro_blah_41c,intro_blah_41b,intro_0_a,intro_0_b,intro_0_c,intro_0_d,intro_0_e,intro_0_f,intro_blah_0,intro_blah_1,intro_blah_3,intro_blah_5,intro_blah_6,intro_blah_7,intro_blah_8,intro_blah_9,intro_blah_10,intro_blah_12,intro_blah_13,intro_blah_14,intro_blah_15,intro_blah_16,intro_blah_17,intro_blah_18,intro_blah_20,intro_blah_21,intro_blah_22,intro_blah_23,intro_blah_24,intro_blah_25,intro_blah_25b,intro_blah_26,intro_blah_27,intro_blah_28,intro_blah_29,intro_blah_30,intro_blah_31,intro_blah_32,intro_blah_33,intro_blah_37,intro_blah_40,intro_blah_41,intro_blah_42,intro_blah_43,intro_blah_46</dialogues>
+    <!--intro_blah_41c-->
+	<dialogues>intro_blah_50,intro_blah_51,intro_blah_52,intro_blah_39,intro_blah_34,intro_blah_35,intro_blah_38,intro_blah_41b,intro_0_a,intro_0_b,intro_0_c,intro_0_d,intro_0_e,intro_0_f,intro_blah_0,intro_blah_1,intro_blah_3,intro_blah_5,intro_blah_6,intro_blah_7,intro_blah_8,intro_blah_9,intro_blah_10,intro_blah_12,intro_blah_13,intro_blah_14,intro_blah_15,intro_blah_16,intro_blah_17,intro_blah_18,intro_blah_20,intro_blah_21,intro_blah_22,intro_blah_23,intro_blah_24,intro_blah_25,intro_blah_25b,intro_blah_26,intro_blah_27,intro_blah_28,intro_blah_29,intro_blah_30,intro_blah_31,intro_blah_32,intro_blah_33,intro_blah_37,intro_blah_40,intro_blah_41,intro_blah_42,intro_blah_43,intro_blah_46</dialogues>
 	
 </data>
