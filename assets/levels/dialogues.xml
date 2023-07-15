@@ -56,13 +56,14 @@ to like?.. the interview room for Cribs4Grabs??</text>
     </dialogue>
 
     <dialogue id="tut4_2b" repeat="1" layout="boss">
-        <text>Damn boi, it be CRABBS, not GRABS???
-Crabbs like..? our currency uknow??
-Cribs4Crabbs, yeah?
+        <text>Damn [boss_call], it be CRABBS, not GRABS???
+            Crabbs like..? our currency uknow??
+            Cribs4Crabbs, yeah?
         </text>
         <triggers></triggers>
         <triggered>tut4_2a</triggered>
     </dialogue>
+
 
 
     <dialogue id="tut4_3" repeat="1" layout="boss">
@@ -179,7 +180,7 @@ Cribs4Crabbs, yeah?
 
     <dialogue id="tut4_10b" repeat="1"  layout="boss">
         <text>Boooriiiiing... gimme some snuz luz vibes??
-            Speak posh to me boi, make me feel guilty for wasting your time
+            Speak posh to me [boss_call], make me feel guilty for wasting your time
             </text>
         <triggers>tut4_10b</triggers>
         <triggered>tut4_10</triggered>
@@ -309,14 +310,14 @@ Business as usual..</text>
 
 
 	<dialogue id="intro_blah_1" repeat="1" layout="boss">
-		<text>Preon boi????
+		<text>Preon, [boss_call]????
 U in like,? Sector 51 ?!?</text>
 		<triggers>intro_blah_1</triggers>
 		<triggered>intro_blah_0</triggered>
 	</dialogue>
 
 	<dialogue id="intro_blah_3" repeat="1" layout="boss">
-		<text>We got sum prime major shitshow boi
+		<text>We got sum prime major shitshow [boss_call]
 Sum nasty party in Favela Court???</text>
 		<triggers>intro_blah_3</triggers>
 		<triggered>intro_blah_1</triggered>
@@ -346,7 +347,7 @@ Like??.. um? literally?</text>
 	</dialogue>
 
 	<dialogue id="intro_blah_8" repeat="1" layout="boss">
-		<text>Like..? TOTALLY boi like:..:
+		<text>Like..? TOTALLY [boss_call] like:..:
 1) KILL anyone ya see uknow?
 2) COLLECT all JuICE cans</text>
 		<triggers>intro_blah_8</triggers>
@@ -354,8 +355,8 @@ Like??.. um? literally?</text>
 	</dialogue>
 
 	<dialogue id="intro_blah_9" repeat="1" layout="boss">
-		<text>Clean up that mess boi and like?
-Free sum cribs for me boi</text>
+		<text>Clean up that mess [boss_call] and like?
+Free sum cribs for me [boss_call]</text>
 		<triggers></triggers>
 		<triggered>intro_blah_8</triggered>
 	</dialogue>
@@ -540,7 +541,7 @@ keep viewer away lolz</text>
     <dialogue id="intro_blah_37" repeat="1" layout="boss">
         <text>--TEXT MESSAGE--
 cleaners say they hates u lolz
-8 cribs free, not to bad boi???</text>
+8 cribs free, not to bad [boss_call]???</text>
         <triggers></triggers>
         <triggered>walked_82_61</triggered>
     </dialogue>
@@ -548,7 +549,7 @@ cleaners say they hates u lolz
 
     <dialogue id="intro_blah_38" repeat="1" layout="preon">
         <text>Whoaaaa, look at dat ride???
-            Me gettin so promoshed, yeah???
+            Me gettin like, so promoshed, yeah???
         </text>
         <triggers>intro_blah_38</triggers>
         <triggered>walked_104_8</triggered>
@@ -562,14 +563,15 @@ cleaners say they hates u lolz
 
 	<!-- getting in the taxi -->
 	<dialogue id="intro_0_e" repeat="1" layout="ship" >
-		<text>Your boi is here.
-Will accept the transfer.</text>
+		<text>Dat your [boss_call] be like?
+70% off, or no deal</text>
 		<triggers>intro_0_e</triggers>
 		<triggered>walked_91_16</triggered>
 	</dialogue>
 
 	<dialogue id="intro_0_f" repeat="1" layout="boss">
-		<text>Excellent? Nice doin beesnish with u?</text>
+		<text>Dat be fair nuff..
+Nice doin beesnish with u???</text>
 		<triggers>airlockHacked</triggers>
 		<triggered>intro_0_e</triggered>
 	</dialogue>
@@ -598,7 +600,7 @@ This is an automated message, do not reply!</text>
 
 
 	<dialogue id="intro_blah_24" repeat="1" layout="boss" >
-		<text>Good workin with u boi??
+		<text>Good workin with u [boss_call]??
 All the best, nothing personal, yeah???</text>
 		<triggers>intro_blah_24</triggers>
 		<triggered>intro_blah_23</triggered>
@@ -620,7 +622,7 @@ This sucks man, like? uknow.. yeah???
 
 
 	<dialogue id="intro_blah_26" repeat="1"  layout="ship">
-		<text>See u got sum sweet JuICE there boi
+		<text>See u got sum sweet JuICE there [boss_call]
 Me needs sum more??</text>
 		<triggers>intro_blah_26</triggers>
 		<triggered>intro_blah_25b</triggered>
@@ -758,7 +760,7 @@ U got your gun, yeah??</text>
 
 
 	<dialogue id="main_1_16" repeat="0" layout="ship">
-		<text>Go clear the docks boi
+		<text>Go clear the docks [boss_call]
 Look every ship u can get in </text>
 		<triggers></triggers>
 		<triggered>main_1_12</triggered>
@@ -770,30 +772,31 @@ Look every ship u can get in </text>
 		<text>Wut is the JuICE for, like..
 U sellin, yaah?</text>
 		<triggers>main_1_30</triggers>
-		<triggered>walked_39_17</triggered>
+		<triggered>walked_53_17</triggered>
 	</dialogue>
 
 
-
-	<dialogue id="main_1_31" repeat="0" layout="ship">
-		<text>Me not dealin boi, this just a one off thing, uknow???
-Them changin the JuICE recipe soon?</text>
-		<triggers>main_1_31</triggers>
-		<triggered>main_1_30</triggered>
-	</dialogue>
-
-
-	<dialogue id="main_1_32" repeat="0" layout="ship">
-		<text>..and new JuICE recipe sucks??
-Good ol' Cactus JuICE price will go like? x10??</text>
-		<triggers>main_1_32</triggers>
-		<triggered>main_1_31</triggered>
-	</dialogue>
+    <dialogue id="main_1_31" repeat="0" layout="ship">
+        <text>Me not dealin [boss_call], more like?.. a job for a big pharma.
+Kinda, like? recirculating sum JuICE??</text>
+        <triggers>main_1_31</triggers>
+        <triggered>main_1_30</triggered>
+    </dialogue>
 
 
-	<dialogue id="main_1_33" repeat="0" layout="ship">
-		<text>Got sum buyer in Cariolis Belt?
-That be us next stop????</text>
+    <dialogue id="main_1_32" repeat="0" layout="ship">
+        <text>There last vax batch, kills the taste buds..
+Now them need to boost taste on like? everything???
+Else, people would like..? notice????</text>
+        <triggers>main_1_32</triggers>
+        <triggered>main_1_31</triggered>
+    </dialogue>
+
+
+
+    <dialogue id="main_1_33" repeat="0" layout="ship">
+		<text>Gotta drop off the old JuICE in Ophidian Nebula?
+Dat be us next stop????</text>
 		<triggers></triggers>
 		<triggered>main_1_32</triggered>
 	</dialogue>
@@ -807,45 +810,40 @@ That be us next stop????</text>
 
     <dialogue id="main_1_41" repeat="0" layout="ship">
         <text>Nabbed it from the local prison impounds??
-It actually belongs to a nutjob named Zorik, who's locked up there.</text>
+It belongs to a nutjob named Zorik, who's locked up there.</text>
         <triggers>main_1_41</triggers>
         <triggered>main_1_40</triggered>
     </dialogue>
 
     <dialogue id="main_1_42" repeat="0" layout="ship">
         <text>Dat guy got a rap sheet longer than a hyperdrive service manual.
-            And he be crazy about dat ride.</text>
+And he be crazy about dat ride.</text>
         <triggers>main_1_42</triggers>
         <triggered>main_1_41</triggered>
     </dialogue>
 
     <dialogue id="main_1_43" repeat="0" layout="ship">
-        <text>Ever heard of Luna Nova Station?
-Like? Zorik scratched his bumper while docking??</text>
+        <text>Ever heard of Snuglynn Port?
+Zorik was docking there and scratched his bumper</text>
         <triggers>main_1_43</triggers>
         <triggered>main_1_42</triggered>
     </dialogue>
 
     <dialogue id="main_1_44" repeat="0" layout="ship">
-        <text>So he like? blew up the station, coz their corridors be to narrow??
-Then he chased the relatives of the station's engineers???</text>
+        <text>So he blew up the station, then he chased the relatives of the station's engineers???</text>
         <triggers>main_1_44</triggers>
         <triggered>main_1_43</triggered>
     </dialogue>
 
     <dialogue id="main_1_45" repeat="0" layout="ship">
-        <text>Thinkin about it now, if he knew his ship gone missin..
-            Don't think dat jail would hold him for long ukno???</text>
+        <text>Thinkin about it, if he knew his ship gone missin..
+            Don't think dat jail would hold him for long???</text>
         <triggers>main_1_45</triggers>
         <triggered>main_1_44</triggered>
     </dialogue>
 
-
-
-
-
 	<dialogue id="main_1_60" repeat="0" >
-		<text>Destination: Cariolis Belt.</text>
+		<text>Destination: Ophidian Nebula.</text>
 		<triggers>main_1_60</triggers>
 		<triggered>level_end_alternative</triggered>
 	</dialogue>
@@ -987,7 +985,7 @@ U killed me cousin Leo</text>
     <dialogue id="cutscene1_13a" repeat="0" layout="ship">
         <text>Zorik would maimflook you alive just cuz you breathed the air in his ship.
 Wonder wut he'll do now ukno..
-Oh the stories they'll write for you boi????
+Oh the stories they'll write for you [boss_call]??
         </text>
         <triggers>cutscene1_13a</triggers>
         <triggered>cutscene1_13</triggered>
@@ -1127,7 +1125,7 @@ Check the wrecks for fuel???</text>
     <!-- start -->
 
 	<dialogue id="main_2_intro_0" repeat="0" layout="preon">
-		<text>Whoa, wut happened??? Dis ain’t Cariolis belt???
+		<text>Whoa, wut happened??? Dis ain’t Ophidian Nebula???
 Like, where are us? </text>
 		<triggers>main_2_intro_1</triggers>
 		<triggered>level_just_started</triggered>
@@ -1207,7 +1205,7 @@ We are, like? STUCK????</text>
 
 	<dialogue id="main_2_intro_11" repeat="0" layout="ship">
 		<text>Now, sum good news, we might find some fuel in the wrecks.
-            Suit up and fetch us some fuel boi</text>
+            Suit up and fetch us some fuel [boss_call]</text>
 		<triggers>main_2_intro_11</triggers>
 		<triggered>main_2_intro_10</triggered>
 	</dialogue>
@@ -1903,7 +1901,7 @@ Me be watching documentaries, ukno...
 
     <dialogue id="B_2.04_03" repeat="2" layout="ship">
         <text>No.. no exoskeleton, but acid blood, acid breath, acid corpse, acid looks exetera?
-Just stay away boi??
+Just stay away [boss_call]??
         </text>
         <triggers></triggers>
         <triggered>02</triggered>
