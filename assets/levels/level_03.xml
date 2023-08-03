@@ -5,7 +5,7 @@
 	<tileColumns>50</tileColumns>
 	
 	<exitDoor>
-		<pos x="22" y="17" />
+		<pos x="1" y="21" />
 	</exitDoor>
 
 	<playerStartPos x="1" y="18" />
@@ -53,6 +53,12 @@
 			<listensTo>startElevator3</listensTo>
 			<operating>0</operating>
 		</elevator>
+
+        <elevator id="elv4">
+            <start x="21" y="23"/>
+            <end x="4" y="23"/>
+            <operating>1</operating>
+        </elevator>
 		
 	</elevators>
 	
@@ -88,10 +94,7 @@
 		</wallSwitch>
 	
 		
-		<!--<lever id="lever1" variation="0">
-			<pos x="20" y="18"/>
-			<firesEvent>OpenExitDoor</firesEvent>
-		</lever>-->
+
 		
 
 		<door id="door1" variation="0" state="1">
@@ -143,7 +146,26 @@
 			<pos x="18" y="17" />
 			<listensTo>opendoor4</listensTo>
 		</door>
-		
+
+        <lever id="lever7" variation="0" >
+            <pos x="20" y="18"/>
+            <firesEvent>opendoor7</firesEvent>
+        </lever>
+
+        <trapDoor id="door12" variation="0" state="0">
+            <pos x="22" y="19" />
+            <listensTo>opendoor7</listensTo>
+        </trapDoor>
+
+
+        <!--<gravSwitch id="g1">-->
+            <!--<pos x="23" y="24"/>-->
+        <!--</gravSwitch>-->
+
+        <!--<gravSwitch id="g2">-->
+            <!--<pos x="3" y="24"/>-->
+        <!--</gravSwitch>-->
+
 		<!--
 		
 		0: GOLD
@@ -151,7 +173,6 @@
 		2: GREEN
 		3: RED
 		4: WHITE
-		
 		
 		-->
 		
@@ -166,7 +187,7 @@
 		<octa id="octa1" x="2" y="3" />
 		<octa id="octa2" x="2" y="7" />
 		<octa id="octa3" x="22" y="3" />
-		<!--<octa id="octa4" x="32" y="5" />-->
+
 		<octa id="octa5" x="19" y="17" />
 		<octa id="octa6" x="20" y="17" />
 		<octa id="octa7" x="21" y="17" />
@@ -174,8 +195,8 @@
 		
 		<droid id="droid1" x="8" y="9" />
 		<droid id="droid2" x="14" y="12" />
-		
-		
+
+
 		
 		
 		
@@ -240,6 +261,9 @@
 		<item id="ammo2" variation="4">
 			<pos x="16" y="3" />
 		</item>
+        <item id="ammo3" variation="4">
+            <pos x="23" y="23" />
+        </item>
 		
 		
 	</collectibles>

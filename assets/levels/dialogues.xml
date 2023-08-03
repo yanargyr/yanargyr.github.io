@@ -49,15 +49,15 @@
 
 
     <dialogue id="tut4_2a" repeat="1" layout="preon">
-        <text>Hi, um.. like?.. is this the right way..
-to like?.. the interview room for Cribs4Grabs??</text>
+        <text>Hi, like.. that the right way to um..
+            like? the interview room for.. Cribs4Grabs??</text>
         <triggers>tut4_2a</triggers>
         <triggered>walked_21_15</triggered>
     </dialogue>
 
     <dialogue id="tut4_2b" repeat="1" layout="boss">
         <text>Damn [boss_call], it be CRABBS, not GRABS???
-            Crabbs like..? our currency uknow??
+            Crabbs like: our currency uknow??
             Cribs4Crabbs, yeah?
         </text>
         <triggers></triggers>
@@ -67,8 +67,8 @@ to like?.. the interview room for Cribs4Grabs??</text>
 
 
     <dialogue id="tut4_3" repeat="1" layout="boss">
-		<text>So.. like?.. lets crack on with Fit-ness and
-			..like ..Cardio???</text>
+		<text>U ready for the Crib Manager exam??
+			Lets crack on with like: Fitness?? and Cardio</text>
 		<triggers>tut4_3</triggers>
 		<triggered>walked_26_15</triggered>
 	</dialogue>
@@ -82,7 +82,7 @@ to like?.. the interview room for Cribs4Grabs??</text>
 
 	<dialogue id="tut4_4" repeat="1" layout="boss">
 		<text>Next be SHOOTING.
-			Tenants sumtimes be like? hostile???</text>
+			Tenants sumtimes be like.. hostile???</text>
 		<triggers>tut4_4b</triggers>
 		<triggered>walked_46_7</triggered>
 	</dialogue>
@@ -94,28 +94,36 @@ to like?.. the interview room for Cribs4Grabs??</text>
 	</dialogue>
 
 	<dialogue id="tut4_5" repeat="1" layout="boss">
-		<text>Services sumtimes be like? Off?
-			Saves us sum Crabbs?</text>
+		<text>Services usually be like: Off??
+			Saves us sum Crabbs</text>
 		<triggers>tut4_5</triggers>
 		<triggered>walked_65_6</triggered>
 	</dialogue>
 
 	<dialogue id="tut4_5b" repeat="1" layout="boss">
-		<text>Turn on stuff before viewings, like?
-			mains or water, or, ventilation and like..?
-			elevators???</text>
+		<text>Turn on stuff before viewings, like:
+			mains or water, or, ventilation and uhm..
+            Elevators???</text>
 		<triggers>tut4_5b</triggers>
 		<triggered>tut4_5</triggered>
 	</dialogue>
 
 	<dialogue id="tut4_5c" repeat="1">
 		<text>INTERACT with SWITCHES and LEVERS.
-			Go NEAR them and HIT key[interact].</text>
-		<triggers></triggers>
+Go NEAR them and HIT key[interact].</text>
+		<triggers>tut4_5c</triggers>
 		<triggered>tut4_5b</triggered>
 	</dialogue>
 
-	<dialogue id="tut4_5d" repeat="1">
+    <dialogue id="tut4_5c1" repeat="1">
+        <text>Check the hand icon at the top right.
+        When it's visible, an interaction is available</text>
+        <triggers></triggers>
+        <triggered>tut4_5c</triggered>
+    </dialogue>
+
+
+    <dialogue id="tut4_5d" repeat="1">
 		<text>Unlike switches, LEVERS can be used only ONCE.</text>
 		<triggers></triggers>
 		<triggered>walked_67_9</triggered>
@@ -125,13 +133,13 @@ to like?.. the interview room for Cribs4Grabs??</text>
 		<text>INTERACT with G-Switches to toggle GRAVITY on/off.
             Go NEAR them and HIT key[interact].
         </text>
-		<triggers>tut4_</triggers>
+		<triggers></triggers>
 		<triggered>walked_89_17</triggered>
 	</dialogue>
 
 	<dialogue id="tut4_7b" repeat="1">
 		<text>Use this G-Switch to re-enable gravity.</text>
-		<triggers>tut4_</triggers>
+		<triggers></triggers>
 		<triggered>walked_89_8</triggered>
 	</dialogue>
 
@@ -143,7 +151,7 @@ to like?.. the interview room for Cribs4Grabs??</text>
 
 
 	<dialogue id="tut4_9" repeat="1" layout="boss">
-		<text>Final stage be like..?
+		<text>Final stage be like:
 			Crib-Flexing???</text>
 		<triggers>tut4_9</triggers>
 		<triggered>readMission</triggered>
@@ -157,45 +165,45 @@ to like?.. the interview room for Cribs4Grabs??</text>
 
 
 	<dialogue id="tut4_9b" repeat="1" layout="boss">
-		<text>Nice, u, like..? FOUND it??
-			Will open the door for u.</text>
+		<text>Nice, u FOUND it??
+			Will open the door for u</text>
 		<triggers>openFlatDoor</triggers>
 		<triggered>walked_54_35</triggered>
 	</dialogue>
 
     <dialogue id="tut4_10a" repeat="1"  layout="boss">
-        <text>Ok, so like? suppose I be a client??
+        <text>Ok, so like: suppose I be a client??
         Flex dat crib for me, go..</text>
         <triggers>tut4_10a</triggers>
         <triggered>walked_59_35</triggered>
     </dialogue>
 
     <dialogue id="tut4_10" repeat="1"  layout="preon">
-		<text>We pleased to PROUDLY present this propety, yeah?
-			MASSSIV size be, like? TWELVENTY feet?
-			Or square elbows be..like?,U know???</text>
+		<text>We pleased to PROUDLY present this SHOW STOPPER property, yeah?
+			MASSSIV size be like TWELVENTY feet?
+			Or square elbows be like..uknow???</text>
 		<triggers>tut4_10</triggers>
 		<triggered>tut4_10a</triggered>
 	</dialogue>
 
     <dialogue id="tut4_10b" repeat="1"  layout="boss">
         <text>Boooriiiiing... gimme some snuz luz vibes??
-            Speak posh to me [boss_call], make me feel guilty for wasting your time
+            Like: speak posh to me [boss_call], make me feel guilty for wasting your time?
             </text>
         <triggers>tut4_10b</triggers>
         <triggered>tut4_10</triggered>
     </dialogue>
 
 	<dialogue id="tut4_11" repeat="1" layout="preon">
-		<text>and like? EN SWEET bath, CALL DA SACK, yeah??
-			SUBSTANTIALLY real window????</text>
+		<text>EN SWEET bath, CALL DA SACK, yeah?
+            and like? SUBSTANTIALLY real window??</text>
 		<triggers>tut4_11</triggers>
 		<triggered>tut4_10b</triggered>
 	</dialogue>
 
 	<dialogue id="tut4_12" repeat="1" layout="preon">
 		<text>Nukilar organik heat and light from..the um..
-			Reactor?? near to the um.. PREMISES?</text>
+			Reactor?? near to the like.. PREMISES??</text>
 		<triggers>tut4_13c</triggers>
 		<triggered>tut4_11</triggered>
 	</dialogue>
@@ -207,15 +215,15 @@ to like?.. the interview room for Cribs4Grabs??</text>
 	</dialogue>
 
 	<dialogue id="tut4_15" repeat="1" layout="preon">
-		<text>Rent be like 500 Crabbs/day?
-	Like..? Hence therefore yeah?</text>
+		<text>Rent be like? 500 Crabbs/day?
+	Hence therefore yeah?</text>
 		<triggers>tut4_15</triggers>
 		<triggered>tut4_14</triggered>
 	</dialogue>
 
     <dialogue id="tut4_15b" repeat="1" layout="boss">
         <text>Like? dat crib is in my budget??
-            I? like_literally gunna keep my kidniz???
+            I? like.literally gunna keep my kidniz???
             U sure dat be the VIP crib??
         </text>
         <triggers>tut4_15b</triggers>
@@ -223,7 +231,7 @@ to like?.. the interview room for Cribs4Grabs??</text>
     </dialogue>
 
 	<dialogue id="tut4_16" repeat="1" layout="preon">
-		<text>Deposit be like..?
+		<text>Deposit be like.uhm..
 	250000 Crabbs???</text>
 	Coz, uknow, sought-after must-see? yeah?
 		<triggers>tut4_16</triggers>
@@ -231,7 +239,7 @@ to like?.. the interview room for Cribs4Grabs??</text>
 	</dialogue>
 
 	<dialogue id="tut4_17" repeat="1" layout="preon">
-		<text>Insurance: 3 organs of value like..?
+		<text>Insurance: 3 organs of value like..
 	7500000 Crabbs??
 	Ideally situated???</text>
 		<triggers>tut4_17</triggers>
@@ -239,24 +247,25 @@ to like?.. the interview room for Cribs4Grabs??</text>
 	</dialogue>
 
 	<dialogue id="tut4_18" repeat="1" layout="boss">
-        <text>U scored like?.. 25.8%??</text>
+        <text>U scored like.. 25.8%??</text>
 		<triggers>tut4_18</triggers>
 		<triggered>tut4_17</triggered>
 	</dialogue>
 
 	<dialogue id="tut4_19" repeat="1" layout="boss">
 		<text>Kudos and Ludos Preon????
-	U like,? WON the test??</text>
+	U like..? WON the test???</text>
 		<triggers>tut4_19</triggers>
 		<triggered>tut4_18</triggered>
 	</dialogue>
 
 	<dialogue id="tut4_20" repeat="1" layout="boss">
-		<text>We pleased to offer u an X-Clusiv like,
-	35 year contract of...</text>
+		<text>We pleased to offer u an X-Clusiv, like..
+	35 year contract as uhm..</text>
 		<triggers>tut4_20</triggers>
 		<triggered>tut4_19</triggered>
 	</dialogue>
+
 	<dialogue id="tut4_21" repeat="1" layout="boss">
 		<text>XXX-ecutiv Associate Crib Officer</text>
 		<triggers>tut4_21</triggers>
@@ -264,15 +273,15 @@ to like?.. the interview room for Cribs4Grabs??</text>
 	</dialogue>
 
 	<dialogue id="tut4_22" repeat="1" layout="boss">
-		<text>Salary be 2659 Crabbs / month
-	That feeling be like? win-win and x-tatic???</text>
+		<text>Salary is 2659 Crabbs / month
+	That feeling be like?.. win-win and x-tatic???</text>
 		<triggers>tut4_22</triggers>
 		<triggered>tut4_21</triggered>
 	</dialogue>
 
 	<dialogue id="tut4_23" repeat="1" layout="preon">
 		<text>(dancing 'Betcha me Likes', a new viral dance)
-	Me? like.?.. um TOTALLY ACCEPT???</text>
+	Me? like.um?? .. TOTALLY ACCEPT???</text>
 		<triggers>tut4_23</triggers>
 		<triggered>tut4_22</triggered>
 	</dialogue>
@@ -311,7 +320,7 @@ Business as usual..</text>
 
 	<dialogue id="intro_blah_1" repeat="1" layout="boss">
 		<text>Preon, [boss_call]????
-U in like,? Sector 51 ?!?</text>
+U in uhm.. Sector 51?</text>
 		<triggers>intro_blah_1</triggers>
 		<triggered>intro_blah_0</triggered>
 	</dialogue>
@@ -324,7 +333,7 @@ Sum nasty party in Favela Court???</text>
 	</dialogue>
 
 	<dialogue id="intro_blah_5" repeat="1" layout="boss">
-		<text>That sector be pain?? uknow
+		<text>That sector be pain?? uknow..
 Us gonna clean that slum???</text>
 		<triggers>intro_blah_5</triggers>
 		<triggered>intro_blah_3</triggered>
@@ -333,21 +342,21 @@ Us gonna clean that slum???</text>
 
 	<dialogue id="intro_blah_6" repeat="1" layout="boss">
 		<text>Get rid of all the slumstaz??
-And confiscate all there drugs</text>
+And confiscate all there stash</text>
 		<triggers>intro_blah_6</triggers>
 		<triggered>intro_blah_5</triggered>
 	</dialogue>
 
 	<dialogue id="intro_blah_7" repeat="1" layout="preon">
-		<text>Rid be like um?.? Like..
-Um..? KILLIN?
-Like??.. um? literally?</text>
+		<text>Rid be like..um?.?
+KILLIN?
+Like.. um? ?? LiTTeraly ??</text>
 		<triggers>intro_blah_7</triggers>
 		<triggered>intro_blah_6</triggered>
 	</dialogue>
 
 	<dialogue id="intro_blah_8" repeat="1" layout="boss">
-		<text>Like..? TOTALLY [boss_call] like:..:
+		<text>Like..?..TOTALLY [boss_call] like:..:
 1) KILL anyone ya see uknow?
 2) COLLECT all JuICE cans</text>
 		<triggers>intro_blah_8</triggers>
@@ -355,8 +364,8 @@ Like??.. um? literally?</text>
 	</dialogue>
 
 	<dialogue id="intro_blah_9" repeat="1" layout="boss">
-		<text>Clean up that mess [boss_call] and like?
-Free sum cribs for me [boss_call]</text>
+		<text>Clean up that mess and like:
+Free sum cribs for me [boss_call]??</text>
 		<triggers></triggers>
 		<triggered>intro_blah_8</triggered>
 	</dialogue>
@@ -371,8 +380,8 @@ Cribs4Crabbs sendin them goons again</text>
 
 	<dialogue id="intro_blah_41" repeat="1" layout="preon">
 		<text>Can u guys like..? read contracts?
-Ukno like..? BREACH be like???
-Me be claimin like..? Clause 649</text>
+Uknow wut BREACH be like???
+Me be claimin like.erm.. Clause 649???</text>
 		<triggers>intro_blah_41</triggers>
 		<triggered>intro_blah_40</triggered>
 	</dialogue>
@@ -426,8 +435,8 @@ Sum slamstaz still breathing tho..??</text>
 	</dialogue>
 	<!--When all done.-->
 	<dialogue id="intro_0_c" repeat="1" layout="preon">
-		<text>Juice gone... Check??
-Slum deslum... Check??</text>
+		<text>Juice gone... Check.
+Slum deslum... Check</text>
 		<triggers>intro_0_c</triggers>
 		<triggered>readyToGoNow</triggered>
 	</dialogue>
@@ -467,14 +476,15 @@ Treat u-self to a Ryder??</text>
 
 	<dialogue id="intro_blah_14" repeat="1" layout="boss">
 		<text>Us booked one for u??
-Sending u the pin</text>
+Sending u the pin..</text>
 		<triggers>intro_blah_14</triggers>
 		<triggered>intro_blah_13</triggered>
 	</dialogue>
 
 
 	<dialogue id="intro_blah_15" repeat="1" layout="">
-		<text>Your Ryder is waiting in Sector 13.
+		<text>--TEXT MESSAGE--
+Your Ryder is waiting in Sector 13.
 Your driver is Zorik.</text>
 		<triggers>intro_blah_15</triggers>
 		<triggered>intro_blah_14</triggered>
@@ -563,22 +573,22 @@ cleaners say they hates u lolz
 
 	<!-- getting in the taxi -->
 	<dialogue id="intro_0_e" repeat="1" layout="ship" >
-		<text>Dat your [boss_call] be like?
-70% off, or no deal</text>
+		<text>Is THAT your servant? I see some really dodgy mods and skinjobs..
+50% off, or no deal</text>
 		<triggers>intro_0_e</triggers>
 		<triggered>walked_91_16</triggered>
 	</dialogue>
 
 	<dialogue id="intro_0_f" repeat="1" layout="boss">
-		<text>Dat be fair nuff..
-Nice doin beesnish with u???</text>
+		<text>That sounds fair..
+Nice doin business with u???</text>
 		<triggers>airlockHacked</triggers>
 		<triggered>intro_0_e</triggered>
 	</dialogue>
 
 	<dialogue id="intro_blah_21" repeat="1">
 		<text>--Text message--
-Your serf-hold title is transferred.
+Your serf-bond title was transferred.
 Your remaining service is 30 years.</text>
 		<triggers>intro_blah_21</triggers>
 		<triggered>airlockHacked</triggered>
@@ -608,7 +618,7 @@ All the best, nothing personal, yeah???</text>
 
 	<dialogue id="intro_blah_25" repeat="1" layout="preon" >
 		<text>Me though me was gettin a promosch??
-This sucks man, like? uknow.. yeah???
+This sucks man, like.uknow.. yeah???
 		</text>
 		<triggers>intro_blah_25</triggers>
 		<triggered>intro_blah_24</triggered>
@@ -622,30 +632,29 @@ This sucks man, like? uknow.. yeah???
 
 
 	<dialogue id="intro_blah_26" repeat="1"  layout="ship">
-		<text>See u got sum sweet JuICE there [boss_call]
-Me needs sum more??</text>
+		<text>See you got some sweet JuICE there [boss_call]
+I need some more.</text>
 		<triggers>intro_blah_26</triggers>
 		<triggered>intro_blah_25b</triggered>
 	</dialogue>
 
 	<dialogue id="intro_blah_27" repeat="1" layout="ship" >
-		<text>Need to move fast? I need u in the commander seat.
-Sum stupid human pilot protocol on that ship??</text>
+		<text>Need to move fast! Get up here in the commander seat.
+Some stupid "human pilot protocol" on that ship..</text>
 		<triggers>intro_blah_27</triggers>
 		<triggered>intro_blah_26</triggered>
 	</dialogue>
 
 	<dialogue id="intro_blah_28" repeat="1" layout="ship">
-		<text>U need to touch the stick??
-It gots sum fingerprint scanner on it??
-DO IT! NOW?? </text>
+		<text>You need to touch the stick, it has some fingerprint scanner on it.
+Don't keep me waiting..</text>
 		<triggers>dialogOver</triggers>
 		<triggered>intro_blah_27</triggered>
 	</dialogue>
 
 
 	<dialogue id="intro_blah_29" repeat="3" layout="ship" >
-		<text>Don't be shy?
+		<text>Don't be shy!
 TOUCH MY JOY STICK??</text>
 		<triggers>intro_blah_29</triggers>
 		<triggered>airlock</triggered>
@@ -673,7 +682,7 @@ TOUCH MY JOY STICK??</text>
     </dialogue>
 
     <dialogue id="intro_blah_52" repeat="1" layout="ship">
-        <text>Buckle up... "commander"??
+        <text>Buckle up... "commander"!!
             Lolz</text>
         <triggers></triggers>
         <triggered>intro_blah_51</triggered>
@@ -707,8 +716,8 @@ I can like, SHOOT and smash that GLASS??</text>
 
 	<dialogue id="main_1_not_ready_to_leave" repeat="1" layout="ship">
 		<text>Missed my STICK already? LOL
-We got [coins_gathered] JuICE cans and we need like, [coins_needed]???
-Go looting the docked ships???
+We got [coins_gathered] JuICE cans and we need [coins_needed].
+Go looting the docked ships.
 		</text>
 		<triggered>missingCoins</triggered>
 	</dialogue>
@@ -720,8 +729,8 @@ Go looting the docked ships???
 	</dialogue>
 
 	<dialogue id="main_1_ready_to_leave2" repeat="1" layout="ship">
-		<text>Yup, lets hit the road?
-Next stop be Cariolis belt?</text>
+		<text>Yup, lets hit the road!
+Next stop is Ophidian Nebula!</text>
 		<triggered>main_1_ready_to_leave1</triggered>
 	</dialogue>
 
@@ -736,8 +745,8 @@ Location: New Talos XII orbital docks</text>
 
 
 	<dialogue id="main_1_10" repeat="0" layout="ship">
-		<text>We are parked now??
-U can take your hands off my STICK???</text>
+		<text>We are parked now.
+You can take your hands off my STICK!!</text>
 		<triggers>main_1_10</triggers>
 		<triggered>main_1_intro</triggered>
 	</dialogue>
@@ -751,8 +760,8 @@ U can take your hands off my STICK???</text>
 	<!--</dialogue>-->
 
 	<dialogue id="main_1_12" repeat="0" layout="ship">
-		<text>U need to steal sum JuICE, I need [coins_needed] cans???
-U got your gun, yeah??</text>
+		<text>I want you to steal some JuICE, I need [coins_needed] cans!
+You got your gun, right?</text>
 		<triggers>main_1_12</triggers>
 		<triggered>main_1_10</triggered>
 	</dialogue>
@@ -761,7 +770,7 @@ U got your gun, yeah??</text>
 
 	<dialogue id="main_1_16" repeat="0" layout="ship">
 		<text>Go clear the docks [boss_call]
-Look every ship u can get in </text>
+Look every ship you can get in.</text>
 		<triggers></triggers>
 		<triggered>main_1_12</triggered>
 	</dialogue>
@@ -770,36 +779,57 @@ Look every ship u can get in </text>
 
 	<dialogue id="main_1_30" repeat="0" layout="preon">
 		<text>Wut is the JuICE for, like..
-U sellin, yaah?</text>
+U sellin, yeah?</text>
 		<triggers>main_1_30</triggers>
 		<triggered>walked_53_17</triggered>
 	</dialogue>
 
-
     <dialogue id="main_1_31" repeat="0" layout="ship">
-        <text>Me not dealin [boss_call], more like?.. a job for a big pharma.
-Kinda, like? recirculating sum JuICE??</text>
+        <text>I am not dealin [boss_call], just an undercover thing for a big pharma.
+            They want to replace all the JuICE out there with a new version!
+        </text>
         <triggers>main_1_31</triggers>
         <triggered>main_1_30</triggered>
     </dialogue>
 
-
-    <dialogue id="main_1_32" repeat="0" layout="ship">
-        <text>There last vax batch, kills the taste buds..
-Now them need to boost taste on like? everything???
-Else, people would like..? notice????</text>
+    <dialogue id="main_1_32" repeat="0" layout="preon">
+        <text>Holly *** dat be like? special agent shit????
+            Woah, wait.. is it a bigger gig like.. u be working for the Astroverseers??</text>
         <triggers>main_1_32</triggers>
         <triggered>main_1_31</triggered>
     </dialogue>
 
-
-
     <dialogue id="main_1_33" repeat="0" layout="ship">
-		<text>Gotta drop off the old JuICE in Ophidian Nebula?
-Dat be us next stop????</text>
-		<triggers></triggers>
+		<text>They call themselves the Chronoconclave actually.</text>
+		<triggers>main_1_33</triggers>
 		<triggered>main_1_32</triggered>
 	</dialogue>
+
+    <dialogue id="main_1_34" repeat="0" layout="preon">
+        <text>And like? wut's the deal with the old JuICE,
+            like?? why they gotta swap it</text>
+        <triggers>main_1_34</triggers>
+        <triggered>main_1_33</triggered>
+    </dialogue>
+
+    <dialogue id="main_1_35" repeat="0" layout="ship">
+        <text>The last vax batch, it kills the taste buds!
+            Now they need to boost the taste on everything, before people notice..</text>
+        <triggers>main_1_35</triggers>
+        <triggered>main_1_34</triggered>
+    </dialogue>
+
+    <dialogue id="main_1_36" repeat="0" layout="ship">
+        <text>Got to drop off the old JuICE in Ophidian Nebula.
+            That is our next stop.</text>
+        <triggers>main_1_36</triggers>
+        <triggered>main_1_35</triggered>
+    </dialogue>
+
+
+
+
+
 
 
     <dialogue id="main_1_40" repeat="0" layout="preon">
@@ -809,35 +839,36 @@ Dat be us next stop????</text>
     </dialogue>
 
     <dialogue id="main_1_41" repeat="0" layout="ship">
-        <text>Nabbed it from the local prison impounds??
+        <text>Nabbed it from the local prison impounds!
 It belongs to a nutjob named Zorik, who's locked up there.</text>
         <triggers>main_1_41</triggers>
         <triggered>main_1_40</triggered>
     </dialogue>
 
     <dialogue id="main_1_42" repeat="0" layout="ship">
-        <text>Dat guy got a rap sheet longer than a hyperdrive service manual.
-And he be crazy about dat ride.</text>
+        <text>That guy got a rap sheet longer than a hyperdrive service manual.
+And he's crazy about dat ride.</text>
         <triggers>main_1_42</triggers>
         <triggered>main_1_41</triggered>
     </dialogue>
 
     <dialogue id="main_1_43" repeat="0" layout="ship">
-        <text>Ever heard of Snuglynn Port?
-Zorik was docking there and scratched his bumper</text>
+        <text>Ever heard of South Snuglynn Port?
+Zorik was docking there and scratched his bumper.</text>
         <triggers>main_1_43</triggers>
         <triggered>main_1_42</triggered>
     </dialogue>
 
     <dialogue id="main_1_44" repeat="0" layout="ship">
-        <text>So he blew up the station, then he chased the relatives of the station's engineers???</text>
+        <text>So he blew up the station, because their corridors were too narrow.
+Then he chased the relatives of the station's engineers!</text>
         <triggers>main_1_44</triggers>
         <triggered>main_1_43</triggered>
     </dialogue>
 
     <dialogue id="main_1_45" repeat="0" layout="ship">
-        <text>Thinkin about it, if he knew his ship gone missin..
-            Don't think dat jail would hold him for long???</text>
+        <text>Thinkin about it, if he knew his ship is gone..
+            Don't think that jail would hold him for long!</text>
         <triggers>main_1_45</triggers>
         <triggered>main_1_44</triggered>
     </dialogue>
@@ -894,8 +925,8 @@ Engine Failure. Weapons offline.</text>
 
 
 	<dialogue id="main_1_67" repeat="0" layout="ship">
-		<text>Shit, we be hacked???
-Sum one be intercepting?</text>
+		<text>Shit, we must be hacked..
+Someone is intercepting!</text>
 		<triggers>main_1_67</triggers>
 		<triggered>main_1_66</triggered>
 	</dialogue>
@@ -920,36 +951,36 @@ Sum one be intercepting?</text>
 
 	<dialogue id="cutscene1_1" repeat="0" layout="ship">
 		<text>Shit shit shit shit shit shit shit
-        Dat dude be Zorik??</text>
+That dude is Zorik!!</text>
 		<triggers>cutscene1_1</triggers>
 		<triggered>cutscene1_0</triggered>
 	</dialogue>
 
 
 	<dialogue id="cutscene1_2" repeat="0" layout="preon">
-		<text>MERCYYYYYYYYY DON ZORIK?????
+		<text>MERCYYYYYYYYY lord ZORIK?????
 Me be like? TRAPPED in here?</text>
 		<triggers>cutscene1_2</triggers>
 		<triggered>cutscene1_1</triggered>
 	</dialogue>
 
     <dialogue id="cutscene1_3" repeat="0" layout="preon">
-        <text>Sum AI hacked your ship and bossin me around???
-        Like,?Literally?????</text>
+        <text>Sum AI hacked your ship and now be like.? bossin me around???
+Like,?Literally?????</text>
         <triggers>cutscene1_3</triggers>
         <triggered>cutscene1_2</triggered>
     </dialogue>
 
 
     <dialogue id="cutscene1_8" repeat="0" layout="ship">
-		<text>U moron? Stay away from da cameras?????
-He can probz see u.</text>
+		<text>You moron! Stay away from the cameras!!!
+He can probably see u.</text>
 		<triggers>cutscene1_8</triggers>
 		<triggered>cutscene1_3</triggered>
 	</dialogue>
 
 	<dialogue id="cutscene1_9" repeat="0" layout="piso">
-		<text>Hey, u be that Cribs4Crabbs guy?
+		<text>Hey, u be dat Cribs4Crabbs guy?
 The one who 'cleared' sector 51????</text>
 		<triggers>cutscene1_9</triggers>
 		<triggered>cutscene1_8</triggered>
@@ -983,24 +1014,24 @@ U killed me cousin Leo</text>
 	</dialogue>
 
     <dialogue id="cutscene1_13a" repeat="0" layout="ship">
-        <text>Zorik would maimflook you alive just cuz you breathed the air in his ship.
-Wonder wut he'll do now ukno..
-Oh the stories they'll write for you [boss_call]??
+        <text>Zorik would ***** you alive just cause you breathed the air in his ship.
+Wonder what he'll do with you now..
+Oh the stories they'll write for you [boss_call]..
         </text>
         <triggers>cutscene1_13a</triggers>
         <triggered>cutscene1_13</triggered>
     </dialogue>
 
 	<dialogue id="cutscene1_14" repeat="0" layout="ship">
-		<text>Engine and thrusters be dead?
-He be boarding our ship soon??</text>
+		<text>Engine and thrusters are dead
+He will be boarding our ship soon..</text>
 		<triggers>cutscene1_14</triggers>
 		<triggered>cutscene1_13a</triggered>
 	</dialogue>
 
 	<dialogue id="cutscene1_15" repeat="0" layout="ship">
-		<text>At least you bought us sum time to charge the Hyperdrive??
-Gotta jump, like? NOW???</text>
+		<text>At least you bought us sum time to charge the Hyperdrive.
+Gotta jump NOW!!</text>
 		<triggers>cutscene1_15</triggers>
 		<triggered>cutscene1_14</triggered>
 	</dialogue>
@@ -1021,7 +1052,7 @@ The smell of u shit-stained pants LOL</text>
 	</dialogue>
 
 	<dialogue id="cutscene1_18" repeat="0" layout="ship">
-		<text>Shit, he be like..? right??
+		<text>Shit, he's right!!
 Only one option really...</text>
 		<triggers>cutscene1_18</triggers>
 		<triggered>cutscene1_17</triggered>
@@ -1109,16 +1140,16 @@ Us got like, [fuel_gathered] fuel cells??</text>
 	</dialogue>
 
 	<dialogue id="goodToGo_2" repeat="1" layout="ship">
-		<text>Job well won Preon??
-Get back here and us be like? good to go?</text>
+		<text>Job well won [boss_call]??
+Get back here and we'll be good to go</text>
 		<triggers>goodToGo_2</triggers>
 		<triggered>goodToGo_1</triggered>
 	</dialogue>
 
 	<dialogue id="main_not_ready_to_leave" repeat="1" layout="ship">
-		<text>Not ready to leave yet?
+		<text>Not ready to leave yet!
 We need [fuel_needed] fuel cells, we got [fuel_gathered].
-Check the wrecks for fuel???</text>
+Check the wrecks for fuel</text>
 		<triggered>missingFuel</triggered>
 	</dialogue>
 
@@ -1139,22 +1170,22 @@ Like, where are us? </text>
 	<!--</dialogue>-->
 
 	<dialogue id="main_2_intro_2" repeat="0" layout="ship">
-		<text>We, like.? Jumped into the void to shake off Zorik??
-            Like_literally jumped into a random system? kind of</text>
+		<text>We jumped into the void to shake off Zorik!
+Kind of jumped into a random system..</text>
 		<triggers>main_2_intro_2</triggers>
 		<triggered>main_2_intro_1</triggered>
 	</dialogue>
 
 	<dialogue id="main_2_intro_3" repeat="0" layout="ship">
-		<text>It’s called a ‘Berserkski jump’, named after the famous commander Dmitry Berserkski
-I wanted to try it since like? forever???</text>
+		<text>It’s called a "Berserkski jump", named after the famous commander Dmitry Berserkski
+I wanted to try it since forever.</text>
 		<triggers>main_2_intro_3</triggers>
 		<triggered>main_2_intro_2</triggered>
 	</dialogue>
 
 	<dialogue id="main_2_intro_4" repeat="0" layout="ship">
 		<text>We are in Tau Iota 3319b. Uncharted system. No stars to scoop fuel.
-            But lotsa wrecked spaceships floating around??</text>
+And lots of wrecked spaceships floating around!</text>
 		<triggers>main_2_intro_4</triggers>
 		<triggered>main_2_intro_3</triggered>
 	</dialogue>
@@ -1168,15 +1199,15 @@ I wanted to try it since like? forever???</text>
 	<!--</dialogue>-->
 
 	<dialogue id="main_2_intro_6" repeat="0" layout="ship">
-		<text>So many wrecks??? This gotta be sum space anomaly??
+		<text>So many wrecks??? This gotta be some space anomaly!
 Must have pulled us and stopped our jump.</text>
 		<triggers>main_2_intro_6</triggers>
 		<triggered>main_2_intro_4</triggered>
 	</dialogue>
 
 	<dialogue id="main_2_intro_7" repeat="0" layout="ship">
-		<text>Bad news is we run out of fuel.
-We are, like? STUCK????</text>
+		<text>Bad news is we run out of fuel. Not even for the thrusters
+We are completely stuck</text>
 		<triggers>main_2_intro_7</triggers>
 		<triggered>main_2_intro_6</triggered>
 	</dialogue>
@@ -1204,16 +1235,16 @@ We are, like? STUCK????</text>
 	</dialogue>
 
 	<dialogue id="main_2_intro_11" repeat="0" layout="ship">
-		<text>Now, sum good news, we might find some fuel in the wrecks.
-            Suit up and fetch us some fuel [boss_call]</text>
+		<text>Now, some good news, we might find some fuel in the wrecks.
+            Suit up and fetch us some fuel [boss_call].</text>
 		<triggers>main_2_intro_11</triggers>
 		<triggered>main_2_intro_10</triggered>
 	</dialogue>
 
 
 	<dialogue id="main_2_intro_12" repeat="0" layout="ship">
-		<text>We need [fuel_needed] fuel cells to jump to the closest system
-            From there we can find a path back to the civilization?</text>
+		<text>We need [fuel_needed] fuel cells to jump to the closest system.
+From there we can find a path back to the civilization.</text>
 		<triggers>main_2_intro_12</triggers>
 		<triggered>main_2_intro_11</triggered>
 	</dialogue>
@@ -1253,8 +1284,8 @@ Wut that thing behind the door?
     </dialogue>
 
     <dialogue id="level_02_2" repeat="2" layout="ship">
-        <text>Extra Crabbs?? Just a bonus??
-Can leave without it? Dont sweat it
+        <text>Extra Crabbs! Just a bonus..
+Can leave without it! Dont sweat it.
         </text>
         <triggers></triggers>
         <triggered>level_02_1</triggered>
@@ -1892,16 +1923,16 @@ Lambda Giggeris??</text>
 	</dialogue>
 
 	<dialogue id="B_2.04_02" repeat="2" layout="preon">
-		<text>I kno, dem busters with like? exoskeleton??
-Me be watching documentaries, ukno...
+		<text>I know, dem busters with like? exosKeTeLon??
+Me got Quack-Wack premium and FlickFlop documentaries...
         </text>
 		<triggers>02</triggers>
 		<triggered>01</triggered>
 	</dialogue>
 
     <dialogue id="B_2.04_03" repeat="2" layout="ship">
-        <text>No.. no exoskeleton, but acid blood, acid breath, acid corpse, acid looks exetera?
-Just stay away [boss_call]??
+        <text>No.. no exoskeleton, but acid blood, acid breath, acid corpse exetera..
+Just stay away [boss_call]!
         </text>
         <triggers></triggers>
         <triggered>02</triggered>
