@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <data>
-	
-	<section>
+
+	<section duration="2">
 		<header>Developed by:</header>
 	</section>
 	
-	<credit>
+	<credit duration="4">
 		<header>Yannis Argyropoulos</header>
 		<info>Coding
 		Game design
@@ -15,7 +15,7 @@
 		Sound Effects</info>
 	</credit>
 	
-	<credit>
+	<credit duration="4">
 		<header>Christos Argyropoulos</header>
 		<info>Game Design
 		Graphics
@@ -24,26 +24,60 @@
 	</credit>
 	
 	
-	<credit>
-		<header>Aphrodite Madika</header>
+	<credit duration="4">
+		<header>Aphroditi Madika</header>
 		<info>Quality assurance
 		Story
 		Level design</info>
 	</credit>
 	
-	<credit>
+	<credit duration="4">
 		<header>Vasilis Skopelitis</header>
 		<info>Music (original score)
 		Story
 		Quality assurance</info>
 	</credit>
 		
-	<credit>
+	<credit duration="4">
 		<header>Carlos Musicmania</header>
 		<info>Music, procuding and mixing</info>
 	</credit>
-		
-	<credit>
+
+    <!--  ++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+    <section duration="2">
+        <header>Special thanks</header>
+        <info></info>
+    </section>
+
+    <credit duration="12">
+        <header>Thanks for your support and feedback &lt;3</header>
+        <info>Dariusz Luksza
+Wyatt Henderson
+Ben Cave
+Monica Gonzalez Alacreu
+Liam Wardle
+Tasos Gemtos
+Alex Mamouzelos
+Mike Georgakopoulos
+        </info>
+    </credit>
+
+    <credit duration="12">
+        <header>Thanks for your support and feedback &lt;3</header>
+        <info>Theodosis Tsitouris
+Alejandro Astiaso
+Fernando Astiaso
+Kostas Kanaris
+Georgia Chelioti
+Lefteris Kozanidis
+Christos Kleisiaris
+Mariora Kavakioti
+        </info>
+    </credit>
+
+
+
+	<credit duration="10" >
 		<header>Development Tools</header>
 		<info>HaxeFlixel
 Tiled
@@ -54,7 +88,7 @@ BFXR
 		</info>
 	</credit>
 
-    <credit>
+    <credit duration="10">
         <header>Development Tools (older versions)</header>
         <info>Flixel
 DAME editor
@@ -78,76 +112,17 @@ Visual Studio Code
             https://www.bfxr.net/
 		</info>-->
 
-    <section>
+    <!--  ++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+    <section duration="16">
         <header>Soundtrack</header>
+        <info>Spacevert - Wicked Circuitry EP
+Available in youtube and spotify</info>
     </section>
 
-    <credit>
-        <header>Spacevert - Wicked Circuitry EP</header>
-        <info>Available in youtube and spotify </info>
-    </credit>
-
-    <!--
-    <credit>
-        <header>Development Tools</header>
-        <info>HaxeFlixel
-            DAME editor
-            Tiled editor
-            FlashDevelop
-            HaxeDevelop
-            Visual Studio Code
-            Gimp
-            BFXR</info>
-    </credit>
-    -->
+    <!--<credit duration="16">-->
+        <!--<header>Spacevert - Wicked Circuitry EP</header>-->
+        <!--<info>Available in youtube and spotify </info>-->
+    <!--</credit>-->
 
 
-    <!--
-	<section>
-		<header>Special thanks</header>
-	</section>
-
-
-	<credit>
-		<header>Prototype Testing and Feedback</header>
-		<info>Theodosis Tsitouris
-Fernando Astiaso
-Alejandro Astiaso
-Kostas Kanaris</info>
-	</credit>
-
-	<credit>
-		<header>Prototype Testing and Feedback</header>
-		<info>Christos Kleisiaris
-Mariora ???
-Lefteris Kozanidis
-Georgia Chelioti</info>
-	</credit>
-
-	-->
-		
-	
-	
-
-
-
-
-
-
-
-
-
-
-
-	<!-- 
-	
-	<section>
-		<header></header>
-	</section>
-	<credit>
-		<header></header>
-		<info></info>
-	</credit>
-		
-		-->
 </data>

@@ -401,7 +401,7 @@
 	
 	<debris dir="R" intervalSeconds="0.8" collection="100,100,101,101,101,102,103,103,103,103,104,105,106,107,108,109" />
 
-    <dialogues>tut4_10a,tut4_10b,tut4_15b,tut4_1,tut4_2,tut4_2a,tut4_2b,tut4_3,tut4_3b,tut4_4,tut4_4c,tut4_5,tut4_5b,tut4_5c,tut4_5c1,tut4_5d,tut4_7,tut4_7b,tut4_8,tut4_9,tut4_9a,tut4_9b,tut4_10,tut4_11,tut4_12,tut4_14,tut4_15,tut4_16,tut4_17,tut4_18,tut4_19,tut4_20,tut4_21,tut4_22,tut4_23,tut4_24,tut4_25</dialogues>
+    <dialogues>tut4_10a,tut4_10b,tut4_15b,tut4_1,tut4_2,tut4_2a,tut4_2b,tut4_2c,tut4_2d,tut4_2e,tut4_3,tut4_3b,tut4_4,tut4_4c,tut4_5,tut4_5b,tut4_5c,tut4_5c1,tut4_5d,tut4_7,tut4_7a,tut4_7b,tut4_8,tut4_9,tut4_9a,tut4_9b,tut4_10,tut4_11,tut4_12,tut4_14,tut4_15,tut4_16,tut4_17,tut4_18,tut4_19,tut4_20,tut4_21,tut4_22,tut4_23,tut4_24,tut4_25</dialogues>
 
 	<!--tut4_3b-->
 	<checkpoints>
