@@ -8,38 +8,38 @@
 	<credit duration="4">
 		<header>Yannis Argyropoulos</header>
 		<info>Coding
-		Game design
-		Level design
-		Graphics
-		Story
-		Sound Effects</info>
+Game design
+Level design
+Graphics
+Story
+Sound Effects</info>
 	</credit>
 	
 	<credit duration="4">
 		<header>Christos Argyropoulos</header>
 		<info>Game Design
-		Graphics
-		Coding (prototype)
-		Level Design</info>
+Graphics
+Coding (prototype)
+Level Design</info>
 	</credit>
 	
 	
 	<credit duration="4">
 		<header>Aphroditi Madika</header>
 		<info>Quality assurance
-		Story
-		Level design</info>
+Story
+Level design</info>
 	</credit>
 	
 	<credit duration="4">
 		<header>Vasilis Skopelitis</header>
 		<info>Music (original score)
-		Story
-		Quality assurance</info>
+Story
+Quality assurance</info>
 	</credit>
 		
 	<credit duration="4">
-		<header>Carlos Musicmania</header>
+		<header>Carlos Muzikmania</header>
 		<info>Music, procuding and mixing</info>
 	</credit>
 
@@ -51,27 +51,28 @@
 
     <credit duration="12">
         <header>Thanks for your support and feedback &lt;3</header>
-        <info>Dariusz Luksza
-Wyatt Henderson
-Ben Cave
-Monica Gonzalez Alacreu
-Liam Wardle
-Tasos Gemtos
+        <info>Alejandro Astiaso
 Alex Mamouzelos
-Mike Georgakopoulos
+Ben Cave
+Christos Kleisiaris
+Dariusz Luksza
+Fernando Astiaso
+Georgia Chelioti
+Jakovos Papadopoulos
+Kostas Kanaris
         </info>
     </credit>
 
     <credit duration="12">
         <header>Thanks for your support and feedback &lt;3</header>
-        <info>Theodosis Tsitouris
-Alejandro Astiaso
-Fernando Astiaso
-Kostas Kanaris
-Georgia Chelioti
-Lefteris Kozanidis
-Christos Kleisiaris
+        <info>Lefteris Kozanidis
+Liam Wardle
 Mariora Kavakioti
+Mike Georgakopoulos
+Monica Gonzalez Alacreu
+Tasos Gemtos
+Theodosis Tsitouris
+Wyatt Henderson
         </info>
     </credit>
 
@@ -113,16 +114,15 @@ Visual Studio Code
 		</info>-->
 
     <!--  ++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
-    <section duration="16">
+    <!--<section duration="3">-->
+        <!--<header>Soundtrack</header>        -->
+    <!--</section>-->
+
+    <credit duration="16">
         <header>Soundtrack</header>
         <info>Spacevert - Wicked Circuitry EP
-Available in youtube and spotify</info>
-    </section>
-
-    <!--<credit duration="16">-->
-        <!--<header>Spacevert - Wicked Circuitry EP</header>-->
-        <!--<info>Available in youtube and spotify </info>-->
-    <!--</credit>-->
+Available in youtube, apple music and spotify </info>
+    </credit>
 
 
 </data>
